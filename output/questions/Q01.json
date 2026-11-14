@@ -1,0 +1,504 @@
+{
+  "question_id": "Q01",
+  "team": "TS3006",
+  "question": "Team TS3006 planned both an LCD screen and speech recognition. When the costs forced a cut, which of the two did they drop, which did they keep, and what reason was given for keeping it?",
+  "queries": [
+    "LCD screen",
+    "speech recognition",
+    "cost"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "TS3006a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "TS3006a",
+          "team": "TS3006",
+          "speaker": "Speaker A",
+          "timestamp": "00:10:06",
+          "turn_index": 162,
+          "text": "the aim is to reach uh uh to sell as much as fifty million Euros. Uh that's quite a big amount of money. And the production cost should be the half of the selling price.",
+          "relevance": -2.9534833285933546,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:36",
+              "text": "Yeah. Alright. Okay. Yeah. I think it's okay. You get idea right? Okay um we have a financial aspect to this project. Um we can sell them at twenty five Euros. Uh"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:52",
+              "text": "Alright. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:25",
+              "text": "So we have to s"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:26",
+              "text": "Okay now it's time for some discussion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3006b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "TS3006b",
+          "team": "TS3006",
+          "speaker": "Speaker D",
+          "timestamp": "00:10:17",
+          "turn_index": 166,
+          "text": "And the speech recognition yeah.",
+          "relevance": -12.554056516069139,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:08",
+              "text": "Okay so so we have the option for more functions. Um yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:14",
+              "text": "And we do have to integrate the screen and the the speech alright."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:19",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:19",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006b",
+          "team": "TS3006",
+          "speaker": "Speaker A",
+          "timestamp": "00:22:03",
+          "turn_index": 360,
+          "text": "Yeah. And for the speech uh recognition part, if we want to incorporate that, we need a microphone.",
+          "relevance": -8.41070001570941,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:51",
+              "text": "Yeah but that depends on where you put the screen. But it's essential that there is a screen."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:54",
+              "text": "Yeah. Yeah I mean the position of the screen is also more essential than I mean we we look where we have space left and then put the logo over there. But um"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:10",
+              "text": "Yeah so it should be I mean if you have it in your hand here, should be on top somewhere, maybe. I mean i"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:15",
+              "text": "Yeah. This would be uh"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006b",
+          "team": "TS3006",
+          "speaker": "Speaker D",
+          "timestamp": "00:06:29",
+          "turn_index": 110,
+          "text": "Um there was some research on new features in a remote control. Uh about an L_C_D_ screen uh and speech recognition. Well we got an update for the for the audience. Or the the the targeted group. So it's above forty I guess.",
+          "relevance": -4.916071141834646,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:26",
+              "text": "That's in the presentation, so"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:06:28",
+              "text": "Alright."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:46",
+              "text": "Uh below I believe. Yeah below forty."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:47",
+              "text": "The new product? Or below because that's pretty relevant."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006b",
+          "team": "TS3006",
+          "speaker": "Speaker D",
+          "timestamp": "00:06:57",
+          "turn_index": 116,
+          "text": "Yeah? Below? Okay well that's that's in the newsfla okay that's a good to know. Um because you see see a clear distinction between the age groups, concerning the features. I mean uh above forty people are not so interested uh not so interested in a screen or speech recognition. Uh but below that age they uh they pretty much are. So I think we can build that in. Um",
+          "relevance": -3.5098278444852165,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:53",
+              "text": "I thought I read a"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:54",
+              "text": "Our current customers are in the age group forty plus. And the new product should reach new markets, which is the customers below forty."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:07:03",
+              "text": "But where did you get uh that information?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:07:04",
+              "text": "That's in a newsflash."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3006c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "TS3006c",
+          "team": "TS3006",
+          "speaker": "Speaker D",
+          "timestamp": "00:15:56",
+          "turn_index": 158,
+          "text": "The cost of making it should be twelve and a half?",
+          "relevance": -5.2331785080518545,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:54",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:54",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:16:00",
+              "text": "I have total here."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:00",
+              "text": "Yeah. Yeah yeah yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006c",
+          "team": "TS3006",
+          "speaker": "Speaker C",
+          "timestamp": "00:15:43",
+          "turn_index": 152,
+          "text": "I'm just thinking, this is not my department, but I I'm not sure what this is gonna cost, to be able to m",
+          "relevance": -3.6538283573808203,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:37",
+              "text": "Advanced chip. Okay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:38",
+              "text": "Wow. Yeah. Alright. Kinetic. Double curved."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:43",
+              "text": "Too. Uh I didn't get any info on this. So"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:51",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006c",
+          "team": "TS3006",
+          "speaker": "Speaker D",
+          "timestamp": "00:03:28",
+          "turn_index": 39,
+          "text": "Ah. Yes. So welcome to the marketing presentation once again. Um this time about trendwatching. Uh well there has been inv investigation again, in the in the remote control market. Uh it shows a number of developments. Uh I will address them uh in a moment. Um fashion watch watchers uh have detected the trends for young public, because that's our public. Um well fruit and vegetables will be will be the most important theme for clothing, uh shoes and furniture. And the feel of the material is expected to be spongey. So um the developments I will address them oh yeah well this is the fruit and vegetables looks of fresh bright colours. So to give you an idea. Um well the developments? Uh development one. Uh well most important aspect for remote control happens to be a fancy look-and-feel. Instead of the current uh functional look-and-feel. Um well fancy stands for an original look-and-feel of the case and the interface. And the second most important aspect is that a remote control should be technological uh innovative. Um well it stands for the use of technical features that do not exist in current remote controls. I think we pretty much covered that with our screen and um and speech recognition, so I don't expect that to be a problem.",
+          "relevance": -1.3284033173338723,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:03:18",
+              "text": "Oh. No. Yeah. No problem"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:24",
+              "text": "No."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:04",
+              "text": "Sound. Yeah yeah uh uh."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:08",
+              "text": "And the third development um is that the remote control should be easy to use. Um Well the first aspect uh was twice as important as the second aspect,w which was twice as important as the third aspect. So um that kind of gets you this ratios. So fancy look-and-feel uh is the most important uh point of attention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3006d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "TS3006d",
+          "team": "TS3006",
+          "speaker": "Speaker D",
+          "timestamp": "00:05:14",
+          "turn_index": 83,
+          "text": "Speech recognition.",
+          "relevance": -14.164306808358505,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:08",
+              "text": "Yeah. Wh wh what what what is the what is the uh sample sensor sample speaker?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:13",
+              "text": "Oh, that's for the speech."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:15",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:05:16",
+              "text": "Could drop the speech recognition."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006d",
+          "team": "TS3006",
+          "speaker": "Speaker B",
+          "timestamp": "00:05:16",
+          "turn_index": 85,
+          "text": "Could drop the speech recognition.",
+          "relevance": -12.554056516069139,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:14",
+              "text": "Speech recognition."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:15",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:17",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:17",
+              "text": "S s Drop speech recognition?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006d",
+          "team": "TS3006",
+          "speaker": "Speaker A",
+          "timestamp": "00:05:17",
+          "turn_index": 87,
+          "text": "S s Drop speech recognition?",
+          "relevance": -12.554056516069139,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:05:16",
+              "text": "Could drop the speech recognition."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:17",
+              "text": "Right."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:19",
+              "text": "No but"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:21",
+              "text": "Yeah that's possible."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006d",
+          "team": "TS3006",
+          "speaker": "Speaker C",
+          "timestamp": "00:05:34",
+          "turn_index": 97,
+          "text": "No. Yeah but lets just say that the speech recognition works.",
+          "relevance": -10.228442810089263,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:32",
+              "text": "I"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:33",
+              "text": "No, it can be disturbed by by noise and"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:38",
+              "text": "stuff like that. Let let let me see what's more what's more popular. I guess the the screen was more popular than um than the speech recognition. I have to look on that. Let me see."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:05:48",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3006d",
+          "team": "TS3006",
+          "speaker": "Speaker D",
+          "timestamp": "00:22:58",
+          "turn_index": 422,
+          "text": "Yeah. Alright. Uh the the remote control makes use of technolog technological innovation like L_C_D_ screen and speech recognition. Well yeah but we dropped the speech recognition. But it has at least one innovation.",
+          "relevance": -8.972907702613929,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:54",
+              "text": "Yep. Just one button."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:58",
+              "text": "Well it's different."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:02",
+              "text": "But Uh yep."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:07",
+              "text": "Yeah. Yeah, it's still Yeah, I say two."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

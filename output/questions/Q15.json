@@ -1,0 +1,726 @@
+{
+  "question_id": "Q15",
+  "team": "ES2016",
+  "question": "Team ES2016's first full costing of their design came out over budget. What total did they get, what was the limit, and which component did they remove to fix it?",
+  "queries": [
+    "cost",
+    "budget",
+    "total",
+    "limit",
+    "remove",
+    "component",
+    "over"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2016a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "ES2016a",
+          "team": "ES2016",
+          "speaker": "Speaker B",
+          "timestamp": "00:21:08",
+          "turn_index": 143,
+          "text": "I suppose you could do that. O of course the more technology you stick in that, the more it'll cost, so.",
+          "relevance": -3.9064610771352255,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:42",
+              "text": "You know, all that dif batteries right, and Batteries go weak as well, so um after a while you have to point it towards the uh towards the equipment you wanna control with it, right? So, have to m show which is the front, which is the back."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:01",
+              "text": "Is it possible to have it to where it would work with a like a sensor on either side? So that either way you're pointing it it would work."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:13",
+              "text": "More expensive and yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:15",
+              "text": "Course you can do that."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016a",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:17:10",
+          "turn_index": 119,
+          "text": "Let's see here. What if we had what if we had not only um say we went with the ball the ball function um, but maybe we give it sort of grips along the side s um to make it easier to hold on to. So you know um s so it's easier to hold onto that way. Course that'll then remove some of our our ball. Unless this unless this part were raised, so say the cover flips over and covers that part.",
+          "relevance": -2.459125355220005,
+          "matched_queries": [
+            "remove",
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:16:43",
+              "text": "Okay, so unfortunately we've got about five minutes here to come up with our um remote control idea and start rolling with it. Um we've talked about our experiences with remote control and um we've got a couple ideas um."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:16:44",
+              "text": "So"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:51",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:06",
+              "text": "So the grip is No, that wouldn't work either um. But if we're gonna make it flat on the bottom, then that eliminates our ball anyways. So if it were flat on the bottom and then had the sorta grips on the side here I guess, um and then flat uh And then we have the problem with the hinge. So if we're flat on the bottom, it's not gonna roll away, it'll stay where we want."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016a",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:10:50",
+          "turn_index": 67,
+          "text": "Um Do you guys have any ideas for what it should look like? Maybe we could draw it up on the on the board over there. Some ideas? We want it to be a b a ball, you know, we'll draw up we'll draw up the ball and maybe th um where the buttons are located.",
+          "relevance": -2.24773148961012,
+          "matched_queries": [
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:34",
+              "text": "Ye Small."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:39",
+              "text": "Right."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:17",
+              "text": "I'd I could draw sorta the ball idea. My original idea was just simply sort of a sphere, where maybe you this is where it's connected together, and then when you open it out, it could fol it could be maybe flip, like a flip phone, and then when you fold it out the middle Maybe a hinge that'll have to be the strongest part of it. If that if we did use a hinge, or if it was just two parts, and then you'd have just sorta you you you know, your buttons. Thing is inside I think, sometimes remotes have too many buttons, so maybe as simple as possible, um as few buttons inside as possible. Um, I dunno, what's the idea for. Just something maybe if you ha if it had like if some kind of like light or something or lights around it. It's looking a bit like something out of Star Wars at the moment though, to be fair. But yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:26",
+              "text": "Futuristic."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016a",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:03:40",
+          "turn_index": 8,
+          "text": "Okay. Um so we've got our opening, our our agenda is the opening, uh acquaintance which we've kinda done. Uh tool training, project plan discussion and then closing. Uh grand total of twenty five minutes we have here. Um so we are putting together a new remote control. Um we want it to be something original. Um of course we're a not only a electronics company but a fashion um conscious electronics company, so we want it to be trendy um and we want it to be easy to use. Um we've got the functional design, conceptual design and detailed design um which basically is is the three of you um. And w uh well um functional design um. Um do we have um any ideas of of maybe d let's just throw out some ideas of what kind of remote control we want to have, and then we can go into how we're gonna design it and and how we're gonna do the detailing on it.",
+          "relevance": -1.3115892712702026,
+          "matched_queries": [
+            "total"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:02:52",
+              "text": "Right. I'm Manuel and I'm the Industrial Designer in in this project um. In the functional design phase I'm I'll be dealing mostly with the requirements, um we'll discuss what the prog what functions the the product has to fulfil and so and so on. Um I suppose we'll work pretty much together on that one. Um um in the conceptual design um I'll be pro mostly dealing with properties and materials um of our product. And uh the detailed design in the detailed design I'll be concerned with the look and feel of the product itself, um so we're pretty much working together obviously on the design front here. Okay."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:03:22",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:26",
+              "text": "Yeah. Well uh s function of remote control is just just you know, change channels is its main function."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:33",
+              "text": "So we want it to be um a T_V_ remote or I I mean do we want it to to do other things besides just be a a television remote?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2016b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2016b",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:20:25",
+          "turn_index": 58,
+          "text": "Well I myself I find, when you, h when there's something like spee speech recognition. Like uh you call on the phone and you try to change your telephone or power or something. Sometimes they have a a speech recognition on the other end, and you say one for this, and you find yours, like you said, saying the same thing over and over and over.",
+          "relevance": -4.413493682008809,
+          "matched_queries": [
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:24",
+              "text": "I agree."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:25",
+              "text": "And you need to sort of take into light languages and then different dialects I suppose as well."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:45",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:52",
+              "text": "I find myself, especially if I'm in a crowd of people, looking really silly. So maybe if you're sitting on your couch with a bunch of people then"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016b",
+          "team": "ES2016",
+          "speaker": "Speaker C",
+          "timestamp": "00:20:12",
+          "turn_index": 54,
+          "text": "I think speech recognition was uh one of those things where um they have to be really good for them to work. 'Cause sometimes you find yourself just saying things over and o if it's on your phone.",
+          "relevance": -2.954927951219847,
+          "matched_queries": [
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:09",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:10",
+              "text": "possibly it might be worth the investment."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:22",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:24",
+              "text": "I agree."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016b",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:01:08",
+          "turn_index": 6,
+          "text": "Yeah. Alright let's just go over the agenda real quick for this meeting. See if I can't get things uh moving along here a little bit better. Um I'll go over what we went over last time, which shouldn't take long. Then I believe each of you have a presentation. Um I've was sent a a couple more requirements for our remote, what they want. Um then we can come to a conclusion on uh what we want the remote to do, um and how it's going to do it hopefully. And uh then we'll have the closing. Um which we'll have forty minutes for. Uh let's see, the last meeting we went over um who was responsible for what. I'm responsible for leading the meetings, keeping the notes, uh and coming up with the final presentation. Um Corinne is our Marketing Expert. She's gonna figure out what what um the consumer wants. Um Ryan is our User Interface Designer. And Manuel is the Industrial Designer. So you're gonna come up with the ideas Ryan, and you're gonna pick 'em apart. Um we decided our remote, uh we want it to be a universal remote uh that everyone would want. Um we want to be modern, um fun, different. Uh it needs to be sturdy, um easy to find, so we gonna have that locator function. Um and we want to be different. Um and then we went over a couple of different ideas. Ball-shaped phone. The keyboard shape. Um we decided that it should probably be one-handed. Something we could use with one hand. Um and that was our last meeting. So um why don't um Do each of you have a presentation?",
+          "relevance": -2.3042944008181605,
+          "matched_queries": [
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:00:50",
+              "text": "Thanks for coming to this meeting. S how we doing on our remote? We have some we have some ideas and some uh ideas for what people want."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:01:03",
+              "text": "Uh we yes s I've lo I've done the role that I was asked to do anyway. I think."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:29",
+              "text": "Yep."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:30",
+              "text": "Okay. I'll hand it off to you and um Does anyone do you wanna go first? So we can maybe see what uh what the people want."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016b",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:21:58",
+          "turn_index": 77,
+          "text": "Now I was sent a couple of things to modify our uh new requirements. Um the remote's only gonna be for the television, which is good because we already decided y your your research showed that uh not only is a universal remote more complicated, it's more cost, more costly. And your re uh research showed that you know most of the people don't even use it. I think uh you said fifty percent of the people only use half the or ten percent of the buttons. So if we remove the universal remote then that solves that problem. Um no teletext. Um",
+          "relevance": -2.092348192752532,
+          "matched_queries": [
+            "cost",
+            "remove"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:55",
+              "text": "Trade you."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:56",
+              "text": "go."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:30",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:47",
+              "text": "So we don't have to worry about that. Um but we do have to use the the company wants us to incorporate the corporate colour and our slogan, which is we put the fashion in electronics. And our corporate colours are grey and yellow. And we could probably get away with black too but So those are the three um the three new requirements that that I was told we need to use. Um from all all three of your uh presentations, I think that we were on the right track a lot in our last meeting. Um We want something that looks good. Um we want something that's simple. We want something that you can find easily. Um And the speech recognition I I guess is kind of uh give or take. It's gonna cost more. S the young the younger people say that they like it. But um it's"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016b",
+          "team": "ES2016",
+          "speaker": "Speaker D",
+          "timestamp": "00:08:34",
+          "turn_index": 39,
+          "text": "Okay. Okay. And so bas okay. Um as far as speech recognition goes, um the younger group looks like they're all for it. From the fifteen to twenty five age group over ninety percent said they would pay more. And it kind of just went down incrementally. The groups at the older they get it looks like the less willing they are to pay, so maybe we could discuss this and think and decide if we think it's worth investing in this. At least if we're targeting the younger groups. And so in conclusion. Some things that I drew from this are that I think we were correct. We definitely need to focus on a new modern appearance, since so many people seem to be concerned about the ugliness of their remote control. Um a multifunctional remote could be a good thing to explore. So you only have one rather than five different remotes sitting all over your room. Uh we need to simplify the remote and reduce the number of buttons, get rid of the ones that don't seem to be serving much purpose. And then lastly I thought that maybe we could discuss the idea of speech recognition. And that's it.",
+          "relevance": -1.4517056860057134,
+          "matched_queries": [
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:31",
+              "text": "What is it?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:08:32",
+              "text": "Just repetitive strain injury. I think. That's what I guess."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:00",
+              "text": "'Kay. Very nice. Now we actually have some ideas of what what people want, what we should focus on. Uh Wait can I look at that real quick?."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:24",
+              "text": "Oh yeah. Sorry did you guys get time to write everything that you needed? 'Kay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2016c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2016c",
+          "team": "ES2016",
+          "speaker": "Speaker D",
+          "timestamp": "00:26:00",
+          "turn_index": 56,
+          "text": "The we can have the fruits and vegetables on the spongy parts, so they can remove it.",
+          "relevance": -6.943188601509163,
+          "matched_queries": [
+            "remove"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:42",
+              "text": "Mm. Like a covering. Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:53",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:26:10",
+              "text": "So you as the the possibility of having a a graphical display on it, like a screen? Like the iPod?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:26:17",
+              "text": "You can have an L_C_D_ screen. Um but therefore no rubber will be used. Alright? So plastic yes, titanium yes, but this will of course influence the form. With plastic, as I understand it, you can use any form. Um latex"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016c",
+          "team": "ES2016",
+          "speaker": "Speaker B",
+          "timestamp": "00:32:23",
+          "turn_index": 130,
+          "text": "However of course this would be like designing two remotes pretty much. So um which then, as I understand it, would probably limit the, limit again the the the use of certain materials, because they would be too expensive. Say like have a scroll wheel and uh on both of them, or have an L_C_D_ screen and so on so on. You'd probably have to stick rather with a just traditional rubber button",
+          "relevance": -4.7965892861712565,
+          "matched_queries": [
+            "limit"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:32:09",
+              "text": "Yeah. Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:32:20",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:28",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:32:46",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016c",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:30:29",
+          "turn_index": 105,
+          "text": "It's sort of couple of couple of grey stripes. We could put the grey stripes on the bottom so that that person could turn it over. It would look like a banana just sitting on their table.",
+          "relevance": -3.0046834137544702,
+          "matched_queries": [
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:27",
+              "text": "Grey buttons yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:29",
+              "text": "Well so why not add a couple of grey stripes and make it look like a banana?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:30:32",
+              "text": "Yeah. On the the gr the rubbery grips could be grey."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:40",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016c",
+          "team": "ES2016",
+          "speaker": "Speaker B",
+          "timestamp": "00:15:40",
+          "turn_index": 33,
+          "text": "Uh Well let's see. I'm going to bore you with a couple of descriptions of the interior. Just to to make it more obvious what we have to fit in there, and that we do have to fit the stuff in there. I've more information on possible materials um as well. What we can and cannot do. Um but let's just wait for this to load up and I'll show you what we're talking about here. Okay. The details of the components' design, as you can see there, what we have is the board, main board of the remote control. The underside, that's pretty cheap piece of of technology really top left side you can see the chip, which is the, what we were talking about, this was is the device to recognise the signals the input, and it passes it on to a row of um further transistors and stuff like that on the right side that actually amplify the signal, which later on is being, is being transferred to a infrared lamp which then um of course shines infrared light onto the television which then will recognise what signal um it's getting and will do what you tell it. Um So much for the the workings of the of the uh remote control itself. Its job is to wait for you to press a key, then to translate that key press into infrared light signals, um that are received by the television. When you press a key um you complete a specific connection. The chip senses the connection and knows what button you pressed. It produces a morse code line signal specific to that button. Right. Pretty clear. Transistor amplifies the signal and then sends the m sends the signal to the L_E_D_ which translates the signal into infrared light. The sensor in the T_V_ can see the infrared light, and seeing the signal reacts appropriately. This is the circuit board from the other side. Um the lower part of it, I don't know if you can see that properly, with the green greenish board is is what we what we saw in the first the first slide just flipped over. Um you can see the circuit board itself. That's the cheapest uh way to make electronic connections basically on the market. Um what you do is you have, don't have cables, but you have the connections actually in these in these lines on the on the board. These are the actual keys that are being pressed. They close the electric circuit. That then sends the signal to the chip on the other side. That would be behind here. Um which uh sends it over to the transistors and all that stuff that amplify the signal and all that is being sent to the infrared lamp up there. Now as you can see this is the the rubber button version of it. Um the way it works is that you have the keys here. The rubber button has a little metal uh plate on the other side, which closes the circuit here. And thus gives on the signal. Now this is the simple version. Um we are talking um this this the simple and cheapest version at the same time. We are talking something more complicated of course, it's going to be more expensive as well. And not only that. Um we are also restricted in the use of our outer shell, or in the material that we could use for our outer shell. Um I've gotten some information that we could use for the case material plastic, rubber, as well. Um rubber that is used in these anti-stress balls. So it's pretty squishy. That would that would serve that purpose. Um we could also use wood, or titanium.",
+          "relevance": -0.519610517462046,
+          "matched_queries": [
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:24",
+              "text": "Makes sense, makes sense."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:15:27",
+              "text": "Yeah. See. things. . Why's my screen crazy?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:17",
+              "text": "Spongy?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:25",
+              "text": "What's the approximate per hundred thousand for the titanium?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016c",
+          "team": "ES2016",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:38",
+          "turn_index": 45,
+          "text": "Which also makes a base station basically obsolete. We don't need that then. Um However our interface options are push-buttons. In which uh in the production of which or in manufacture of which um our company is expert. Um However we've discussed that scroll wheels are a better option. And they are possible. We have an okay for scroll wheels. Okay. Um however when it comes to the scroll wheel of the iPod I've one big objection and that is that we have to fit an L_C_D_ into the remote control as well. This however may exclude certain um materials. If you have a squishy uh kind of remote control, then an L_C_D_ screen may be affected by the movement. Hence we might not be able to put it in there. So um There's also restrictions to, when it comes to the chip. If we have a more sophistic uh sophisticated scroll wheel rather than this very basic uh set-up that we that I've just presented, um the chip has to be more s more sophisticated and thus more expensive as well. I don't have any details to, when it comes to the cost but um it will be a significant difference. I'd rather say drop the titanium and therefore let's have a more sophisticated chip, but that's not up to me to decide really. So that's for the for the scroll wheel. Um it limits our choice and squishy is hip, so I'd say rather not go for for that. Let's see now. Um um solar cells cannot be used on a curved or latex um surface or um remote control. But obviously that's not our problem um since we have decided or against solar cells, I assume right? Or is anybody still alright.",
+          "relevance": -0.5053758276359457,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:19",
+              "text": "Y probably not yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:19",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:49",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:24:50",
+              "text": "Yeah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2016d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2016d",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:21:09",
+          "turn_index": 264,
+          "text": "Okay. So we just remove our",
+          "relevance": -9.73171795721331,
+          "matched_queries": [
+            "remove"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:06",
+              "text": "There we go."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:06",
+              "text": "Perfect."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:15",
+              "text": "Screen. Make it a bigger dial. Easier to use. Even easier to use then."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:16",
+              "text": "screen here."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016d",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:19:54",
+          "turn_index": 247,
+          "text": "by three Euros over.",
+          "relevance": -7.0284406488786875,
+          "matched_queries": [
+            "over"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:40",
+              "text": "Okay. We're gonna leave that one blank because we run on a L_C_D_ and scroll. So our total is fifteen point five. Which I believe is"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:52",
+              "text": "Yeah that's too much."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:58",
+              "text": "It's hard to believe. So we'll go for the hand dynamo huh?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:07",
+              "text": "So the only thing better than um a banana-shaped remote is one that you shake."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016d",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:15:34",
+          "turn_index": 181,
+          "text": "Okay. Well, let's see. Now we get to do the budget numbers. You didn't know that you were gonna have a budget. But we do. Okay.",
+          "relevance": -6.247201422741209,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:26",
+              "text": "Alright then."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:30",
+              "text": "So that's that."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:15:51",
+              "text": "Yeah. Yeah so. You'd been going a long time dividing that. It's two point four two eight five se it just keeps going on."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:57",
+              "text": "Oh my god. Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016d",
+          "team": "ES2016",
+          "speaker": "Speaker B",
+          "timestamp": "00:11:16",
+          "turn_index": 99,
+          "text": "Y you could add an extra feature actually. Which makes this thing raise hell when you remove it too far from the television.",
+          "relevance": -6.004687694321702,
+          "matched_queries": [
+            "remove"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:04",
+              "text": "I'd say two. With the speech recognition, which of course may be changed depending on budget."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:15",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:27",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:29",
+              "text": "We could add that but that's nothing we have thought of so far."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2016d",
+          "team": "ES2016",
+          "speaker": "Speaker A",
+          "timestamp": "00:19:26",
+          "turn_index": 236,
+          "text": "Or titanium. They cost us all the same.",
+          "relevance": -5.767375897457281,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:18",
+              "text": "We could of course make the buttons wood. Say mahogany or so"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:24",
+              "text": "It'd look really lovely. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:26",
+              "text": "Mm-hmm or titanium."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:19:27",
+              "text": "remote control."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

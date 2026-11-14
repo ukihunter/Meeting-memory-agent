@@ -1,0 +1,394 @@
+{
+  "question_id": "Q19",
+  "team": "IS1003",
+  "question": "Team IS1003 picked a natural material for the case and later changed it. What was the material, what replaced it, and who suggested the switch?",
+  "queries": [
+    "natural material",
+    "case",
+    "material"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "IS1003a",
+      "meeting_number": 1,
+      "passages": []
+    },
+    {
+      "meeting_id": "IS1003b",
+      "meeting_number": 2,
+      "passages": []
+    },
+    {
+      "meeting_id": "IS1003c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "IS1003c",
+          "team": "IS1003",
+          "speaker": "Speaker A",
+          "timestamp": "00:25:14",
+          "turn_index": 331,
+          "text": "Case.",
+          "relevance": -7.905519279839637,
+          "matched_queries": [
+            "case"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:58",
+              "text": "pro-ecology consumers. Uh cheap imprint so you s you propose low level chips would be uh enough to have something working well."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:25:00",
+              "text": "Yeah. Yeah, I think Yeah, yeah. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:25:16",
+              "text": "Later?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:22",
+              "text": "So you think case. Something spongy. Someth no wood."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1003c",
+          "team": "IS1003",
+          "speaker": "Speaker A",
+          "timestamp": "00:25:22",
+          "turn_index": 333,
+          "text": "So you think case. Something spongy. Someth no wood.",
+          "relevance": -5.824367503512557,
+          "matched_queries": [
+            "case"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:14",
+              "text": "Case."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:25:16",
+              "text": "Later?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:25:29",
+              "text": "No wood but Plastic?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:30",
+              "text": "Maybe not no wood, but I mean ma maybe not the part you touching you know."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1003c",
+          "team": "IS1003",
+          "speaker": "Speaker B",
+          "timestamp": "00:24:10",
+          "turn_index": 314,
+          "text": "Yeah, but the problem is which kind of material do you need to to be spongy?",
+          "relevance": -5.22777056396001,
+          "matched_queries": [
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:02",
+              "text": "Spongy 'Kay. Okay, yeah, yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:09",
+              "text": "I dunno."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:15",
+              "text": "Yeah thi this is this would be like um"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:18",
+              "text": "Pla"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1003c",
+          "team": "IS1003",
+          "speaker": "Speaker B",
+          "timestamp": "00:19:20",
+          "turn_index": 277,
+          "text": "And the materials, it depends for example you if you have a wooden material it can be more the plastic material is more common it's very resistant but, you know, something wooden will be like, I don't know high cl so a special high class, or you know, you can have some",
+          "relevance": -4.256461597753714,
+          "matched_queries": [
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:11",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:12",
+              "text": "Okay. And what tha what about the uh materials?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:29",
+              "text": "Impersonal, mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:34",
+              "text": "Special for"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1003c",
+          "team": "IS1003",
+          "speaker": "Speaker B",
+          "timestamp": "00:16:58",
+          "turn_index": 261,
+          "text": "So I in fact the the f something I want to discuss is which kind of material are we going to use, so will it will be wooden wooden di wooden remote control or a a plastic remote control like this one. So and in which which which kind will be the the different bu button, so it can be some, you know, classic pushbutton like this one, or you have also some button like L_C_D_ where you know, the button the buttons are unlighted during the night, or, you know, you can see them in the darkness. And",
+          "relevance": -1.5970485176459615,
+          "matched_queries": [
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:16:47",
+              "text": "of the remote control. So it will be interesting so I could show you some some picture of what is inside and so."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:49",
+              "text": "Okay. Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:17:05",
+              "text": "Mm-hmm. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:32",
+              "text": "Mm-hmm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1003d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "IS1003d",
+          "team": "IS1003",
+          "speaker": "Speaker A",
+          "timestamp": "00:20:04",
+          "turn_index": 377,
+          "text": "So the case.",
+          "relevance": -7.2572340566339975,
+          "matched_queries": [
+            "case"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:58",
+              "text": "One? As we have voice recognition, I think."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:01",
+              "text": "Yeah yeah yeah. Is it"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:05",
+              "text": "Is sh it"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:08",
+              "text": "So we are all already nineteen."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1003d",
+          "team": "IS1003",
+          "speaker": "Speaker D",
+          "timestamp": "00:23:46",
+          "turn_index": 461,
+          "text": "Case, what's the ca",
+          "relevance": -6.707214752523695,
+          "matched_queries": [
+            "case"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:44",
+              "text": "S uncurved. Yeah, maybe not."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:46",
+              "text": "Single curve. Single curve should be fine, so."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:49",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:54",
+              "text": "Oh, what"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1003d",
+          "team": "IS1003",
+          "speaker": "Speaker B",
+          "timestamp": "00:05:22",
+          "turn_index": 68,
+          "text": "And inspired colour and and very sophisticated material, so.",
+          "relevance": -6.431968625972948,
+          "matched_queries": [
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:05:12",
+              "text": "I I think we take into account what you said about fruit and vegetable you know. This, you know, very enlighted colours, you know."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:19",
+              "text": "No, I mean, yeah yeah. Inspira inspiration is"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:27",
+              "text": "True."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:05:28",
+              "text": "And so"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1003d",
+          "team": "IS1003",
+          "speaker": "Speaker A",
+          "timestamp": "00:20:20",
+          "turn_index": 385,
+          "text": "Well uh yeah, but what what about case? Uncurved, flat, single curved, double curved. I think it's more like double curved.",
+          "relevance": -4.079299630272146,
+          "matched_queries": [
+            "case"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:15",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:18",
+              "text": "Is Yes a wooden pl I and that's There's no wood, so plastic just only, I think."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:27",
+              "text": "That's gonna be double curved, yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:28",
+              "text": "Double curve, yeah, double curve."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1003d",
+          "team": "IS1003",
+          "speaker": "Speaker A",
+          "timestamp": "00:01:47",
+          "turn_index": 20,
+          "text": "And in case if we're we all agree on the fabrica of um building of this remote control, we'll evaluate the um production. So maybe I will let the our two designers talk about so their You have s oh, sorry. Oops.",
+          "relevance": -2.7068276523558112,
+          "matched_queries": [
+            "case"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:32",
+              "text": "So we'll have to evaluate the uh your proposed remote control, and um have an idea of the price that uh this thing will cost."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:01:33",
+              "text": "'Kay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:06",
+              "text": "I have slides."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:02:07",
+              "text": "Okay."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

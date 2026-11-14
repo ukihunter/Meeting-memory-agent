@@ -1,0 +1,538 @@
+{
+  "question_id": "Q13",
+  "team": "TS3004",
+  "question": "Team TS3004 changed its mind about speech recognition more than once. Was speech recognition in their final design, and in which of their four meetings did they last reverse their position on it?",
+  "queries": [
+    "speech recognition",
+    "voice recognition"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "TS3004a",
+      "meeting_number": 1,
+      "passages": []
+    },
+    {
+      "meeting_id": "TS3004b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "TS3004b",
+          "team": "TS3004",
+          "speaker": "Speaker D",
+          "timestamp": "00:33:24",
+          "turn_index": 419,
+          "text": "Okay, no speech recognition.",
+          "relevance": -13.048524541488199,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:33:22",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:33:23",
+              "text": "So we have to make some decisions. So you can see on the uh So we have to know what we're going to put on. Do we, do we make uh a light under the under the n under the numbers and everything? Do If you press something, it lights up for a few seconds, so you can see what other but buttons there are, okay?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:33:34",
+              "text": "Yeah, I think so."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:33:40",
+              "text": "Yeah, that's good."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004b",
+          "team": "TS3004",
+          "speaker": "Speaker C",
+          "timestamp": "00:32:52",
+          "turn_index": 409,
+          "text": "Yeah, and also if if you have a good speech uh speech recognition, you can just throw the uh",
+          "relevance": -9.98369211691269,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:32:44",
+              "text": "And and"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:52",
+              "text": "Yeah. I think so."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:32:57",
+              "text": "Yeah. A uh someone says that uh give me one Coke, and the T_V_ turns uh to one. Yeah, it's not uh"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:33:00",
+              "text": "the remote away. Mm. Hmm. Mm. Yeah, okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004b",
+          "team": "TS3004",
+          "speaker": "Speaker D",
+          "timestamp": "00:33:12",
+          "turn_index": 414,
+          "text": "Okay, but th that becomes your f Uh uh because that's very hard for uh speech recognition.",
+          "relevance": -8.41070001570941,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:33:04",
+              "text": "Yeah. Well yeah, that's the right command. And then you have to say uh T_V_ channel one, or something. Not just one, but"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:33:06",
+              "text": "But Hmm yeah, T_V_ one."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:33:18",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:33:18",
+              "text": "Well I dunno. But I don't think, it just ain't useful enough."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004b",
+          "team": "TS3004",
+          "speaker": "Speaker B",
+          "timestamp": "00:32:43",
+          "turn_index": 406,
+          "text": "I d Yeah. I don't think it's uh useful enough to take the effort to design something with uh speech recognition.",
+          "relevance": -7.463314737866851,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:32:39",
+              "text": "In uh indeed uh the languages are a difficult thing. Uh because we we have a lot of languages."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:43",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:32:44",
+              "text": "And and"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:52",
+              "text": "Yeah. I think so."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004b",
+          "team": "TS3004",
+          "speaker": "Speaker D",
+          "timestamp": "00:08:41",
+          "turn_index": 67,
+          "text": "I I think we can speak, uh we can skip speech recognition uh directly, because it's not reachable for twenty five Euros. Um then",
+          "relevance": -7.141543964886626,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:33",
+              "text": "But y But you but you already said that the uh company was about uh forty plus uh clients?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:37",
+              "text": "People. So yeah, so we just can skip the L_C_D_ r on the remote control, because"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:42",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:46",
+              "text": "Yeah. It's too Okay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3004c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "TS3004c",
+          "team": "TS3004",
+          "speaker": "Speaker B",
+          "timestamp": "00:10:17",
+          "turn_index": 98,
+          "text": "Okay. And speech recognition?",
+          "relevance": -13.048524541488199,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:11",
+              "text": "L_D_C_ doesn't require"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:13",
+              "text": "Yeah, it says in the email. The display requires an advanced chip."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:20",
+              "text": "Yeah, probably too. I I haven't got anything about speech recognition, but"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:21",
+              "text": "Advanced. Yeah. I'll I'll give you my design."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004c",
+          "team": "TS3004",
+          "speaker": "Speaker A",
+          "timestamp": "00:39:13",
+          "turn_index": 567,
+          "text": "Can we just put it speech recognition in it as well, okay?",
+          "relevance": -9.922101261492195,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:39:02",
+              "text": "So"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:39:02",
+              "text": "Uh the ma the main points I I I uh just said. We have to be original and uh technological innovative. Becau Yeah. But"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:39:16",
+              "text": "Ma"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:39:16",
+              "text": "So shall we it open then? So we can put all the"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004c",
+          "team": "TS3004",
+          "speaker": "Speaker C",
+          "timestamp": "00:10:20",
+          "turn_index": 99,
+          "text": "Yeah, probably too. I I haven't got anything about speech recognition, but",
+          "relevance": -9.633575956911448,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:13",
+              "text": "Yeah, it says in the email. The display requires an advanced chip."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:17",
+              "text": "Okay. And speech recognition?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:21",
+              "text": "Advanced. Yeah. I'll I'll give you my design."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:28",
+              "text": "Well it d That's that's the most expensive chip, we need. If we're doing uh if we're doing a display."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004c",
+          "team": "TS3004",
+          "speaker": "Speaker B",
+          "timestamp": "00:40:28",
+          "turn_index": 595,
+          "text": "I dunno, but if we use speech recognition, that will be in it as well.",
+          "relevance": -9.10409881982217,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:40:19",
+              "text": "Okay, we have to stop it now. So just Okay, that's a r That's that's a advanced"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:40:25",
+              "text": "But i it's a separate chip."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:40:32",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:40:35",
+              "text": "Yeah, I don't know anything about this, but Nah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004c",
+          "team": "TS3004",
+          "speaker": "Speaker C",
+          "timestamp": "00:38:54",
+          "turn_index": 561,
+          "text": "Yeah, and I do I don't know anything about that. I d I didn't receive any information on speech recognition, so",
+          "relevance": -7.463314737866851,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:38:45",
+              "text": "Uh"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:38:50",
+              "text": "Well that's very easy. We already have uh the beeping of the home station, so"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:38:57",
+              "text": "No."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:38:58",
+              "text": "Uh strange that I received the information about that."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3004d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "TS3004d",
+          "team": "TS3004",
+          "speaker": "Speaker B",
+          "timestamp": "00:04:10",
+          "turn_index": 49,
+          "text": "Speech recognition.",
+          "relevance": -14.164306808358505,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:59",
+              "text": "Means"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:04",
+              "text": "Mm. So how many functions do you need for for uh the microphone?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:10",
+              "text": "Yeah, speech recognition. Just Only one button to say it's on or off."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:12",
+              "text": "Um I didn't have a specification of that. But um I can imagine that you have to input your voice or something. Um so I've"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004d",
+          "team": "TS3004",
+          "speaker": "Speaker A",
+          "timestamp": "00:04:10",
+          "turn_index": 50,
+          "text": "Yeah, speech recognition. Just Only one button to say it's on or off.",
+          "relevance": -9.361356576525406,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:04",
+              "text": "Mm. So how many functions do you need for for uh the microphone?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:10",
+              "text": "Speech recognition."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:12",
+              "text": "Um I didn't have a specification of that. But um I can imagine that you have to input your voice or something. Um so I've"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:04:17",
+              "text": "Uh I dunno. Yeah, maybe maybe uh you have to configure it."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004d",
+          "team": "TS3004",
+          "speaker": "Speaker B",
+          "timestamp": "00:01:18",
+          "turn_index": 12,
+          "text": "Are we doing the the speech recognition? Because we didn't have enough time to uh de um design the inside as well.",
+          "relevance": -7.463314737866851,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:01:01",
+              "text": "Oh, okay. Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:04",
+              "text": "So these are the um last notes we I made. If anything doesn't look right, just say it to me then. I don't have to put it in the report."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:25",
+              "text": "Okay, but it's still possible uh uh financially. So if you want to, it's okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:01:30",
+              "text": "Okay yeah. Well then then we're gonna put it in."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3004d",
+          "team": "TS3004",
+          "speaker": "Speaker A",
+          "timestamp": "00:02:12",
+          "turn_index": 28,
+          "text": "Okay, so that's Uh I'll just have a look how much that is. But um Okay, for the Okay. No, you have a different chip for speech recognition. So",
+          "relevance": -6.3236384722010115,
+          "matched_queries": [
+            "speech recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:02:02",
+              "text": "Yeah. Okay. So this is okay?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:02:09",
+              "text": "No. Yeah, we're gonna use the advanced chip then."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:14",
+              "text": "The"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:02:17",
+              "text": "Advanced chip was for uh spee Yeah."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

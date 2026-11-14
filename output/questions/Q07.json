@@ -1,0 +1,686 @@
+{
+  "question_id": "Q07",
+  "team": "IS1008",
+  "question": "In Team IS1008, a team member was asked to find out what adding a display would cost. Who was it, and what figure did they come back with?",
+  "queries": [
+    "display",
+    "cost",
+    "price"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "IS1008a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "IS1008a",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:10:47",
+          "turn_index": 75,
+          "text": "Mm-hmm. Do we already have a cost limit on this, th an idea of how much uh we want to market this for, how much it's gonna sell for, that's up that's up to us to decide, eh?",
+          "relevance": -2.6739254313069005,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:30",
+              "text": "Yeah. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:38",
+              "text": "So, what I prefer, okay, so you need to interact with the Christine more and uh within her team, okay, who is using the functional design or technical design, okay, and uh you need to come up with some kind of plan, okay, how we are going to do the your sales plan, okay, th"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:59",
+              "text": "Th That that's Yes, that's you have to decide, okay, so the best thing is you uh both of uh the Christine and you discuss with yourself, okay, and come up with the cost, and how we are going to compete in the market, okay, in the the technically, or in the sales wise, okay, the commercial wise, okay. Then uh we have to design, okay, how long it will take the whole project, okay, how much is going to cost us, and how much we are going to benefit for the company. Okay, of course it's it's uh of benefit for everybody individually. Okay, so I think it's uh maybe if we can uh give me some kind of your uh the sales plan, okay, including the technical what uh she's going to talk to you within the team, okay, then it will help me to discuss with the management for further, okay, and put it in the the proper project plan."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:11:54",
+              "text": "Very good."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008a",
+          "team": "IS1008",
+          "speaker": "Speaker A",
+          "timestamp": "00:10:59",
+          "turn_index": 76,
+          "text": "Th That that's Yes, that's you have to decide, okay, so the best thing is you uh both of uh the Christine and you discuss with yourself, okay, and come up with the cost, and how we are going to compete in the market, okay, in the the technically, or in the sales wise, okay, the commercial wise, okay. Then uh we have to design, okay, how long it will take the whole project, okay, how much is going to cost us, and how much we are going to benefit for the company. Okay, of course it's it's uh of benefit for everybody individually. Okay, so I think it's uh maybe if we can uh give me some kind of your uh the sales plan, okay, including the technical what uh she's going to talk to you within the team, okay, then it will help me to discuss with the management for further, okay, and put it in the the proper project plan.",
+          "relevance": -1.6389071415524072,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:38",
+              "text": "So, what I prefer, okay, so you need to interact with the Christine more and uh within her team, okay, who is using the functional design or technical design, okay, and uh you need to come up with some kind of plan, okay, how we are going to do the your sales plan, okay, th"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:47",
+              "text": "Mm-hmm. Do we already have a cost limit on this, th an idea of how much uh we want to market this for, how much it's gonna sell for, that's up that's up to us to decide, eh?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:11:54",
+              "text": "Very good."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:55",
+              "text": "Okay, and if you need uh any coordination in between uh compared to the maybe the some technical vendors or commercial vendors, okay, depends if you want to have some uh uh marketing plan or technical plan, okay, so you let me know. Okay, I can coordinate, or maybe uh, you are my coordinator, am I right?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008a",
+          "team": "IS1008",
+          "speaker": "Speaker A",
+          "timestamp": "00:08:37",
+          "turn_index": 64,
+          "text": "Yes I think uh that would be good, because I need to go to the management and uh tell them what we are going to do, and uh what cost is, okay, and what's the time frame and what's the project plan, because uh without any uh documentations, I cannot go to the management and say, so we are going to do this and we need this much money, okay, so then it's it's difficult for me to say, okay, that's the reason I need uh some kind of plan from you, initially, okay, then we can have the further discussion again.",
+          "relevance": -1.3201869363489753,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:24",
+              "text": "B as soon as possible."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:08:26",
+              "text": "Uh well if uh if we have enough time uh then d do you think um two weeks is a is close enough?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:05",
+              "text": "Uh are there other people who will be contributing to the plan?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:09",
+              "text": "Yes, of course, if you need some help, uh so let me know. So, who are the people you need uh from the marketing or uh the technical side or uh the administration point of view, okay, to add in any documentation, or some technical point of view, so just let me know so I can uh coordinate all the teams."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1008b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "IS1008b",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:12:27",
+          "turn_index": 60,
+          "text": "I have a sales price of twenty-five Euro, with a production price of uh twelve and a half Euro. For what uh I think from what we're trying to find, we're tr we're looking for, I don't think that price is exactly in the market. Okay?",
+          "relevance": -5.393244460356249,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:15",
+              "text": "Okay, from the marketing yeah, from the marketing side, just to to give an idea what the management is looking for, I was looking for a a remote control to have a s"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:24",
+              "text": "S 'scuse me for one sec."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:45",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:45",
+              "text": "I'll explain myself here now in the sense that uh in a in the recent surveys, uh from the ages fr from fifteen to thirty-five, eighty percent are willing to spend more money for something as fancy as trendy. Twenty-five Euros, uh that's that's a preson reasonable price. That's a market price right now. Now if we're gonna take a risk, and push this up a bit, make it more expensive, but give them added things that they don't have now, then it w it could possibly sell. Obviously the risk is there."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008b",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:19:38",
+          "turn_index": 103,
+          "text": "Because it has to be something totally different, has to be total totally new. Something that nobody has right now. And it's gonna cost.",
+          "relevance": -3.6538283573808203,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:23",
+              "text": "From from your side uh, you're gonna have to go back the management and s be more s precise. What do they want? Uh, a risk, take a risk on the market? Something that's gonna cost more, but could very easily s make a boom in the market?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:27",
+              "text": "Yes. Yes. Yes. Yep."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:44",
+              "text": "Yeah but but end of the day, you're the sales guy, so I will come back and sit on your head because uh you are going to give your sales projection, okay. It's uh of course it's uh good to uh tell the management how much it's cost us and how much you are going to benefit, okay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:54",
+              "text": "Mm-hmm. Sure. Sure."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008b",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:12:45",
+          "turn_index": 62,
+          "text": "I'll explain myself here now in the sense that uh in a in the recent surveys, uh from the ages fr from fifteen to thirty-five, eighty percent are willing to spend more money for something as fancy as trendy. Twenty-five Euros, uh that's that's a preson reasonable price. That's a market price right now. Now if we're gonna take a risk, and push this up a bit, make it more expensive, but give them added things that they don't have now, then it w it could possibly sell. Obviously the risk is there.",
+          "relevance": -2.726755557217884,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:27",
+              "text": "I have a sales price of twenty-five Euro, with a production price of uh twelve and a half Euro. For what uh I think from what we're trying to find, we're tr we're looking for, I don't think that price is exactly in the market. Okay?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:45",
+              "text": "Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:07",
+              "text": "Yep. Yep."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:13:17",
+              "text": "Too expensive, they're not gonna buy. But, I think uh there's one other thing interesting two things that are interesting is that uh from the fifteen to thirty-five year-old group, which always spends more money on trendy new things, speech recognition is requested. And we're talking between seventy-five to ninety percent of this group is willing to pay for speech recognition on a remote."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008b",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:19:23",
+          "turn_index": 101,
+          "text": "From from your side uh, you're gonna have to go back the management and s be more s precise. What do they want? Uh, a risk, take a risk on the market? Something that's gonna cost more, but could very easily s make a boom in the market?",
+          "relevance": -2.374279845679529,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:21",
+              "text": "Okay, we'll find that out."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:22",
+              "text": "Yep."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:27",
+              "text": "Yes. Yes. Yes. Yep."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:38",
+              "text": "Because it has to be something totally different, has to be total totally new. Something that nobody has right now. And it's gonna cost."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008b",
+          "team": "IS1008",
+          "speaker": "Speaker A",
+          "timestamp": "00:11:00",
+          "turn_index": 45,
+          "text": "Okay, uh I will I will send you a mail, okay? The project may be the the project aim, okay. At the end of the day, the company uh wants to make at least uh the fifty million Euro. Okay, and uh of course the price will be very reasonable on the the sales side. Okay, that maybe Eddie will talk to you about uh how much uh the price and uh what's uh how much its cost for the manufacturing and how much it's going to be we sell in the market. Okay. Then uh you can come back with your feedback. And I I have one maybe the suggestion or opinion. This remote control, okay, it can be for like universal, to use for any T_V_. Okay, and it will be slim, okay, and uh",
+          "relevance": -2.128789924770939,
+          "matched_queries": [
+            "cost",
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:58",
+              "text": "In modified."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:59",
+              "text": "I don't know, I think verbally we can we can pretty much sell."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:45",
+              "text": "Not fat?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:47",
+              "text": "Not fat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1008c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "IS1008c",
+          "team": "IS1008",
+          "speaker": "Speaker C",
+          "timestamp": "00:20:28",
+          "turn_index": 120,
+          "text": "Cost of living is low.",
+          "relevance": -6.423032319636934,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:22",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:23",
+              "text": "Yeah, but we can get a production in, uh, countries like, uh, India yes, yes, countries like India or China or Malaysia, so you can go a better features and better price and you can sell more."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:37",
+              "text": "So"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:41",
+              "text": "Good, well th that'd be something that manufacturing would have to um explore more and to where Mm-hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008c",
+          "team": "IS1008",
+          "speaker": "Speaker B",
+          "timestamp": "00:21:50",
+          "turn_index": 138,
+          "text": "So, if we're trying to keep costs down, then maybe sacrificing the display",
+          "relevance": -5.348954646209763,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:49",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:49",
+              "text": "Hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:56",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:58",
+              "text": "is a way to go. I mean it depends on how much putting a display costs and what it would be used for very specifically what it would be used for, 'cause if it's only used for one little thing, then putting in a big display case or a big display that's"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008c",
+          "team": "IS1008",
+          "speaker": "Speaker B",
+          "timestamp": "00:21:58",
+          "turn_index": 140,
+          "text": "is a way to go. I mean it depends on how much putting a display costs and what it would be used for very specifically what it would be used for, 'cause if it's only used for one little thing, then putting in a big display case or a big display that's",
+          "relevance": -5.2438404768029425,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:50",
+              "text": "So, if we're trying to keep costs down, then maybe sacrificing the display"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:56",
+              "text": "Hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:02",
+              "text": "Hmm. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:11",
+              "text": "probably expensive just to do the training on the chip for the speech recognition or whatever, may not be the most cost-efficient way to go, but that's just sort of speculation, I mean."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008c",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:18:07",
+          "turn_index": 97,
+          "text": "trendy, fancy, feels good, uh with a display, wood, designer wood, designer colours, we might've",
+          "relevance": -5.062830257536123,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:49",
+              "text": "Okay Because I've seen mostly the standard ones, yeah. Now you have it now you have one with the very simple also. The idea is simple, but with a display, so you can see what you're doing. So maybe if we can incorporate the easiness of use,"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:17:53",
+              "text": "Especially you might need something like that for training the speech recognition and yeah. Mm-hmm. Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:20",
+              "text": "You know, maybe what you could do is when somebody orders the device id you could send them like um a uh uh b some sort of a foam rubber um ball, and then they would squeeze it, and it would take the shape of their hand."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:35",
+              "text": "Oh yeah. Yeah, so it's really molded to to your specific"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008c",
+          "team": "IS1008",
+          "speaker": "Speaker C",
+          "timestamp": "00:22:25",
+          "turn_index": 143,
+          "text": "What do you think Ed? Do you he liked the display in one of the concepts that you showed, um, do you know how much it costs, um, to to add a little display like this uh?",
+          "relevance": -5.05849590441888,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:02",
+              "text": "Hmm. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:11",
+              "text": "probably expensive just to do the training on the chip for the speech recognition or whatever, may not be the most cost-efficient way to go, but that's just sort of speculation, I mean."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:37",
+              "text": "No. No no p spec It's 'cause we have to find out cost on it."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:39",
+              "text": "Do you wanna take an action item to go find out? Okay. Sorry about that."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1008d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "IS1008d",
+          "team": "IS1008",
+          "speaker": "Speaker B",
+          "timestamp": "00:08:44",
+          "turn_index": 72,
+          "text": "Oh, okay. It's gonna cost a long way to c you know, cost a lot of money to market it, is it?",
+          "relevance": -5.571717208934421,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:41",
+              "text": "Than thank you."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:42",
+              "text": "Well we haven't come to mine yet, so we're gonna have a bit of difference of opinion, yes."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:50",
+              "text": "So maybe it's for some money we can utilise for our uh marketing, for the sales, okay, and uh"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:59",
+              "text": "Well, it just depends on if we're gonna add a o on this pr provisionary cost analysis, we do not have a L_C_ display. L_C_ display is gonna be very expensive, it's gonna be"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008d",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:08:59",
+          "turn_index": 74,
+          "text": "Well, it just depends on if we're gonna add a o on this pr provisionary cost analysis, we do not have a L_C_ display. L_C_ display is gonna be very expensive, it's gonna be",
+          "relevance": -4.991798178779939,
+          "matched_queries": [
+            "display",
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:44",
+              "text": "Oh, okay. It's gonna cost a long way to c you know, cost a lot of money to market it, is it?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:50",
+              "text": "So maybe it's for some money we can utilise for our uh marketing, for the sales, okay, and uh"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:14",
+              "text": "No we do, but it's not filled in. It's number thirty. Oh, yeah, yeah, you're right, sorry, yes."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:15",
+              "text": "It's not it doesn't say. We don't have the price up there, okay, so if we add approximately two to three Euro per"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008d",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:09:46",
+          "turn_index": 85,
+          "text": "the problem with uh our survey, the p the possibility that how many units can be sold, what percentage of the market, etcetera etcetera because that has to be taken in into consideration. Uh this is just production cost, it is not uh advertising cost, it's not transportation cost uh",
+          "relevance": -4.829209055922702,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:36",
+              "text": "Display in. But as far as production um I'm putting up a question because we're talking about profit also, and in mine you'll see uh"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:09:36",
+              "text": "the L_C_D_ in, yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:05",
+              "text": "Yes, so still uh we have twelve point five Euro."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:06",
+              "text": "And that will inflate quite a bit the cost of the uh the cost of the unit for the company. So to come up with what the company wants is a fifty million Pound profit, we're gonna have to go a long ways."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008d",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:11:30",
+          "turn_index": 100,
+          "text": "If we can go to to my display. And we'll come back to yours just to give everybody an idea of the market.",
+          "relevance": -4.170485681753035,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:52",
+              "text": "That's not bad."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:54",
+              "text": "Yep. Yeah. But anyhow, still we are under control, okay, so what uh I will do is I will try to negotiate with the vendors, okay, to get uh the production cost less, okay, so then we can save some money, okay, to put into th our marketing or uh you know the promotions, whatever, okay, so that uh I will look after. I will speak to the management and how to get uh you know some more uh cost down."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:35",
+              "text": "Yes."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:11:41",
+              "text": "So now I'm gonna scare everybody out of this project. If I'm still here. Yep."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1008d",
+          "team": "IS1008",
+          "speaker": "Speaker D",
+          "timestamp": "00:10:06",
+          "turn_index": 87,
+          "text": "And that will inflate quite a bit the cost of the uh the cost of the unit for the company. So to come up with what the company wants is a fifty million Pound profit, we're gonna have to go a long ways.",
+          "relevance": -4.142061147029287,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:46",
+              "text": "the problem with uh our survey, the p the possibility that how many units can be sold, what percentage of the market, etcetera etcetera because that has to be taken in into consideration. Uh this is just production cost, it is not uh advertising cost, it's not transportation cost uh"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:05",
+              "text": "Yes, so still uh we have twelve point five Euro."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:09",
+              "text": "Yes. Yeah, but Yes. Yep."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:13",
+              "text": "Um-hmm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

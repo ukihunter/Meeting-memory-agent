@@ -1,0 +1,350 @@
+{
+  "question_id": "Q24",
+  "team": "ES2002",
+  "question": "What power source did Team ES2002 first agree on, what addition did their project manager like the idea of, and what did the final design use?",
+  "queries": [
+    "power source",
+    "battery",
+    "solar"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2002a",
+      "meeting_number": 1,
+      "passages": []
+    },
+    {
+      "meeting_id": "ES2002b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2002b",
+          "team": "ES2002",
+          "speaker": "Speaker A",
+          "timestamp": "00:24:36",
+          "turn_index": 184,
+          "text": "Um okay this finding things is a little bit confusing, so I'll go into the diagram first. It just explains how the process goes through, from a from the basic technology point of view, the basic steps that you need um in the diagram and in this slide probably works better. Um okay, you need some power source. 'Kay, a battery or something, to keep it going. Um and that power source is important because it ties you down to um how long the device will last. Um it ties you down perhaps a bit later on in terms of the technologies um how far you can transmit the signal or the complexity of the functions that you want. Like for example, voice recognition, right. That might be constrained because that you might need to power a microphone, you might need to power other things, so that's one perhaps constraint there. Um",
+          "relevance": -5.574141280477221,
+          "matched_queries": [
+            "power source",
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:41",
+              "text": "Right. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:54",
+              "text": "Right. Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:45",
+              "text": "Mm-hmm. Mm-hmm. Uh-huh."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:13",
+              "text": "Mm-hmm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2002c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2002c",
+          "team": "ES2002",
+          "speaker": "Speaker A",
+          "timestamp": "00:19:01",
+          "turn_index": 129,
+          "text": "um and that impacts cost. Um I don't think the logic chip has a issue about size 'cause they should be about the same size. Power consumption should be about the same. Um I think the main impact is complexity, um and the other thing is um the power options. Um the first one is a standard battery. Okay the second one I think is more of a gimmick then actually a useable thing, it's a wind-up you know, a crank. Yeah but that that might be something I think that's more of a look and feel decision because I don't think you can have one power source if you're using the alternative power sources.",
+          "relevance": -5.382104898088687,
+          "matched_queries": [
+            "power source",
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:41",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:46",
+              "text": "Mm-hmm. Mm-hmm. Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:03",
+              "text": "Mm-hmm. Mm-hmm. Hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:26",
+              "text": "I'll clear one of these things for you."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2002c",
+          "team": "ES2002",
+          "speaker": "Speaker D",
+          "timestamp": "00:22:20",
+          "turn_index": 163,
+          "text": "So maybe one of the things we can just try and include is a really good battery.",
+          "relevance": -4.645594962490012,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:19",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:19",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:24",
+              "text": "Why what kind of light do you want are you thinking of?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:26",
+              "text": "Well I mean I'm thinking it might be That for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2002c",
+          "team": "ES2002",
+          "speaker": "Speaker D",
+          "timestamp": "00:22:06",
+          "turn_index": 159,
+          "text": "Okay. Can we uh power a light in this? Can we get a strong enough battery to power a light?",
+          "relevance": -4.308868306542099,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:58",
+              "text": "Uh question on can I ask a question?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:01",
+              "text": "Yeah well yeah it's just I'm quite keen to get the discussion going with the time we've left so but yeah you c ask away."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:13",
+              "text": "Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:19",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2002c",
+          "team": "ES2002",
+          "speaker": "Speaker A",
+          "timestamp": "00:18:17",
+          "turn_index": 122,
+          "text": "Um I think plastic and rubber would be fine, but plastic, rubber, and wood, I wasn't I'm not very sure about the titanium. They had some restrictions on using the rubber and the titanium. Um the rubber was a restriction on the kind of power source you could use, but the titanium had a different kind of things on the shape of the thing, so I think that there is some restriction on um",
+          "relevance": -4.158327013159691,
+          "matched_queries": [
+            "power source"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:10",
+              "text": "um but um I could check back for you, but I don't think you can actually use them in a combination."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:14",
+              "text": "We you couldn't have like plastic and rubber?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:24",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:25",
+              "text": "Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2002c",
+          "team": "ES2002",
+          "speaker": "Speaker A",
+          "timestamp": "00:32:16",
+          "turn_index": 270,
+          "text": "No, like I said we have a h hybrid kind of thing, so it's not gonna charge the battery, it's just",
+          "relevance": -4.0176565127445,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:31:50",
+              "text": "Oh sh God we've got five minutes um okay uh back we go. Um energy what do you think that's suggesting we're how we're powering the thing? I really like the idea of this kinetic thing where you'd have the back-up of the battery, but have have kinetic power, I mean what does anybody think about that?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:32:05",
+              "text": "Yeah, sure. Um I've had kinetic things before, and the the the one issue we need to keep in mind with them is that you're committing the user to moving it, and watches yeah"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:32:19",
+              "text": "Sure, okay, right, okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:32:22",
+              "text": "Okay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2002d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2002d",
+          "team": "ES2002",
+          "speaker": "Speaker A",
+          "timestamp": "00:07:01",
+          "turn_index": 102,
+          "text": "The battery. No. Um. We need an",
+          "relevance": -6.282000744640449,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:53",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:53",
+              "text": "um if we need to rethink anything at all. So um for this first part here power-wise, have we got battery? Do we have kinetic as well? No. Okay, just battery."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:07:11",
+              "text": "And that's because of cost restraints is it? Okay um what about the electronics here? Advanced chip."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:07:12",
+              "text": "Yep."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2002d",
+          "team": "ES2002",
+          "speaker": "Speaker B",
+          "timestamp": "00:06:53",
+          "turn_index": 101,
+          "text": "um if we need to rethink anything at all. So um for this first part here power-wise, have we got battery? Do we have kinetic as well? No. Okay, just battery.",
+          "relevance": -5.1069428314419625,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:33",
+              "text": "That 'cause that's that's fine. Just need to know so I can write it down. Okay um right I g I guess that's it, so we can now um We can now have a little look at the the Excel sheet and price listing, and see if we need to"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:53",
+              "text": "Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:07:01",
+              "text": "The battery. No. Um. We need an"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:07:11",
+              "text": "And that's because of cost restraints is it? Okay um what about the electronics here? Advanced chip."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2002d",
+          "team": "ES2002",
+          "speaker": "Speaker B",
+          "timestamp": "00:00:02",
+          "turn_index": 0,
+          "text": "Okay we all all set? Right. Well this is the uh final detailed design meeting. Um we're gonna discuss the look and feel design, the user interface design, and we're gonna evaluate the product. And the end result of this meeting has to be a decision on the details of this remote control, like absolute final decision, um and then I'm gonna have to specify the final design in the final report. So um just from from last time to recap, we said we were gonna have a snowman shaped remote control with no L_C_D_ display, no need for talk-back, it was hopefully gonna be kinetic power and battery uh with rubber buttons, maybe backlighting the buttons with some internal L_E_D_s to shine through the casing, um hopefully a jog-dial, and incorporating the slogan somewhere as well. Anything I've missed? Okay um so uh if you want to present your prototype go ahead.",
+          "relevance": -0.9619761866223011,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:00:59",
+              "text": "No."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:01:10",
+              "text": "Uh-oh. This is it? Um, there are a few changes we've made. Um, well look at the expense sheet, and uh it turned to be quite a lot expensive to have open up and have lots of buttons and stuff inside, so instead we've um this is gonna be an L_C_D_ screen, um just a a very very basic one, very small um with access to the menu through the the scroll wheel and uh confirm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

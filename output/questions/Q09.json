@@ -1,0 +1,576 @@
+{
+  "question_id": "Q09",
+  "team": "IS1002",
+  "question": "What selling price was Team IS1002 working with at first, what price range did they settle on later, and which speaker pushed hardest for a higher, more exclusive price?",
+  "queries": [
+    "price",
+    "selling",
+    "sell",
+    "expensive",
+    "exclusive",
+    "retail"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "IS1002b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "IS1002b",
+          "team": "IS1002",
+          "speaker": "Speaker D",
+          "timestamp": "00:14:56",
+          "turn_index": 100,
+          "text": "We are selling it to an existing market.",
+          "relevance": -7.5627013636104765,
+          "matched_queries": [
+            "selling"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:54",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:55",
+              "text": "Right it's just not Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:56",
+              "text": "Yeah. Yeah but we're not putting some there's no no putting anything in in the place of teletext. That's the problem."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:09",
+              "text": "That's Yeah, and and, yeah, and and we're also marketing a product. It's what I'm seeing is a is a mid-range cost product. So so w we can't go and pump a whole bunch of technology into this thing because all of a sudden we are gonna have cost overruns. So if we drop if we are gonna choose to drop teletext, again what are we adding to the product that makes it marketable?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002b",
+          "team": "IS1002",
+          "speaker": "Speaker D",
+          "timestamp": "00:25:58",
+          "turn_index": 175,
+          "text": "Well, see I I see I I'm an advocate to make this an exclusive product. You know, let's let's sell this wholesale for for fifty Euros, sixty Euros. Let's make this thing really exclusive, environmentally sensitive, uh high-tech design, uh ergonomics, all of this. Just make this thing uh, yeah, the the the Rolls Royce of of remote controls.",
+          "relevance": -6.231944964616859,
+          "matched_queries": [
+            "sell",
+            "exclusive"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:25:40",
+              "text": "Well what I can do is I can d look into ho well Pedro and I can look into how much this might increase our our costs and you can look into what kind of effect an increased cost is gonna have on our on our final numbers."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:48",
+              "text": "Mm-hmm. Yeah we we can certainly push for a more expensive product if that's gonna be"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:26:19",
+              "text": "I I"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:26:20",
+              "text": "Every home's got to have it. If you don't have one, hey what kind of remote do you have? Oh you've got one of those, oh fantastic, I want one of those too. I just don't have enough money right now."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002b",
+          "team": "IS1002",
+          "speaker": "Speaker D",
+          "timestamp": "00:20:19",
+          "turn_index": 140,
+          "text": "Maybe make it in the form of a gun. We can sell it in United States.",
+          "relevance": -5.3072825773476575,
+          "matched_queries": [
+            "sell"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:07",
+              "text": "Okay. Have to do you have to do it in the box? Okay well, so so that's up to you then to to make this box in something that's absolutely extraordinary."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:19",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:22",
+              "text": "I have a question uh for you. Does any of the um the features that Pedro's spoken about here have any implications we might not have thought about on in terms of just pure functionality? In terms of making it work or the cost of that or"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:38",
+              "text": "I don't I think all these things are pretty standard. I think we'll be okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002b",
+          "team": "IS1002",
+          "speaker": "Speaker B",
+          "timestamp": "00:37:38",
+          "turn_index": 269,
+          "text": "Exactly. Yeah. True. Right. Yeah. The locator'll definitely be more expensive. Mm-hmm.",
+          "relevance": -5.203350465392202,
+          "matched_queries": [
+            "expensive"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:37:30",
+              "text": "And and then and then design the product, maybe some component of the product that can identify this as the last one you'll ever need to buy."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:37:38",
+              "text": "Well if if we're going down that then we can we don't need to go the it it strikes me that the locator feature might actually be uh quite expensive to make. Whereas actually just putting it in a power cradle might not be too expensive at all because that's just done with mobile phones you can just n we we have said we have actually similar products that we can take from and potentially cut costs there."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:37:58",
+              "text": "Um need to look into whether we can do that but uh I think we we have some m mobile phone-based products uh checking quickly our Internet. We really need to finish up here. But uh"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:38:09",
+              "text": "uh we can make it in the shape of a coffee pot."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002b",
+          "team": "IS1002",
+          "speaker": "Speaker C",
+          "timestamp": "00:14:12",
+          "turn_index": 91,
+          "text": "Yeah but we would increase the price to try to make it a trainable one, so",
+          "relevance": -5.062830257536123,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:13:52",
+              "text": "I think a lot of that's proprietary anyways. You're not gonna be able to, you, like command a TiVo with our remote. I don't think."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:55",
+              "text": "Mm. But still there there's an opportunity. If if it's, for example, a trainable one then we're just simply having like an up, down, left, right, an okay button or something like that might might do as well in future proofing it."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:14",
+              "text": "Mm. Okay."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:17",
+              "text": "Well I dunno. One way the other teletext was there but I guess we can remove it or, you know, make two separate interface designs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1002c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "IS1002c",
+          "team": "IS1002",
+          "speaker": "Speaker A",
+          "timestamp": "00:31:06",
+          "turn_index": 319,
+          "text": "But th what's our ballpark as to what we'd be able to sell something like this for?",
+          "relevance": -4.9130702547197815,
+          "matched_queries": [
+            "sell"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:47",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:55",
+              "text": "Okay I'm I'm okay with that. I guess what I just want to me the next step is for these guys to come come in with the design proposal w with the cost estimate attached, and then we have to take this to the next level."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:31:09",
+              "text": "Well y yeah. Let's let's try and think now, how much would you pay for with all these features how much would you pay if you went to the store, and you were in the market f to replace your T_V_ remote, how much would you pay for that?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:31:10",
+              "text": "We have to find cost."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002c",
+          "team": "IS1002",
+          "speaker": "Speaker A",
+          "timestamp": "00:30:14",
+          "turn_index": 314,
+          "text": "Yeah. So we really need to be sure as to what we can push the cost up to, though we haven't got to a stage where we're ready to pin down the price of components. But I'd say what sorta price are we looking to be able to sell something like that, and what sorta price can we make it for?",
+          "relevance": -4.800556155593879,
+          "matched_queries": [
+            "price",
+            "sell"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:10",
+              "text": "'Kay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:11",
+              "text": "I just wanna make sure everybody's on board with it. So"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:27",
+              "text": "Well I think th I think the design and technology has to come back and say, okay to create this product we see it's gonna cost us this much for this volume, because we do have a volume target of of fifty million profit."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:39",
+              "text": "Yeah no I I think that's where we really should be more flexible than anything else because as we said in the last meeting, our management is really looking for us to push our brand. We're entering a new market here, so I think the the profit expectation for this one product is maybe not as important as being able to"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002c",
+          "team": "IS1002",
+          "speaker": "Speaker A",
+          "timestamp": "00:16:26",
+          "turn_index": 174,
+          "text": "Yeah. What I understand about scroll wheels is they're they're quite expensive to to make. So I d",
+          "relevance": -4.449041570155492,
+          "matched_queries": [
+            "expensive"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:16:17",
+              "text": "Okay now what I see with the scroll wheel is everybody has buttons. So from a marketing standpoint I have I have another door to walk through when we have something that's unique. If it creates something more complex or more expensive, then I don't know if that makes it uh a marketing necessity. But again, from a marketing perspective I want as much new and different about this thing as possible because we're we're co it's a very competitive market."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:17",
+              "text": "But would we"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:16:45",
+              "text": "Yeah. Th they are gonna be more expensive, but on the other hand, I mean, it I mean it is an alternative if if you think that's gonna sell some some uh you know if if we're gonna make up the extra cost by extra sales I think maybe it's worth it to do it, but I mean I would just use if I was gonna do this I would just use the scroll wheel for s channels up and channels down. I don't think volume or do you think volume would be"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:18",
+              "text": "I dunno. I'll bet first in volume maybe. I dunno."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002c",
+          "team": "IS1002",
+          "speaker": "Speaker A",
+          "timestamp": "00:30:03",
+          "turn_index": 308,
+          "text": "Yeah well we don't have it's not that we have more money, we can push up the the price. Yeah.",
+          "relevance": -4.362722615625381,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:29:59",
+              "text": "I think we are yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:00",
+              "text": "Well you had acknowledged that we have more money for this. Didn't you say so?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:07",
+              "text": "That's what I mean. We can increase the cost."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:09",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002c",
+          "team": "IS1002",
+          "speaker": "Speaker D",
+          "timestamp": "00:18:06",
+          "turn_index": 184,
+          "text": "Yep. I think we got some exclusivity in that, you know, we got something that nobody else has right now, and and that means we can we can make some adjustments in the retail or wholesale price if we need to and it also can create it's own demand from it's uniqueness.",
+          "relevance": -4.278046832798893,
+          "matched_queries": [
+            "price",
+            "retail"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:04",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:04",
+              "text": "So if we can market it in terms of that and yeah well"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:10",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:20",
+              "text": "So our big decision then is like how do we do um like we have to decide on the details and we have to decide on well n not exactly the details, but d do we have uh What type of casing? I personally like what you were saying about the plastic with the rubber."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1002d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "IS1002d",
+          "team": "IS1002",
+          "speaker": "Speaker B",
+          "timestamp": "00:01:53",
+          "turn_index": 23,
+          "text": "Unit price.",
+          "relevance": -8.093296531711722,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:01:36",
+              "text": "I like I'll help talk."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:01:37",
+              "text": "Um yeah so what we ended up with. Production costs estimated by our manufacturing department and um the research department, which is us, is uh fifteen point eight Euros, someone forgot the units there yeah, uh unit price unit production price cost thing. Um"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:00",
+              "text": "we implemented the basic functions, which is just T_V_ functions plus the locator, which was one of the marketing things, cradle, scroll wheel for uh the the channels, and uh we implemented the f the the way of putting the new and revolutionary zapping, your favourite channels functionality, in the scroll."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:02:25",
+              "text": "Zapping your favourite channels, eh?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002d",
+          "team": "IS1002",
+          "speaker": "Speaker C",
+          "timestamp": "00:01:37",
+          "turn_index": 22,
+          "text": "Um yeah so what we ended up with. Production costs estimated by our manufacturing department and um the research department, which is us, is uh fifteen point eight Euros, someone forgot the units there yeah, uh unit price unit production price cost thing. Um",
+          "relevance": -4.625839982693457,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:01:36",
+              "text": "."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:01:36",
+              "text": "I like I'll help talk."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:01:53",
+              "text": "Unit price."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:00",
+              "text": "we implemented the basic functions, which is just T_V_ functions plus the locator, which was one of the marketing things, cradle, scroll wheel for uh the the channels, and uh we implemented the f the the way of putting the new and revolutionary zapping, your favourite channels functionality, in the scroll."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002d",
+          "team": "IS1002",
+          "speaker": "Speaker A",
+          "timestamp": "00:13:50",
+          "turn_index": 135,
+          "text": "Can be made for it sounded different that time uh can be made for a similar price to uh an L_C_ display, uh an uh",
+          "relevance": -3.99447503412673,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:13:49",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:13:49",
+              "text": "beep beep beep."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:13:54",
+              "text": "Oh, sorry."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:00",
+              "text": "Uh do you think that's fair coming from a m the manufacturing?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002d",
+          "team": "IS1002",
+          "speaker": "Speaker D",
+          "timestamp": "00:16:49",
+          "turn_index": 178,
+          "text": "Yeah well we we we kinda broke we kinda at least adjusted every every criteria they gave us because we d we still have the the teletext capability in this thing right, we raised the price of it, we've added two t new technology to it. So you know you know if this thing flies then we've we've adjusted or broken every every idea they gave us.",
+          "relevance": -2.07130188318212,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:46",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:16:46",
+              "text": "I I think we we ended up being quite creative there."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:16:50",
+              "text": "Couple innovative ideas."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:16:59",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1002d",
+          "team": "IS1002",
+          "speaker": "Speaker D",
+          "timestamp": "00:09:29",
+          "turn_index": 107,
+          "text": "the characteristics I talk about, we have reliability, we have comfort, we have ergonomics, we have environmentally s sensitive. Uh and the corporation, we're talking about we're we're a new we're a new company. We're wanting to make a name for ourself. We're wanting you to uh find our product so we're gonna give you a good product at a fair price. One thing I would want to to see is uh is can we can we get a lifetime uh guarantee on this product, a normal use guarantee, which means that this product, for the for the life of of the life use, if it should have a technical problem, that we could re replace it at no cost? That was something I would be interested in. Um so yeah without uh going into great details, we have a we have a product, it has the features and the characteristics, and the background, I believe, to make it marketable I believe at a cost of of of thirty thirty five to to fifty Euros. We're gonna be competitive, and we're gonna we're gonna have a market niche. Um w",
+          "relevance": -0.8550299564759581,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:19",
+              "text": "It fell off."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:09:25",
+              "text": "Beep beep beep."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:45",
+              "text": "Do you would you a argue that that we're better going for the higher cost than bringing it down into twenty f five as we probably could, but lowering our profit margins?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:54",
+              "text": "That that would be uh that would be I think a decision best made by corporate um I I m for my evaluation, based on what our competition is, I th I think that that we can go after this and and and go after more of the uh exclusivity sense than the mass market sense."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

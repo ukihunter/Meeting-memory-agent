@@ -1,0 +1,720 @@
+{
+  "question_id": "Q16",
+  "team": "TS3010",
+  "question": "Team TS3010's project manager favoured a particular kind of control for navigating. What was it, what replaced it in the final costed design, and what else was given up at the same time to reach the budget?",
+  "queries": [
+    "navigation",
+    "control",
+    "budget"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "TS3010a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "TS3010a",
+          "team": "TS3010",
+          "speaker": "Speaker B",
+          "timestamp": "00:13:27",
+          "turn_index": 78,
+          "text": "Yeah well that's that are good ideas. Uh Yeah well the LED on the corner, that that indicates that it's working. If you push a button. Um Yeah. And looking on the budget, not too expensive uh material. So probably plastic or something. Uh",
+          "relevance": -3.0518986398710735,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:24",
+              "text": "So, that's."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:13:25",
+              "text": "Next."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:55",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:14:04",
+              "text": "Yeah I think it uh from a marketing point of view, it also has to look nice. Or you won't sell it."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010a",
+          "team": "TS3010",
+          "speaker": "Speaker A",
+          "timestamp": "00:11:52",
+          "turn_index": 66,
+          "text": "Okay so they have too much. So next. For our own remote control we have to think how do we make it. So what ideas do you have for it, for the new remote control? What what does it have to have?",
+          "relevance": -3.044123136096765,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:30",
+              "text": "Thank you. Help also. Thank you."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:11:37",
+              "text": "And we also had a remote control for our radio set. But um i it it had a lot of buttons on it, and you didn't know which one was what. And it was uh uh v not easy to use. So we n barely used it."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:55",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:13",
+              "text": "The weight. Not not too heavy."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010a",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:10:22",
+          "turn_index": 55,
+          "text": "Big buttons, positive. All all small buttons like when you have uh like a hundred buttons on your remote control, you won't know what they're working for.",
+          "relevance": -2.4117279811749555,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:17",
+              "text": "Not all the small buttons, you don't know"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:18",
+              "text": "Is this positive or negative, that uh big buttons?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:23",
+              "text": "Positive. Okay. What are your experiences?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:34",
+              "text": "Uh well I think the the the goal of a remote control is that it's it it has an influence on the T_V_ set. And that it controls the channels and the the volume."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010a",
+          "team": "TS3010",
+          "speaker": "Speaker A",
+          "timestamp": "00:09:06",
+          "turn_index": 49,
+          "text": "Okay. Very good. So um you can always go back. So That's it. So that was two. Now next. The budget. The b Uh we will sell the t at twenty five Euros. And we have only twenty of twelve and a half Euro to make it. So now we have to think about what we will make. First I wanna hear from you. Uh what are your experiences with remote controls. So",
+          "relevance": -2.1560600447388154,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:43",
+              "text": "Uh blank."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:06:48",
+              "text": "Thank you."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:53",
+              "text": "Uh I will start. Uh Big one, they are uh not easy to use. Um I have one set and uh a remote control, when I dropped it, uh it broke. So that won't be uh our goal, I think. And uh g big buttons, m uh that's easier to use than uh I think."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:53",
+              "text": "F first."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010a",
+          "team": "TS3010",
+          "speaker": "Speaker B",
+          "timestamp": "00:10:34",
+          "turn_index": 57,
+          "text": "Uh well I think the the the goal of a remote control is that it's it it has an influence on the T_V_ set. And that it controls the channels and the the volume.",
+          "relevance": -2.117558519837202,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:22",
+              "text": "Big buttons, positive. All all small buttons like when you have uh like a hundred buttons on your remote control, you won't know what they're working for."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:23",
+              "text": "Positive. Okay. What are your experiences?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:41",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:44",
+              "text": "And uh I I I think it's positive if there's a a LED uh uh a LED on the corner of the of the remote. So that you know it s it still has batteries on it in it. And that if you push the button the LED uh gives a light, and uh and you see that it's working. And uh yeah. Uh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3010b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "TS3010b",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:03:45",
+          "turn_index": 9,
+          "text": "It was about the working of the remote control.",
+          "relevance": -3.998964630144899,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:03:36",
+              "text": "Uh uh uh"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:41",
+              "text": "What's the name of it?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:51",
+              "text": "It's the technical function or the functional requirements."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:03:55",
+              "text": "Nope. Not a of Wait. The working design. But I've saved it."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010b",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:09:56",
+          "turn_index": 49,
+          "text": "Yeah but then we'll have to make the um remote control uh long lasting. Just",
+          "relevance": -3.2502754281744313,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:45",
+              "text": "If we w if we use only just one uh small pen-light, then it will be cheaper than when we use two."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:50",
+              "text": "Yeah but when you use two, you can use it two times longer."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:03",
+              "text": "Okay so it's the size of the remote control. Okay and the buttons. When you use it on the television, you've you need the television, wh which can use it."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:06",
+              "text": "Yeah. Yeah. But uh I think this our remote control is for the televisions we uh we sell in our company? Or is it also for other company uh for other televisions?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010b",
+          "team": "TS3010",
+          "speaker": "Speaker A",
+          "timestamp": "00:29:29",
+          "turn_index": 147,
+          "text": "Think it's better to have it on the remote control, 'cause it it has to work on all televisions. So",
+          "relevance": -2.8668889109499642,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:29:03",
+              "text": "Yes. On the L_C_D_ screen, you mean?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:29:22",
+              "text": "Uh well yeah that depends on if you have uh the menu on the T_V_. Or you get the menu on the L_C_D_ screen on the remote control."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:29:38",
+              "text": "Yes."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:29:40",
+              "text": "But then we come to the costs."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010b",
+          "team": "TS3010",
+          "speaker": "Speaker A",
+          "timestamp": "00:12:34",
+          "turn_index": 74,
+          "text": "Yeah but there are also design cost. I don't think When you have a remote control, do you change the cover?",
+          "relevance": -2.800814839960469,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:23",
+              "text": "Yeah but are their profits bigger than their cost?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:28",
+              "text": "Uh a p a a cover made in uh in China, it it won't be I guess so expensive I think."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:45",
+              "text": "Maybe. I wi I won't. But maybe I think trendy people or like children where you can paint on it, and uh the the children think, oh this is my remote control, uh I made a picture on it. Uh"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:45",
+              "text": "Would you change the cover? No. N yeah but I think that too less people would change it for good profit. So"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010b",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:31:34",
+          "turn_index": 162,
+          "text": "But now we have only the buttons. And uh we don't yet have to decide what the remote control would look like? Or",
+          "relevance": -2.6774010672741704,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:55",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:58",
+              "text": "Maybe more? No. Well. Then that's all. This will be the buttons. And I think that's enough for the next phase. So we can go on to"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:31:36",
+              "text": "Yes. No that's for the next phase. Um"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:31:44",
+              "text": "Okay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3010c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "TS3010c",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:27:21",
+          "turn_index": 213,
+          "text": "Or a remote control more like joystick.",
+          "relevance": -4.280690820061236,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:09",
+              "text": "Yeah. Uh-huh."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:14",
+              "text": "So Think we have to keep them."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:25",
+              "text": "Yeah, but is it That's not expensive than uh Joystick is better. A small one."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:31",
+              "text": "A small one like this, like a Nintendo uh k"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010c",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:27:45",
+          "turn_index": 219,
+          "text": "No, no, no. I mean the the shape of the remote control. Just like a Playstation thing.",
+          "relevance": -3.165608620250477,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:36",
+              "text": "Playstation thing."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:37",
+              "text": "a laptop. Small, round. Then it's not so big."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:48",
+              "text": "Oh the sh Yeah, but then you can You have to use t with one hand."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:54",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010c",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:12:28",
+          "turn_index": 72,
+          "text": "But then we'll I think we must discuss who uh what will be better. If we have a better shape of the um remote control, or better options on it. With a scroll menu, a w scroll thing, and a L_C_D_. And then a flat um remote control. Or, a more hand-shaped remote control, with scroll, without L_C_D_.",
+          "relevance": -3.081898645697775,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:23",
+              "text": "That's true."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:24",
+              "text": "And that might uh bring back the costs uh"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:53",
+              "text": "Yeah. Maybe you can look how how much it is for the L_C_D_. It's very important."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:13:00",
+              "text": "I can uh look on my uh Uh Note that the push-button requires a simple chip chip. A scroll wheel requires minimally a regular chip, which is a higher price range. The display requires a advanced chip, which is which in turn is more expensive than the regular chip."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010c",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:11:17",
+          "turn_index": 60,
+          "text": "Mm-hmm. Yeah, I think the younger people will have newer televisions, which can provide our uh remote control.",
+          "relevance": -3.0088527025050373,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:53",
+              "text": "Yeah but l when you see a menu uh on the television, it's like you see uh one to twenty, you go uh uh s scroll up, and push number tw twenty."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:00",
+              "text": "Yeah but like we said before, it has to be used on every television. So you may not be uh No. The television must do that. So"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:24",
+              "text": "Yeah but young people have to have all their uh room. And mostly they are smaller. So"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:32",
+              "text": "Yes. But that won't be a problem. I think."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010c",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:18:13",
+          "turn_index": 111,
+          "text": "a part here. This is the remote control. And then you have something like th this under it. So, it's easier to get it like this. It's like a gun.",
+          "relevance": -2.2762097695459196,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:58",
+              "text": "M like Yeah I can't dr I can't draw it. Uh I have to. I'm not a designer. It's more three D_. Like, um when you have"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:00",
+              "text": "And you have to. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:25",
+              "text": "Mm. Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:28",
+              "text": "Yeah. A g Mm.."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3010d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "TS3010d",
+          "team": "TS3010",
+          "speaker": "Speaker D",
+          "timestamp": "00:18:49",
+          "turn_index": 202,
+          "text": "For a remote control. I've For a remote control, I think it is.",
+          "relevance": -4.68825868917899,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:42",
+              "text": "Oh, no, we No, it's uh Sorry?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:46",
+              "text": "Yellow? Uh, is it a special colour?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:51",
+              "text": "What? Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:55",
+              "text": "If we would have uh uh normal buttons instead of uh the joystick. For up down left right."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010d",
+          "team": "TS3010",
+          "speaker": "Speaker D",
+          "timestamp": "00:09:25",
+          "turn_index": 92,
+          "text": "Yeah okay. The next element um is the product looks good. Well personally, I do not prefer a um remote control that's fully in yellow. So, I would give this a five.",
+          "relevance": -2.234359227932905,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:21",
+              "text": "A three."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:25",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:45",
+              "text": "I give it a one."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:09:48",
+              "text": ". Yes, a one. I like it."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010d",
+          "team": "TS3010",
+          "speaker": "Speaker D",
+          "timestamp": "00:05:19",
+          "turn_index": 47,
+          "text": "Um, so uh you have to think of it as uh the remote control is techno technologically innovative. Uh, and then we have to uh agree on the rating together. And in the end, we will c uh count an average of all rating. The first uh on each item.",
+          "relevance": -1.7022870815021525,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:17",
+              "text": "I'll get it."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:18",
+              "text": "Oh, it's okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:43",
+              "text": "What do you think?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:45",
+              "text": "Yeah, I think it's uh Uh, well technologically using, it's not uh it doesn't contain many new features. Only the L_C_D_. So, it Um, I think I will give it a yeah, yeah, yeah, a four. Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3010d",
+          "team": "TS3010",
+          "speaker": "Speaker C",
+          "timestamp": "00:26:43",
+          "turn_index": 278,
+          "text": "process. Went good. Uh I think uh the creativity uh was good enough. We have a gun instead of a remote control. Um Uh leadership. Yeah, you were the project project manager, and uh had the final vote. So yeah that was clear. Team-work okay. Everybody uh has something uh to say about it. And uh no, uh o only the the drawing uh was very difficult. But, nah. New ideas found. Nope.",
+          "relevance": -1.2739894456777197,
+          "matched_queries": [
+            "control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:26:42",
+              "text": "About the project."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:26:42",
+              "text": "Project."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:38",
+              "text": "Okay. And you."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:27:41",
+              "text": "Yeah, well the same. I I espe I especially uh liked the the means, the the SMARTboard and uh Yeah, it uh It brings up new ideas when you work with uh with it."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

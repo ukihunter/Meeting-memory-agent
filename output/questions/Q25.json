@@ -1,0 +1,433 @@
+{
+  "question_id": "Q25",
+  "team": "ES2011",
+  "question": "Team ES2011 played with fruit and vegetable ideas for the look of their remote. What did they decide about fruit and vegetable shapes in the end, and why?",
+  "queries": [
+    "fruit",
+    "vegetable",
+    "shapes"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2011a",
+      "meeting_number": 1,
+      "passages": []
+    },
+    {
+      "meeting_id": "ES2011b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2011b",
+          "team": "ES2011",
+          "speaker": "Speaker C",
+          "timestamp": "00:06:50",
+          "turn_index": 39,
+          "text": "Okay. Um. This my presentation about the uh technical functions design and I basically just tried to focus on um just what what functions we need and how to make that the best function for the user. So uh and I just sort of like thought about it myself and looked on the internet. And okay so basically um I think i uh like it is really important that we sort of get this done in a user friendly and fashionable way. Um so I think things like uh you know keeping buttons together that like close together that um are used in the same way, uh or um maybe that making 'em the same colour, keeping the number of buttons the uh leas you know to a minimum, and also things like is it is it um is it uh can you c y small enough large enough I'm not sure we c I guess we would need to do some research about, I would, about what size is appropriate and that sort of thing, um but basically we need to make sure that it turns on and off the T_V_. Does it have like capacity to change the channels? Um does it do or do we need to have like functions for cable or V_C_R_? And then, is it findable, and uh how do we wanna do that? And um I just thought that these two remotes were pretty boring, um I dunno if this will work but And I think we can find something that's more fun to look at and use than either of those. Just I mean I like the one on the right better, just because it does have fewer buttons, uh but I mean I think we sh can sort of think about things like um like colour and you know size, shapes, that sort of thing, to best fit the user. That concludes my presentation. Okay. You need the little thingy. Ooh.",
+          "relevance": -0.6407353257119053,
+          "matched_queries": [
+            "shapes"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:06:33",
+              "text": "Oh function, I see it. There we go."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:37",
+              "text": "Yeah should be It should be yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:09:53",
+              "text": "How do I um"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:59",
+              "text": "S That's on view. Oh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2011c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker C",
+          "timestamp": "00:18:24",
+          "turn_index": 161,
+          "text": "a vegetable.",
+          "relevance": -10.142645554207823,
+          "matched_queries": [
+            "vegetable"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:24",
+              "text": "Don't think I'd want it to feel like a banana."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:24",
+              "text": "Well it could be like mobiles that just you just put a cover."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:25",
+              "text": "An orange."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:29",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker C",
+          "timestamp": "00:22:26",
+          "turn_index": 218,
+          "text": "Yeah. So where are the fruit and vegetables now?",
+          "relevance": -6.205915354747211,
+          "matched_queries": [
+            "fruit"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:20",
+              "text": "Yeah you could squish it."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:20",
+              "text": "Mm-hmm. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:30",
+              "text": "We we don't know."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:30",
+              "text": "Fruits and veg."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker D",
+          "timestamp": "00:17:35",
+          "turn_index": 145,
+          "text": "That's quite interesting. What are we going to do about this vegetable thing that I'm dreading?",
+          "relevance": -6.022656122625803,
+          "matched_queries": [
+            "vegetable"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:27",
+              "text": "Did you did you get that pc picture on did they provide you with that picture on the web?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:31",
+              "text": "Um, yeah, by web research, yeah, so"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:17:41",
+              "text": "Oh god."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:41",
+              "text": "Oh."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker C",
+          "timestamp": "00:20:02",
+          "turn_index": 182,
+          "text": "That's in the shape of a fruit, like a",
+          "relevance": -6.008205576529055,
+          "matched_queries": [
+            "fruit"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:53",
+              "text": "A ball?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:55",
+              "text": "Know, a squashy ball. A relaxing squashy ball. That you can p well I see you're thinking, it's weird, you're thinking the opposite of me 'cause you're thinking you change the the hard bit and I'm thinking how do you change the hard would you put a um"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:12",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:18",
+              "text": "sticker sort of? Because I was thinking if you have a cover for the squashy bit, like a"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker C",
+          "timestamp": "00:22:02",
+          "turn_index": 214,
+          "text": "Yeah. I mean I think uh and I think the handhe I think the handheld part is definitely So you could make that into the fruit and vegetable part.",
+          "relevance": -4.707900986395534,
+          "matched_queries": [
+            "fruit",
+            "vegetable"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:59",
+              "text": "Um."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:00",
+              "text": "Well that's not very neat, but"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:13",
+              "text": "If it's a bit like those juggling balls, you can change shape according to your to the way you hold it. If it's got sand in it maybe, or something, you it it just moulds to your hand."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:20",
+              "text": "Yeah you could squish it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2011d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker C",
+          "timestamp": "00:02:39",
+          "turn_index": 2,
+          "text": "You could change the vegetable, or fruit.",
+          "relevance": -8.356277611541556,
+          "matched_queries": [
+            "fruit",
+            "vegetable"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:04",
+              "text": "'Kay. Hmm. Okay everybody. Welcome to the detailed design meeting. Um Let's see. Our agenda. Last time we discussed the squishy fruitiness of our remote controls and how we might pursue that. Um and I think looks like we've come up with some ideas. Um and we also talked about materials we'd use and what kind of chip would be necessary. Um so for later in the meeting I've done a a spreadsheet of production costs so we'll take a look at that. Um and see if it's changed at all from when we last discussed it. Um so actually I think Yeah um f you guys wanna give a prototype presentation of"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:02:09",
+              "text": "Okay well um. So our design looks something like this. This being the wheel that you use to uh change channels or volume or whatever. This is a button, serves as the power button if you hold it down, and if you just tap on it I think it brings up the menu. And uh the base of the remote control, which has a squishy spongy rubbery feel, is interchangeable. So you can change the colour, according to your to suit your living room or whatever. And it comes yeah, I can change the vegetable. This one's broccoli. So this snaps off and you can put on whichever one you want. This is not to scale 'cause it would have the battery inside it."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:02:41",
+              "text": "Oh is that broccoli?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:43",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:23:49",
+          "turn_index": 267,
+          "text": "Yeah. Which is why printing might be like just printing the fruit on fruit.",
+          "relevance": -7.275617385280223,
+          "matched_queries": [
+            "fruit"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:42",
+              "text": "Yeah that's true. Mm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:46",
+              "text": "I bet having different colours is a lot cheaper than having different shapes too."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:57",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:00",
+              "text": "Mm. Not really Well we've done finance evaluation criteria, production evaluation. Um so project evaluation."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker B",
+          "timestamp": "00:23:46",
+          "turn_index": 266,
+          "text": "I bet having different colours is a lot cheaper than having different shapes too.",
+          "relevance": -6.452596289692379,
+          "matched_queries": [
+            "shapes"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:38",
+              "text": "Yeah. And it would probably cost more to produce, 'cause they're irregular."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:42",
+              "text": "Yeah that's true. Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:49",
+              "text": "Yeah. Which is why printing might be like just printing the fruit on fruit."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:57",
+              "text": "Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker B",
+          "timestamp": "00:28:39",
+          "turn_index": 327,
+          "text": "Yeah. If I hadn't been told that fruit was",
+          "relevance": -6.008205576529055,
+          "matched_queries": [
+            "fruit"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:28:14",
+              "text": "Yeah I kinda thought that um I felt like I would go and like try to use my information, or like I'd make this stupid little presentation and then like I just would end up talking about something completely unrelated because I dunno I felt like I was off-task all the time. But um"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:28:26",
+              "text": "Yeah. Well I mean we really got into talking about like personal practicalit like it wasn't necessarily what was like we would never have thought of fruit or sponginess you know? So it's"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:28:40",
+              "text": "No."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:28:40",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:19:12",
+          "turn_index": 192,
+          "text": "Yeah. And would it even resemble fruit that way? I mean",
+          "relevance": -5.822704244492996,
+          "matched_queries": [
+            "fruit"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:19:10",
+              "text": "But it's still too big I think, in your hand. Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:10",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:19:18",
+              "text": "Yeah like certain ones you'd have to limit the fruit selection, like you could probably do a strawberry still. I think the broccoli would be out."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:21",
+              "text": "Yeah. Yeah."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

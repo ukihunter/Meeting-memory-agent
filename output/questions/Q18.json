@@ -1,0 +1,567 @@
+{
+  "question_id": "Q18",
+  "team": "ES2014",
+  "question": "How did Team ES2014 first plan to let people find a lost remote, what did that plan change to, and who suggested how the new version should be presented to buyers?",
+  "queries": [
+    "lost remote",
+    "find remote",
+    "presentation"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2014a",
+      "meeting_number": 1,
+      "passages": []
+    },
+    {
+      "meeting_id": "ES2014b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2014b",
+          "team": "ES2014",
+          "speaker": "Speaker C",
+          "timestamp": "00:17:21",
+          "turn_index": 87,
+          "text": "Right well that's the end of my presentation.",
+          "relevance": -5.943553888996593,
+          "matched_queries": [
+            "presentation"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:17:18",
+              "text": "Ah yes yes, that seems good."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:19",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:24",
+              "text": "'Kay. I'm gonna pull this off."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:05",
+              "text": "I think if you just give it a second to maybe catch up."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014b",
+          "team": "ES2014",
+          "speaker": "Speaker B",
+          "timestamp": "00:02:10",
+          "turn_index": 1,
+          "text": "We have a I guess we have a presentation each, 'cause I've got one. Um.",
+          "relevance": -4.8307972058098025,
+          "matched_queries": [
+            "presentation"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:00:57",
+              "text": "Right uh. So um. So where's the PowerPoint presentation? Sorry? Microsoft PowerPoint, right. Right, okay. So. Right. Okay, so we've got uh so we've got new project requirements. Um. So basically we've got three things, and we've got forty minutes in which to uh for this meeting to uh to discuss the various options. Um. Three presentations."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:02:13",
+              "text": "I see, right. That's nice to know, one from each of you. Um new project requirements. Um so do we want to do the presentation first, or do we want to um"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:14",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014b",
+          "team": "ES2014",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:24",
+          "turn_index": 103,
+          "text": "And possibly the thing about the about the remote being lost we could have You know with your mobile phone, you lose that and you can ring it. Maybe we can have some kind of sensor which is kept somewhere where you can some kind of buzzer system between the two. So you can press a button which is always kept in one place and then it maybe buzzes to somewhere else, wherever the remote actually is.",
+          "relevance": -3.9789655966101805,
+          "matched_queries": [
+            "lost remote"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:20",
+              "text": "for the speech recognition. Um."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:22",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:34",
+              "text": "Yeah. Uh-huh. Yeah. Yeah, we'd have t that would mean we'd have to put two products together as well, which which again would probably be a bit expensive, but"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:44",
+              "text": "That is true, yes. Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014b",
+          "team": "ES2014",
+          "speaker": "Speaker A",
+          "timestamp": "00:02:13",
+          "turn_index": 2,
+          "text": "I see, right. That's nice to know, one from each of you. Um new project requirements. Um so do we want to do the presentation first, or do we want to um",
+          "relevance": -3.3208682013561224,
+          "matched_queries": [
+            "presentation"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:00:57",
+              "text": "Right uh. So um. So where's the PowerPoint presentation? Sorry? Microsoft PowerPoint, right. Right, okay. So. Right. Okay, so we've got uh so we've got new project requirements. Um. So basically we've got three things, and we've got forty minutes in which to uh for this meeting to uh to discuss the various options. Um. Three presentations."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:02:10",
+              "text": "We have a I guess we have a presentation each, 'cause I've got one. Um."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:14",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:02:14",
+              "text": "Yeah, I've got one too."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014b",
+          "team": "ES2014",
+          "speaker": "Speaker D",
+          "timestamp": "00:18:17",
+          "turn_index": 93,
+          "text": "I'll give it another go. Yeah, there we go. Right, we've done some research into the functional requirements that people want out of their remote control. And first off we should state that th the remote control's for controlling the T_V_ and um how do people use it? We asked them sort of which buttons were useful for them. Um how d how does a remote control look and feel for them, and what improvements would would they like to remote control. And we did that by sort of giving them a questionnaire that we'd prepared and asking them to fill in the answers. And three quarters of them found that remote controls are ugly and that a sort of even higher proportion would spend more for a sort of s uh a fancier remote control And that of all the buttons on the remote control, the sort of setting buttons for sort of the picture picture and brightness and the audio settings, um they weren't used very often at all. People concentrated on the channel buttons and the volume buttons and the power buttons. Uh we also asked them about speech recognition uh for remote control. And young people were quite receptive to this, but as soon as we got sort of over about into a thirty five to forty age forty five age group and older, people people weren't quite so keen on speech recognition. There's a lot more th there's a lot lot more older people who didn't know whether they wanted it or not as well. Um we also asked what frustrated people about remote controls and the number one frustration was that the remote was lost somewhere else in the room and that they couldn't find it. And the second second biggest frustration what that if they got a new remote control, it was difficult to learn um all the buttons and all the functions, and to find your way around it. Okay, so My personal preferences from the marketing is that we need to come up with some sort of sleek sort of good looking high high-tech A design which looks high-tech, basically. Um and that we should come up with fewer buttons than most of the controls on the market, and we should sort of concentrate on the channels and sort of power, and also volume and that sort of thing, as as Louisa said. Um we could maybe come up with a menu, a sort of a an L_C_D_ menu for other functions on the remote control. That's worth thinking about. Um and maybe we could think about speech recognition as well, because um sort of young people are perhaps the ones that are gonna buy buy our new product if we aim it at sort of you know sort of a high-tech design. That that might be the market that we're we're looking for. And we could maybe think about using speech recogniti recognition as a way to find the remote control if it's lost in a room, rather than sort of um having it to speech recognition to change the channels. 'Cause there's a problem with that in that the television makes noise, so it could end up talking to itself and changing its channel. Okay um, and that's the end of the slide show. That's it. Cool.",
+          "relevance": -2.5368089256800883,
+          "matched_queries": [
+            "lost remote",
+            "find remote"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:09",
+              "text": "Uh-huh. Okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:11",
+              "text": "I'm sure we'll have by the end of today."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:44",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:51",
+              "text": "Do a lot of um"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2014c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2014c",
+          "team": "ES2014",
+          "speaker": "Speaker A",
+          "timestamp": "00:03:55",
+          "turn_index": 4,
+          "text": "Three presentation, yeah. So Yeah, fine.",
+          "relevance": -6.594568945147155,
+          "matched_queries": [
+            "presentation"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:53",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:54",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:03:55",
+              "text": ". Shall I go first again?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:59",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014c",
+          "team": "ES2014",
+          "speaker": "Speaker A",
+          "timestamp": "00:18:44",
+          "turn_index": 141,
+          "text": "Right. Mm-hmm. Uh the fi Yeah, the finder function rather than as a speech function to find your remote. Okay.",
+          "relevance": -6.518905526308245,
+          "matched_queries": [
+            "find remote"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:33",
+              "text": "Is that So so what are we deciding to do here?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:37",
+              "text": "Um. I think because there's already um very good voice recognition technology out there, and because ours might not cover the same functions that the leading brands do, it might be a good idea to market it as a um finder function."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:56",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:58",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014c",
+          "team": "ES2014",
+          "speaker": "Speaker B",
+          "timestamp": "00:03:52",
+          "turn_index": 1,
+          "text": "I think we all have a presentation again, so if we go through those and then um",
+          "relevance": -4.704959199713931,
+          "matched_queries": [
+            "presentation"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:30",
+              "text": "Okay. Right. Conceptual design meeting. Right. Okay, so Right well um from the last meeting I was trying to send you the minutes, but uh it didn't work out too well, so maybe in sort of um quick summary of the last uh meeting, I can quickly give you what we what we had. Uh right, so Wishing I hadn't closed the damn Right so we had the fact that we're gonna have the the logo uh the company logo in its uh colour scheme incorporated onto the the device the remote device. We had uh made our decisions about uh made our decisions about uh the device itself, that it was gonna be simple to make it uh enable us to complete the project in time. We're gonna have uh effectively two pages, a front page which had the uh features that the uh the customers most wanted, and then the uh the backup features on the second page so that it could uh meet the technical requirements. And the customers wouldn't have to look at them too often, only as and when required. So. So basically what decisions uh have we uh made? Uh have there been any uh changes?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:53",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:54",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014c",
+          "team": "ES2014",
+          "speaker": "Speaker C",
+          "timestamp": "00:16:20",
+          "turn_index": 121,
+          "text": "where it was connected to the remote control functions. And uh it was quite uh a swish model, where it can control uh four devices, T_V_, cable, satellite, video, D_V_D_, audio. Um so that's a bit of competition there. So I mean maybe it's better not to try and compete with that sort of thing and just to market it as a completely different um like different viewpoint as a kind of finding your lost control rather than trying to compete with the functions. Um the scroll buttons, as you've already mentioned, um",
+          "relevance": -2.6187203936838506,
+          "matched_queries": [
+            "lost remote"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:08",
+              "text": "Ah it's alright. Um. There wasn't much more to say about that, just rambling. Um some of the uh remotes that I looked at, one of the models da did actually have voice recognition where you could um"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:16:08",
+              "text": "Okay, right."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:16:45",
+              "text": "Yeah, yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:56",
+              "text": "there's examples of those, but they don't look as sleek as other models. And there's no real advantage and because it impacts on other on the materials and the price it's not great. Um"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014c",
+          "team": "ES2014",
+          "speaker": "Speaker D",
+          "timestamp": "00:23:33",
+          "turn_index": 197,
+          "text": "And apparently, the fashion trends are that people want sort of clothes and shoes and things with a fruit and vegetables theme. Um but um the feel of the material should be spongy, which is contrary to last year, apparently. I presume it must have been not not spongy last year. So we need to emphasise the fancy design with on on our remote control above all else. And then also try and add in technological informat innovation which could be our sort of find the thing with a hand clap. And then we need to ma sort of make it easy to use that's as a third priority, so perhaps um fewer fewer buttons and functions as we've as we've discussed. And then maybe find a way to incorporate these trends so that we sort of capture people's imaginations. So maybe we could make the buttons shaped like fruit and veg, or the the buttons could be spongy, uh somehow. Maybe we could make them out of rubber rather than sort of hard plastic. And then sort of even wackier than that, we could maybe have a fruit or vegetable shaped remote, say in the shape of a banana or something like that. Right, so that'll be it. Maybe a banana or courgette or something. How how far we actually want to go along and sort of follow the trends, do we think the trends are particularly important for this type of gadget, or or you know, do they not matter that much?",
+          "relevance": -1.8617978034359979,
+          "matched_queries": [
+            "find remote"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:11",
+              "text": "So just to summarise the most important things which came out of the remote control market investigation. The most important thing was that the thing sort of look and felt fancy rather than just functional. And second, there should be some technological innovation. And then third and l less important than the other two, there should be an ease of use as well."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:22",
+              "text": "'Kay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:25:12",
+              "text": "I think if you start making the buttons fruit shaped, it might make it more complicated to use."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:16",
+              "text": "Well you were just talking about you've got to be careful how you shape your buttons, 'cause you're can mis-direct people. And I would've thought the functionality 'cause the people get cheesed off by things by having to read instructions et cetera, so."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2014d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2014d",
+          "team": "ES2014",
+          "speaker": "Speaker A",
+          "timestamp": "00:13:26",
+          "turn_index": 130,
+          "text": "Okay, but remember the main the only reason we were planning on having the voice recognition was so that they could find the remote if it got lost.",
+          "relevance": -6.38330539084099,
+          "matched_queries": [
+            "lost remote",
+            "find remote"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:13:16",
+              "text": "do."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:13:18",
+              "text": "But I do think uh the v uh voice recognition thing would be more impressive than the fact that it's got no battery."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:13:34",
+              "text": "Mm-hmm. Mm. Right okay um, This is about the evaluation criteria that we use for the the prototype we've got here. And so the method is that the design team makes a prototype, and we evaluate the prototype against some criteria that we've formulated. And those ones are gonna be in response to sort of market research, and also finance, I guess. And do that on a scale from say true being one and false being seven, so if it's neither true nor false, then that's four. So, I got a set of criteria just based on the marketing that we need to add in a financial one as well, at the end. Um so, We have to say whether it's true or false that the product looks and feels fancy. Um The whether the product demonstrates technical innovation. Whether it's easy to use. Whether it's incorporating sort of the fashion element to attract the buyer. And whether it's a sort of recognisable Real Reaction product. And I have to go up onto the whiteboard and do this apparently, so I'll go over here."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:49",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014d",
+          "team": "ES2014",
+          "speaker": "Speaker D",
+          "timestamp": "00:13:11",
+          "turn_index": 126,
+          "text": "Yeah, I just had a presentation to",
+          "relevance": -6.362275969979032,
+          "matched_queries": [
+            "presentation"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:12:53",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:04",
+              "text": ". Sorry, do you want that back up?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:14",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:13:16",
+              "text": "do."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014d",
+          "team": "ES2014",
+          "speaker": "Speaker D",
+          "timestamp": "00:44:19",
+          "turn_index": 506,
+          "text": "Yeah. Yeah. we did find a new idea, I mean sort of a kinetic remote control. I've never seen one of them before. batteries, I think. So",
+          "relevance": -5.594968534781048,
+          "matched_queries": [
+            "find remote"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:44:14",
+              "text": "It was quite good with this um the white board, having that and the digital pens. Like, that's something that made it a little easier."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:44:18",
+              "text": "Alright. Leadership, teamwork."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:44:29",
+              "text": "voice recognition, especially not could"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:44:29",
+              "text": "Does"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014d",
+          "team": "ES2014",
+          "speaker": "Speaker B",
+          "timestamp": "00:05:08",
+          "turn_index": 51,
+          "text": "This this is a yes, this is our presentation of the prototype.",
+          "relevance": -5.409526118690434,
+          "matched_queries": [
+            "presentation"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:03",
+              "text": "So if you had to do a presentation or will you just work it on the prototype?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:08",
+              "text": "Uh, that's it."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:09",
+              "text": "That's the pr"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:12",
+              "text": "Right, so uh as far as the the finance of it would be concern would be to make sure that the cost aye the production cost 'cause you may remember that was one of the first uh considerations was to be in d under um uh twelve fifty or two and a half uh twelve and a half Euros."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2014d",
+          "team": "ES2014",
+          "speaker": "Speaker D",
+          "timestamp": "00:05:03",
+          "turn_index": 49,
+          "text": "So if you had to do a presentation or will you just work it on the prototype?",
+          "relevance": -4.704959199713931,
+          "matched_queries": [
+            "presentation"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:57",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:00",
+              "text": "and whether it would uh"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:08",
+              "text": "Uh, that's it."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:05:08",
+              "text": "This this is a yes, this is our presentation of the prototype."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

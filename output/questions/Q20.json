@@ -1,0 +1,504 @@
+{
+  "question_id": "Q20",
+  "team": "ES2008",
+  "question": "Early on, a Team ES2008 member asked whether the remote should only have buttons for the television. Who said they would look into it, and what answer was reported back?",
+  "queries": [
+    "television buttons",
+    "television only",
+    "research"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2008a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "ES2008a",
+          "team": "ES2008",
+          "speaker": "Speaker C",
+          "timestamp": "00:13:21",
+          "turn_index": 74,
+          "text": "Um or should we just stick to just stick to having television television related buttons on it?",
+          "relevance": -9.531370888093756,
+          "matched_queries": [
+            "television buttons"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:13:15",
+              "text": "would we even technically be possible to include video recorder functions on it?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:21",
+              "text": "I don't know that yet."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:13:28",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:30",
+              "text": "It's a good question. Um. I'll look into that."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008a",
+          "team": "ES2008",
+          "speaker": "Speaker C",
+          "timestamp": "00:13:03",
+          "turn_index": 70,
+          "text": "Can I ask, are we designing a remote control for a television only um, and if if this device is just to be used for the television",
+          "relevance": -8.486572938580094,
+          "matched_queries": [
+            "television only"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:54",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:12:58",
+              "text": "Right."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:08",
+              "text": "Good question."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:13:15",
+              "text": "would we even technically be possible to include video recorder functions on it?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008a",
+          "team": "ES2008",
+          "speaker": "Speaker B",
+          "timestamp": "00:14:10",
+          "turn_index": 84,
+          "text": "Yes. I guess we have to define what what we're aiming for. If it's just a television then that it's a bit simpler, 'cause there's less buttons that would even need to be on it.",
+          "relevance": -4.906085767126585,
+          "matched_queries": [
+            "television buttons"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:50",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:13:52",
+              "text": "So we should maybe we should assume that i t it's just a television that we're wanting to control. Well, I mean I suppose it would be nice to have playing and record and stop buttons on it for the video recorder as well I I don't know if that works technologically or not."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:20",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:14:21",
+              "text": "It's an idea with the buttons being really."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008a",
+          "team": "ES2008",
+          "speaker": "Speaker C",
+          "timestamp": "00:13:52",
+          "turn_index": 83,
+          "text": "So we should maybe we should assume that i t it's just a television that we're wanting to control. Well, I mean I suppose it would be nice to have playing and record and stop buttons on it for the video recorder as well I I don't know if that works technologically or not.",
+          "relevance": -3.7795306893122462,
+          "matched_queries": [
+            "television buttons"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:13:48",
+              "text": "You know, things might be more advanced than that."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:13:50",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:10",
+              "text": "Yes. I guess we have to define what what we're aiming for. If it's just a television then that it's a bit simpler, 'cause there's less buttons that would even need to be on it."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:20",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008a",
+          "team": "ES2008",
+          "speaker": "Speaker B",
+          "timestamp": "00:10:03",
+          "turn_index": 43,
+          "text": "Yeah um. I agree with having too many remotes around. My dad has a whole drawer at home of remotes for various things, and I don't know how to work half of them um. What's important for me, I guess, is that it's easy to use and that there's not too many buttons, they are not too small, you know you know you need to n to know what you're doing. And one thing I particularly like is if you are not um sort of moving it around to get it to work with the infra-red. Um, I think there is a way around that, but I know in my residence right now the the television you sort of have to walk all around the room to get it to turn on, so i it's just simpler just to just turn around the T_V_ itself, and I think that's if we're gonna make a remote control, it should actually work for what it's doing.",
+          "relevance": -1.5086062208838817,
+          "matched_queries": [
+            "television buttons"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:25",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:32",
+              "text": "I find them they can be a bit annoying, especially, like you know if I'm watching T_V_ I have have to have three separate remote controls of in front of me, you know, one for the T_V_, one for the digital box, one for m the video recorder as well. Um. And also they tend to they tend to be a bit confusing, they've got too many buttons on them uh too too sort of too sort of complicated when all I really wanna do is switch on and off, change the channel, change the volume."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:37",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:38",
+              "text": "Yeah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2008b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2008b",
+          "team": "ES2008",
+          "speaker": "Speaker A",
+          "timestamp": "00:22:30",
+          "turn_index": 127,
+          "text": "Interesting. Okay um, well, we're not gonna the management has decided we're not gonna work with that. Um Okay um and we're also gonna w like your question earlier um whether this is going to be t for television, video, or etcetera. Just for television. That's what we're focused on. Um otherwise becomes to complex, we wanna get this out um very quickly. We only have a a short amount of time.",
+          "relevance": -4.564715797981009,
+          "matched_queries": [
+            "television only"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:26",
+              "text": "I have no idea why we don't have it, but"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:28",
+              "text": "That's good."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:50",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:59",
+              "text": "'Kay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008b",
+          "team": "ES2008",
+          "speaker": "Speaker C",
+          "timestamp": "00:27:29",
+          "turn_index": 177,
+          "text": "The remote There are remote controls like that, yeah. Like some T_V_s they have a sort of uh a sliding screen on the remote control of it that hides all the complicated buttons. So if you wanna do something complicated like programme your television or re-tune it, then you you open up this little hatch or or slide the screen down and there's all the all the special buttons.",
+          "relevance": -4.049159690386895,
+          "matched_queries": [
+            "television buttons"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:15",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:27:26",
+              "text": "Ooh."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:30",
+              "text": "Kind of pull out of the side. Mm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:27:39",
+              "text": "Ooh."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008b",
+          "team": "ES2008",
+          "speaker": "Speaker C",
+          "timestamp": "00:11:59",
+          "turn_index": 55,
+          "text": "So I had a look on the on the web uh to see if I could find a few examples of existing television remote controls. In analysing these we can consider what what things what's good about them, uh what things do they get right, what's bad about them, what's wrong with 'em, um how we can improve on the designs that that that I found and what can we do to make our product stand out from from the large majority of remote controls. Here's two examples uh probably at the extreme ends of the spectrum. Um on the left here we've got uh an engineering-based design for a remote control, so it's one that's got lots of buttons, it's it's fully featured, everything you might possibly want to do is there, you know, it's got forward, backwards, up, down, channel numbers, volume, uh freeze frame. Yeah, it's it's fully featured and it might take a while to get to learn to use it, but once you've learned it you can you can do whatever you want with your T_V_. The one on the right is a lot more basic. It's just got the essential functions of the T_V_ changing the channel, play, stop, volume. It would be a lot quicker to learn to use it, but again th it's it's swings and roundabouts. There are disadvantages, you can't use it say to to freeze the television picture. Uh there's a lot of features that are missing from that remote control. So we've got to to find our find a way of striking a balance between the two. Um as I said before, remote controls are subjective, different people want want different things. Um personally wa what I want from a remote control is a device that's simple, it it's easy to use, uh it's got big buttons for doing the things I do most often, changing the volume, changing the channel. It it does everything that I need it to uh, as I said before, I'm quite lazy, I don't wanna walk across the room just to adjust my television. I also want something that that looks cool, um and that that feels good, that's ergonomically designed.",
+          "relevance": -1.7192022013133106,
+          "matched_queries": [
+            "television buttons"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:57",
+              "text": "and different different people sort of prefer different things. Um we should remember that remote controls are a a fairly standard piece of equipment. When a users using a remote control, he or she expects the buttons to be in certain places. So in some sense we're gonna we're gonna have to aim for a device which is fairly conventional in design uh so that we're not completely shocking people. But I think within that there is also room for us to introduce novel ideas uh and to make something that's that's perhaps a little bit different, something that stands out. Um also in in designing the user interface we need to consider practicalities. Uh the first of these is is technological ye uh what can we do with the current state of technology as it is. The second is is economic, uh we need to find a balance between features and price. So as you mentioned things like voice recognition would would add to the price uh but it would also im improve the design of the product."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:55",
+              "text": "Hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:08",
+              "text": "Mm 'kay. Thank you very much. That was very useful. It's funny to see the drastic difference between those two remotes. Um."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:16",
+              "text": "Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008b",
+          "team": "ES2008",
+          "speaker": "Speaker D",
+          "timestamp": "00:04:16",
+          "turn_index": 30,
+          "text": "Alright. So we're just gonna talk a little bit about the functional requirements that people specified when they were asked. Um I guess Real Reaction did some market research. They had a hundred subjects and their usability lab and they watched them watch T_V_ and recorded the frequency that they used particular buttons and the relevance that those buttons had. What they found was they analysed people's desires and needs. Focusing on their desires, um people specifically said that they thought remotes were ugly, seventy five per cent of the a hundred subjects noted that and that they more importantly though, eighty per cent said that they would be willing to pay more for a fancier looking remote. I don't know anything beyond what fancy means, but that's particularly of use to us, I think. Um also they did some questions on voice recognition and found that the desire for voice recognition was inversely related to age, so younger people were more inclined to want something with voice recognition, whereas the older people in the like sixty and above segment or so did not really think that they would pay more money for voice recognitions.",
+          "relevance": -0.9118355521535023,
+          "matched_queries": [
+            "research"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:04:01",
+              "text": "But, I don't even know how to play this. No."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:07",
+              "text": "Press the little presentation. It's the um it looks like a Y_ kind of over there above Draw. There, that one, there you go."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:05:06",
+              "text": "Hmm. 'Kay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:05:37",
+              "text": "Um people also had certain frustrations, that I think that we could try to take into consideration with our design. That being people k um frustrated with losing their remotes. I think, over fifty percent of the people mentioned that that was their biggest frustration. People are also frustrated with the difficulty it is to learn how to use a remote and I think that ties back to what you were saying before just that there's too many buttons, it just needs to be easy to use. It also mentioned something called R_S_I_ and I was hoping someone might be able to inform me as to what R_S_I_ is, because I don't know."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2008c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2008c",
+          "team": "ES2008",
+          "speaker": "Speaker D",
+          "timestamp": "00:20:10",
+          "turn_index": 95,
+          "text": "even though this is coming from us as, you know, trend watch, market research, I don't know how much of it we necessarily wanna take away. Also, considering that the d research b has been carried out by Real Reaction, I'm a little hesitant as to like, how these questions may have been worded, and if necessarily this whole fashion to technology y edas ease of use is necessarily the right ranking. Personally, like I might reverse it, but if we're working for this company then I guess no matter what, we have to stress fashion the most. But it doesn't necessarily need to be a spongy material.",
+          "relevance": -2.6944412668300446,
+          "matched_queries": [
+            "research"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:14",
+              "text": "The second thing that was mentioned as important was the technological innovations. That would be like if we use something like the space material or the L_C_D_ screen, things like that. And then ease of use was the third most important, whi so really, no matter what, we need to focus the most on fancy look and feel, according to this. I don't know how much we agree with that. And then the fashion watch talks about that this year's top trend for clothes, shoes and furniture is fruits and vegetables and tha that there's a preference for spongy, tight material. And so that brings us to my personal preferences. Who wants a spongy remote or one with fruit and vegetable padding. Personally, I don't really think that I want one that's gonna go out of style or go stale, excuse the pun, um in a year, so"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:45",
+              "text": "S sweet."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:42",
+              "text": "Mm. That there's all kinds of scope for imagination in that one though."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:51",
+              "text": "Yeah. I don't have a lot of notes to share if you want them, that pretty much sums it up. So yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008c",
+          "team": "ES2008",
+          "speaker": "Speaker C",
+          "timestamp": "00:12:51",
+          "turn_index": 46,
+          "text": "So I I like I like this idea of just having buttons for the features that you use most often. So you'd need a few buttons to select your favourite channels. I mean most people, when they watch T_V_, they have two hundred and fifty channels on their T_V_ and they watch of 'bout four of them at the most. So, you have buttons for your favourite channel, changing the volume, which is something you do all the time when you're watching T_V_, and the button to switch it off, in case you get bored. Um other features, things like adjusting the brightness, tuning the T_V_, uh I don't know what else you do with a T_V_. Um but these are these are all necessary functions. Uh you can't have a t there's no point having a television that you can't tune or that you can't set the contrast, so we need to find a way of including these somehow. Um and one other suggestions I'd make is to in is to include in a menu system, a bit like on the iPod. So we'd either have a small L_C_D_ display on the device itself, or uh have a dis a menu display that comes up on your television and can b be controlled through the device. And that would allow you to access access the advanced features uh whilst keeping a very small and simple set of buttons for the features that you use most often.",
+          "relevance": -2.6218238937667415,
+          "matched_queries": [
+            "television buttons"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:45",
+              "text": "it's very very quick to access the main features. Uh you can just about make out uh that the button three buttons are uh previous track, next track and play pause. They're the main the main features of the iPod, the things you will use a all the time. Um then if you want to do anything more advanced, you go into the little menu on the L_C_D_ screen and you use the buttons just to scroll around and and find the more advanced features that you want. So I think that's that's a good a good kind of model that we could have. Um here's a another example. This is uh it's an interesting idea and I think i it looks pretty cool. Um it's certainly got novelty value. Uh it's nice and colourful, it's nice and bright. Uh it's also something that you can kind of feel your way around. The buttons are are different shapes and and you can sort of yeah if you're watching T_V_ in the dark or whatever, you can work out which button's which and basically, yeah it's ith it's fun."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:30",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:00",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:15",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2008c",
+          "team": "ES2008",
+          "speaker": "Speaker C",
+          "timestamp": "00:14:57",
+          "turn_index": 56,
+          "text": "The alternative is to have a an on-screen display on your television that you control through your remote control. Uh a bit like a bit like how they have these um digital boxes where you you press the buttons and it comes up with your this thing of watch lo what's on each channel. I mean that that's also a good idea. It's it can it does have it's problems as well, if you've got a small T_V_ and you're sitting on the other side of a room, it's hard to read the little text that comes up.",
+          "relevance": -2.3076249092897085,
+          "matched_queries": [
+            "television buttons"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:52",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:53",
+              "text": "Right."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:13",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:14",
+              "text": "Okay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2008d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2008d",
+          "team": "ES2008",
+          "speaker": "Speaker D",
+          "timestamp": "00:27:20",
+          "turn_index": 360,
+          "text": "Yeah, I mean if I'd had more market research on the fruits and vegetables, maybe we could've taken that into account.",
+          "relevance": -4.54775515472877,
+          "matched_queries": [
+            "research"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:27:11",
+              "text": "things, but given given what we had I think that we did we did really well. Um I think we worked together pretty well."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:19",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:27:23",
+              "text": "Yeah. But the fruits and vegetables, they really my creativity, so."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:24",
+              "text": "Mm-hmm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

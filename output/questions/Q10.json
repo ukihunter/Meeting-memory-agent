@@ -1,0 +1,759 @@
+{
+  "question_id": "Q10",
+  "team": "TS3003",
+  "question": "Which age group did Team TS3003 decide to design for, and why that group rather than another?",
+  "queries": [
+    "age",
+    "target",
+    "market",
+    "user",
+    "design"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "TS3003a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "TS3003a",
+          "team": "TS3003",
+          "speaker": "Speaker A",
+          "timestamp": "00:04:12",
+          "turn_index": 19,
+          "text": "And we've got our User Interface Designer. He's also uh",
+          "relevance": -4.666839767317735,
+          "matched_queries": [
+            "user"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:03:36",
+              "text": "Okay. Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:58",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:16",
+              "text": "Yep."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:20",
+              "text": "That's about the new remote control. Uh project method um is uh there are three phases we are going through. First is functional des uh design, individual work, meetings. After the functional design, then the conceptual design and the detailed design. I had some role indications on here. But I think you know it already by yourself. The Industrial Designer is going to work on the working design, uh components design and a bit of the look and feel design. Uh the User Interface Designer is going to do the technical function design, user interface concept and user interface design. And the marketing expert is doing a little bit of user requirement specification, trend watching and project uh product ev evaluation. So that's a bit what you're going to do. But that will be all worked out in uh other meetings. Then we've got our first tool training. We are going to work with a lot of high-tech tools here, so it's ab it's handy if we have a little bit of training first. As you can see we've got the smart boards here and here in the white board. Um in the white board here there's a little tool bar on this side. Here are some functions. You can save. N uh these functions we don't have anything to do with, only undo, you can undo a little uh piece of drawing. A blank new document for each person. Uh select a pen, eraser. Capture we don't have to do anything with. Uh then we've got our pen. This pen. It's really funny because you can draw with it on this page um in the think it is form of. You can also select the current colour and the line width. But then first you have to select the pen function. But we're going to work with it in a minute. So okay. Uh that's very simple and it's easy to uh draw your findings and drawings on there."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003a",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:14:39",
+          "turn_index": 62,
+          "text": "They're brilliant animal animals. And that's just a little me thingy. So. Guess I'll pass the pen to our User Interface Designer.",
+          "relevance": -3.3590104048553706,
+          "matched_queries": [
+            "user"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:14:03",
+              "text": "'Kay. They are Come on. You have to go really slow when you're writing."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:21",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:49",
+              "text": "Okay. Um I'm just gonna draw its uh head, but mm"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:49",
+              "text": "Nice."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003a",
+          "team": "TS3003",
+          "speaker": "Speaker A",
+          "timestamp": "00:03:13",
+          "turn_index": 15,
+          "text": "I can see if it works this way. No, it doesn't work here. Okay no problem. But um on the corporate information side there's a th uh there was Real Remote instead of Real Reaction. Real Remote is not really the company we're we are, but it's just a little fault. Um okay, what are we going to do? Uh our project aim is as you can see a new remote control. It has to be original, trendy, and user friendly. So these are uh the points why uh we also hired you. We've got the Marketing Expert for uh the trendy and user friendly look. And Industrial Designer uh there's also user friendly and a bit original.",
+          "relevance": -2.6218517162772605,
+          "matched_queries": [
+            "user"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:03:02",
+              "text": "Yep. Hmm?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:10",
+              "text": "Can't say I paid much attention to it, but"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:32",
+              "text": "Oh yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:03:36",
+              "text": "Okay. Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003a",
+          "team": "TS3003",
+          "speaker": "Speaker A",
+          "timestamp": "00:04:20",
+          "turn_index": 21,
+          "text": "That's about the new remote control. Uh project method um is uh there are three phases we are going through. First is functional des uh design, individual work, meetings. After the functional design, then the conceptual design and the detailed design. I had some role indications on here. But I think you know it already by yourself. The Industrial Designer is going to work on the working design, uh components design and a bit of the look and feel design. Uh the User Interface Designer is going to do the technical function design, user interface concept and user interface design. And the marketing expert is doing a little bit of user requirement specification, trend watching and project uh product ev evaluation. So that's a bit what you're going to do. But that will be all worked out in uh other meetings. Then we've got our first tool training. We are going to work with a lot of high-tech tools here, so it's ab it's handy if we have a little bit of training first. As you can see we've got the smart boards here and here in the white board. Um in the white board here there's a little tool bar on this side. Here are some functions. You can save. N uh these functions we don't have anything to do with, only undo, you can undo a little uh piece of drawing. A blank new document for each person. Uh select a pen, eraser. Capture we don't have to do anything with. Uh then we've got our pen. This pen. It's really funny because you can draw with it on this page um in the think it is form of. You can also select the current colour and the line width. But then first you have to select the pen function. But we're going to work with it in a minute. So okay. Uh that's very simple and it's easy to uh draw your findings and drawings on there.",
+          "relevance": -2.440806148949112,
+          "matched_queries": [
+            "user",
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:12",
+              "text": "And we've got our User Interface Designer. He's also uh"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:16",
+              "text": "Yep."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:20",
+              "text": "'Kay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:32",
+              "text": "Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003a",
+          "team": "TS3003",
+          "speaker": "Speaker A",
+          "timestamp": "00:01:56",
+          "turn_index": 11,
+          "text": "Well I don't know if you've noticed, but uh we're working for Real Reaction. Uh it's a company in uh electronics. We put fashion in electronics, uh we make it work, uh we put a lot of effort in design and in the product itself. I'm Bart the project manager so I'll direct you through the project. This is our agenda. Uh we have our opening acquaintance, tool training, project plan description closing. Uh maybe I can sit down, then I can take some notes or Let's see. Maybe you can take the minutes once in a while. I dunno it's not a lot of work, but just uh if you hear something uh you can write down, just write it down. Uh as you can see uh it's the opening, aquaintance tool training. Aquaintance is a point we've done a bit. Um have you all seen the corporate website already? Yeah. Have you seen any flaws in it? I think I found one. No?",
+          "relevance": -0.6891060762480652,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:00:50",
+              "text": "Uh let's see. Uh let's start off um with a little presentation. Uh Now first I'll tell you a little bit about the setting. You can see there are a few cameras here. They'll record uh our actions and you'll have wires and microphones that will record your voice. Uh there are also some microphones there but th um you don't have to pay a lot of attention on those, because it will uh disappear when you don't attend to it. So is there a project documents folder? There are some notes in it already I see, some documents. Uh I'll start with the presentation kick off. Is being modified by the administrator. Uh okay. Let's do it read only."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:01:49",
+              "text": "Hmm, that's interesting."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:02:43",
+              "text": "Sure. Yep. Visit it."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:03:02",
+              "text": "Yep. Hmm?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3003b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "TS3003b",
+          "team": "TS3003",
+          "speaker": "Speaker A",
+          "timestamp": "00:33:40",
+          "turn_index": 230,
+          "text": "target the real elderly people.",
+          "relevance": -8.114312435176695,
+          "matched_queries": [
+            "target"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:33:30",
+              "text": "Uh what do we want? If we want um a with uh for example the the telephone for elderly people, we can"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:33:30",
+              "text": "I think"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:33:44",
+              "text": "I think that would be a If we should do something like that it would be a, I think it would be really good for uh for the image of the company."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:33:53",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003b",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:21:30",
+          "turn_index": 79,
+          "text": "Yes but it's not the biggest part of the market.",
+          "relevance": -5.161401852641443,
+          "matched_queries": [
+            "market"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:13",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:16",
+              "text": "And um if you look in Holland at the whole generation of forty plus, fifty plus, it it's the the biggest share of the of the whole population now."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:35",
+              "text": "No."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:35",
+              "text": "And besides that, they're not very critical so I mean they don't really care what the remote control is like. They'll just pretty much take the first thing they see and which looks acceptable."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003b",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:33:53",
+          "turn_index": 233,
+          "text": "And I think, I think there would be a good market for it.",
+          "relevance": -4.861224500616911,
+          "matched_queries": [
+            "market"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:33:44",
+              "text": "I think that would be a If we should do something like that it would be a, I think it would be really good for uh for the image of the company."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:33:53",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:33:57",
+              "text": "So that's the"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:33:58",
+              "text": "If we're able to really bring an innovative product."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003b",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:14:46",
+          "turn_index": 43,
+          "text": "Well it would certainly make a fancy design.",
+          "relevance": -4.604879080291373,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:14:43",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:44",
+              "text": "'Kay. That's nice. Uh"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:48",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:49",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003b",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:22:06",
+          "turn_index": 83,
+          "text": "No. I think that would be the case in the sixteen to forty five age category. because they are critical and they they want to have a fancy remote control.",
+          "relevance": -4.298287834288955,
+          "matched_queries": [
+            "age"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:35",
+              "text": "And besides that, they're not very critical so I mean they don't really care what the remote control is like. They'll just pretty much take the first thing they see and which looks acceptable."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:48",
+              "text": "But don't you think that if we make a remote which is uh typically made for this market, that people think the people think that's the the device I've looked for although I didn't realise it. So let's try it."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:20",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:21",
+              "text": "People of forty plus, I mean they want it to work, but as soo as soon as it works it's okay with them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3003c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "TS3003c",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:24:48",
+          "turn_index": 110,
+          "text": "Well I wouldn't design a telephone but Well no I think w we should just, we should then just design one um",
+          "relevance": -4.448658189252628,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:42",
+              "text": "So that would"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:42",
+              "text": "Yeah. So you suggest we should design two different telephones on which you can apply, yeah remote controls, on which you can apply different case covers, for example."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:02",
+              "text": "Remote."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:02",
+              "text": "one remote, but it would have to be fancy with either the wood cover or the plastic one."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003c",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:24:21",
+          "turn_index": 104,
+          "text": "Yeah. We would have to look carefully into the design though.",
+          "relevance": -4.178356788879114,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:13",
+              "text": "Yeah that is true."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:20",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:25",
+              "text": "Costs."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:28",
+              "text": "'Cause we would have to make one w uh control which would fit in with a wooden cover and a plastic cover. The more original one, or the more standard one."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003c",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:18:57",
+          "turn_index": 50,
+          "text": "'Cause in our earlier um market research, if you'd allow me to go to the flat board, SMARTboard.",
+          "relevance": -4.139064120695541,
+          "matched_queries": [
+            "market"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:51",
+              "text": "Mm I don't have any information on pricing. So I'll have to ask the manufacturing department."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:56",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:02",
+              "text": "Yeah, sure. Go ahead."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:10",
+              "text": "Um so it was open here. Um we also um asked if w they would, if people would pay more for speech recognition in a remote control. Well you can see here, our target group would not do that. So if that would increase the price for which we're selling our remote control"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003c",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:19:10",
+          "turn_index": 52,
+          "text": "Um so it was open here. Um we also um asked if w they would, if people would pay more for speech recognition in a remote control. Well you can see here, our target group would not do that. So if that would increase the price for which we're selling our remote control",
+          "relevance": -2.8403172113460795,
+          "matched_queries": [
+            "target"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:57",
+              "text": "'Cause in our earlier um market research, if you'd allow me to go to the flat board, SMARTboard."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:02",
+              "text": "Yeah, sure. Go ahead."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:27",
+              "text": "No."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:32",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003c",
+          "team": "TS3003",
+          "speaker": "Speaker A",
+          "timestamp": "00:24:42",
+          "turn_index": 109,
+          "text": "Yeah. So you suggest we should design two different telephones on which you can apply, yeah remote controls, on which you can apply different case covers, for example.",
+          "relevance": -2.740140937791556,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:37",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:42",
+              "text": "So that would"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:48",
+              "text": "Well I wouldn't design a telephone but Well no I think w we should just, we should then just design one um"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:02",
+              "text": "Remote."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3003d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "TS3003d",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:33:13",
+          "turn_index": 399,
+          "text": "In the design phase.",
+          "relevance": -5.330370625820328,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:33:11",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:33:12",
+              "text": "That's right."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:33:15",
+              "text": "So lack of information about prices."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:33:18",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003d",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:23:09",
+          "turn_index": 253,
+          "text": "Or do some market research and see what the options are.",
+          "relevance": -5.161401852641443,
+          "matched_queries": [
+            "market"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:04",
+              "text": "get us to spend eighteen dollars a a remote."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:06",
+              "text": "Yeah. Yeah. I am agreeing with the usability. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:13",
+              "text": "Yeah. But th um I think we can then keep the single curved one. Just to express our L_C_D_ screen a bit more. So people will use it more, and especially for the help functions, it will be good if we have scroll bar, scroll button. It will be necessary to have good help function, as well."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:23",
+              "text": "Yep."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003d",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:28:20",
+          "turn_index": 319,
+          "text": "Um, is the design innovative?",
+          "relevance": -5.128378605211343,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:28:14",
+              "text": "We all go for six? Good."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:28:15",
+              "text": "Six."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:28:24",
+              "text": "Mm. Sh"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:28:24",
+              "text": "Very. Subtitles, buttons. Yeah. Seven. Yeah. So we've got twenty cents for our docking station, huh?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003d",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:29:54",
+          "turn_index": 353,
+          "text": "Does the design fit the group of focus?",
+          "relevance": -4.604879080291373,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:29:45",
+              "text": "Are the production costs within the preset limits? Well they are now."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:29:49",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:29:58",
+              "text": "I think that's a three."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:29:58",
+              "text": "Mm, th yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3003d",
+          "team": "TS3003",
+          "speaker": "Speaker D",
+          "timestamp": "00:28:36",
+          "turn_index": 326,
+          "text": "Should be do-able. Is the design easy to use?",
+          "relevance": -4.311472042121119,
+          "matched_queries": [
+            "design"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:28:30",
+              "text": "Seven?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:28:31",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:28:39",
+              "text": "Yeah. That's right."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:28:42",
+              "text": "Mm. Not really."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

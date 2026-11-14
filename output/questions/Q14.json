@@ -1,0 +1,540 @@
+{
+  "question_id": "Q14",
+  "team": "IS1009",
+  "question": "Team IS1009 left one feature pending more research into its cost. In their final costing, what total did they reach, and was that feature included in the total?",
+  "queries": [
+    "pending",
+    "cost",
+    "total"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "IS1009a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "IS1009a",
+          "team": "IS1009",
+          "speaker": "Speaker A",
+          "timestamp": "00:06:27",
+          "turn_index": 54,
+          "text": "and the production cost should not exceed hopefully should be less than twelve fifty Euro.",
+          "relevance": -4.6579303578916775,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:07",
+              "text": "Here's the project finance uh which, of course, we all have to think about when we design this thing. Um selling price is supposed to be twenty five Euro. Uh profit aim for the company is fifty million Euro, the market range unlimited meaning international"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:17",
+              "text": "Mm-hmm. Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:35",
+              "text": "Mm 'kay that should keep everybody on their toes and challenged."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:38",
+              "text": "Mm-hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009a",
+          "team": "IS1009",
+          "speaker": "Speaker A",
+          "timestamp": "00:06:43",
+          "turn_index": 58,
+          "text": "So these are all things, of course, to remember with the budget and when you design to materials, cost, etcetera. Now, uh the discussion I guess is um does anyone of you have experience with remote control?",
+          "relevance": -2.9029004700282286,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:38",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:40",
+              "text": "Profit. Um is fifty mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:59",
+              "text": "Oops."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:07:08",
+              "text": "Yeah, of course, using remote control. Yeah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1009b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "IS1009b",
+          "team": "IS1009",
+          "speaker": "Speaker B",
+          "timestamp": "00:29:52",
+          "turn_index": 234,
+          "text": "Cost effective.",
+          "relevance": -7.246884725975938,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:29:50",
+              "text": "What about the electronics? That's not really gonna change much, is it?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:29:51",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:29:52",
+              "text": "No, it it doesn't cost, yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:29:54",
+              "text": "No"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009b",
+          "team": "IS1009",
+          "speaker": "Speaker C",
+          "timestamp": "00:29:52",
+          "turn_index": 235,
+          "text": "No, it it doesn't cost, yeah.",
+          "relevance": -5.9705310873228985,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:29:51",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:29:52",
+              "text": "Cost effective."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:29:54",
+              "text": "No"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:29:54",
+              "text": "That that w that won't change much, will it uh?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009b",
+          "team": "IS1009",
+          "speaker": "Speaker B",
+          "timestamp": "00:32:07",
+          "turn_index": 264,
+          "text": "But uh yeah I I have a doubt like will it be cost wise effective if we if we design a remote having all the uh different features for different people or designing three different um remotes for three different categories of people.",
+          "relevance": -2.632397767037279,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:31:59",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:32:02",
+              "text": "An alternate package. Yeah. Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:25",
+              "text": "Well I think I think the idea here is to uh to to d design one remote and what the only change is gonna be um the funct d t yeah uh the functional functional cosmetics if you want to put it that way, um having maybe larger buttons or buttons that light up or buttons that are slightly differently shaped for people uh either for children um"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:32:25",
+              "text": "Yeah, but uh"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009b",
+          "team": "IS1009",
+          "speaker": "Speaker A",
+          "timestamp": "00:28:26",
+          "turn_index": 224,
+          "text": "Do we look at one target group? And with the twenty five Euros you know can we can we afford to have uh I'm asking the technical people here whether um to look at sort of subgroups with maybe different buttons for each group how much would that throw us out of the cost we are supposed to respect?",
+          "relevance": -2.082559910012354,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:28:18",
+              "text": "Yeah. Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:28:25",
+              "text": "Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:28:53",
+              "text": "Respect. Mm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:28:55",
+              "text": "Okay. No uh generally we can we can design a remote which is mainly for people with uh f age from ten to um forty and and then we can add on uh specific functional buttons for children as well as the elderly people or the people wit with who have nervous problems, yes."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009b",
+          "team": "IS1009",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:23",
+          "turn_index": 185,
+          "text": "And uh and uh and it is one more point which I noted it down, like uh the material which which which is used for remotes should be human friendly it should not cause any skin disease or something some al allergy to either children or to um ad adult person. And it should have an uh it can have an alarm clock a a person if some if somebody wants to get up at around eight eight P_M_ then he can set the time and it can be used as an alarm clock, and I don't think it will cost much to set an alarm clock inside a remote.",
+          "relevance": -1.2707005926530996,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:03",
+              "text": "Uh t the remote should be compact and it should ha it should have as many buttons as possible for controlling different functionalities of the T_V_ television. And um uh as uh uh this is my personal preference that it should be in the shape of a T_ in alphabet for more compactability."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:22",
+              "text": "Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:36",
+              "text": "Mm-hmm. Mm-hmm. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:38",
+              "text": "Mm, 'kay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1009c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "IS1009c",
+          "team": "IS1009",
+          "speaker": "Speaker D",
+          "timestamp": "00:28:20",
+          "turn_index": 190,
+          "text": "Okay, so why don't we put down speech recognition if possible pending some more research from our industrial engineer on how expensive that is.",
+          "relevance": -7.698098229903854,
+          "matched_queries": [
+            "pending"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:28:18",
+              "text": "Recogniser. Yes."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:28:18",
+              "text": "Mm yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:28:22",
+              "text": "Hmm. Mm-hmm. Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:28:27",
+              "text": "Right."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009c",
+          "team": "IS1009",
+          "speaker": "Speaker D",
+          "timestamp": "00:22:39",
+          "turn_index": 126,
+          "text": "Mm-hmm. Um. We'll just go for push buttons for in the interest of cost. Okay.",
+          "relevance": -4.415260403514133,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:26",
+              "text": "Uh yeah, on the scroll and the push-button, um ca you can achieve scrolling by repeatedly pushing a button?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:33",
+              "text": "No, no, no, th the the the scrolling wheels are different, like you can go for a sw switches like buttons or scrolls, uh which which we used to do before ten ten years before, I think. Now, nobody uses that because you need you need a a k sophisticated chip and all. So I think it's better we go for uh um ordinary buttons. Yeah uh yeah, push-buttons. Yeah. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:52",
+              "text": "Push-buttons."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:54",
+              "text": "We don't have a lot of time left and we will still have to make a decision, and the marketing expert has to present her her thing."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009c",
+          "team": "IS1009",
+          "speaker": "Speaker D",
+          "timestamp": "00:27:10",
+          "turn_index": 159,
+          "text": "I think I think battery, and I think we all agreed on that. That that's that's gonna be most cost-effective and the best thing.",
+          "relevance": -3.5028094413710513,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:26:43",
+              "text": "Mm-hmm. Yeah, but Yeah. Mm-hmm. Mm-hmm. Mm-hmm. Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:26:59",
+              "text": "Okay, before we get too far off here um, the components of the concept is the energy. What kind of energy do we foresee?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:10",
+              "text": "Battery. Battery."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:27:11",
+              "text": "Battery. Yes."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009c",
+          "team": "IS1009",
+          "speaker": "Speaker C",
+          "timestamp": "00:15:26",
+          "turn_index": 90,
+          "text": "Uh a diode, a transistor, a resonator, these are all this uh technical uh electri electronic compons uh components which are which we have to use in a remote controller. A battery uh, I would like to suggest one thing uh if we uh if we will be able to make a res rechargeable battery then we sh we need not go for a high performance battery, even if it is a low performance battery it ca it can't l it can't charge much. It it it's not a high voltage battery. Then also we can If it is a rechargeable one, then uh people can use it for a long time, so in that way we can cut cut the cost, but w uh uh that we have to make the battery as rechargeable one.",
+          "relevance": -1.056789959011126,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:22",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:23",
+              "text": "Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:50",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:08",
+              "text": "And we we have a circuit board uh in a remote controller. Can you go to the next slide, please. And how it works, how the remote controller works. When you press a button"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1009d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "IS1009d",
+          "team": "IS1009",
+          "speaker": "Speaker A",
+          "timestamp": "00:17:07",
+          "turn_index": 202,
+          "text": "Okay. Total seven point six whatever that means.",
+          "relevance": -8.71992919054418,
+          "matched_queries": [
+            "total"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:17:02",
+              "text": "And special material, rubber, wood, yes."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:05",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:14",
+              "text": "Uh, I think that's the price."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:17:16",
+              "text": "One two three four five six seven eight nine"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009d",
+          "team": "IS1009",
+          "speaker": "Speaker D",
+          "timestamp": "00:22:11",
+          "turn_index": 247,
+          "text": "Well, um we had what, eight eight euros twenty as our cost?",
+          "relevance": -5.076444972165025,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:03",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:04",
+              "text": "And uh I don't know how we can evaluate that or how we can include that, too."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:15",
+              "text": "Eight, eight twenty, yes."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:16",
+              "text": "Eight twenty so"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1009d",
+          "team": "IS1009",
+          "speaker": "Speaker B",
+          "timestamp": "00:10:21",
+          "turn_index": 62,
+          "text": "give her suggestion whether it'll be sellable or it'll be cost effective.",
+          "relevance": -4.78955115182925,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:14",
+              "text": "Okay. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:20",
+              "text": "Tell, yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:28",
+              "text": "Okay, well um what what I really like a lot about it is that you can reach the whole thing with one thumb, that you can really hold it in one h you don't need two hands and it's easily reachable even for somebody with a small hand, yeah?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:35",
+              "text": "Yes, yes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "question_id": "Q08",
+  "team": "ES2007",
+  "question": "A health complaint about remote controls came up in Team ES2007's meetings. Who brought it up, what was it, and how did the team's design respond to it?",
+  "queries": [
+    "health",
+    "pain",
+    "remote control"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2007a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "ES2007a",
+          "team": "ES2007",
+          "speaker": "Speaker D",
+          "timestamp": "00:11:25",
+          "turn_index": 108,
+          "text": "Yeah. Yeah it's a T_V_ remote control.",
+          "relevance": -7.51446143489248,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:22",
+              "text": "Um."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:23",
+              "text": "Is this a T_V_ one we are supposed to make?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:28",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:11:31",
+              "text": "Well."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007a",
+          "team": "ES2007",
+          "speaker": "Speaker D",
+          "timestamp": "00:11:33",
+          "turn_index": 113,
+          "text": "A new remote control for T_V_. What would I like? Um.",
+          "relevance": -6.839287766061704,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:31",
+              "text": "'Kay um."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:32",
+              "text": "T"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:37",
+              "text": "W what You want it big do you want it small."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:11:46",
+              "text": "Medium."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007a",
+          "team": "ES2007",
+          "speaker": "Speaker A",
+          "timestamp": "00:10:05",
+          "turn_index": 92,
+          "text": "experience with with remote control, so talk about who who's used what. Any ideas? Stuff like that. Next meeting starts in thirty minutes. At quarter to twelve.",
+          "relevance": -4.623641180336261,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:55",
+              "text": "Yeah. Production cost, ah right it's gotta be can't cost any more than twelve fifty to make."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:58",
+              "text": "Ah right okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:32",
+              "text": "So I think before we close uh, we are expected I mean the last slide wanted us to maybe discuss longer what our what our ideas where. I mean if you wanna go back to the last slide. Uh"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:42",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007a",
+          "team": "ES2007",
+          "speaker": "Speaker A",
+          "timestamp": "00:15:30",
+          "turn_index": 162,
+          "text": "I have got I think we should also have a back-up plan of I 'cause I I I just think that it might be expensive to make something that I mean we don't, we haven't been told it has to be something that will control everything. We should have a back-up plan of just a really good television remote control, that just that is just for a T_V_, but it's just a really good, nice one.",
+          "relevance": -3.0613844970983752,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:23",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:15:26",
+              "text": "D_V_D_ players, things like that."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:15:42",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:42",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007a",
+          "team": "ES2007",
+          "speaker": "Speaker A",
+          "timestamp": "00:02:53",
+          "turn_index": 17,
+          "text": "So is the agenda? Opening, acquaintance, tool training and project plan, discussion and then closing. Project aim is a new remote control. It's original, uh trendy and it's user-friendly. Project method, functional design, individual work, another meeting, conceptual design, individual work, and a meeting of details design, individual work and a meeting.",
+          "relevance": -2.989396903963666,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:02:39",
+              "text": "I haven't looked at it, but let's just start it off and we'll see what happens. If you're all ready."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:47",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:13",
+              "text": "'Kay."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:31",
+              "text": "Tool training. Try out the whiteboard, every participant should draw their favourite animal and sum up their favourite characteristics of that animal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2007b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2007b",
+          "team": "ES2007",
+          "speaker": "Speaker B",
+          "timestamp": "00:08:20",
+          "turn_index": 63,
+          "text": "I dunno, swi I th I th I think changing your batteries once every six months is not really a pain, but",
+          "relevance": -7.313768023164262,
+          "matched_queries": [
+            "pain"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:08:09",
+              "text": "Bicycle power."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:10",
+              "text": "No 'cause like cha 'cause always changing um um batteries can get like annoying. The battery's down and maybe, I dunno, solar charged?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:26",
+              "text": "Yeah, it's worked for the last fifty years you know."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:26",
+              "text": "Mm. Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007b",
+          "team": "ES2007",
+          "speaker": "Speaker A",
+          "timestamp": "00:16:11",
+          "turn_index": 120,
+          "text": "So it's kinda gotta look it's gotta look new and s you know something fashionable. If if remote control well, if telephones can be fashionable, then maybe remote control units can be.",
+          "relevance": -6.357193673209142,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:16:08",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:09",
+              "text": "I think I think we have to carry that mental."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:18",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:16:23",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007b",
+          "team": "ES2007",
+          "speaker": "Speaker A",
+          "timestamp": "00:22:12",
+          "turn_index": 166,
+          "text": "Let's jus we just want need to cover our arses so that people aren't gonna sue us in ten years' time, say your remote control gave me repetitive strain injury.",
+          "relevance": -4.27722976143416,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:07",
+              "text": "Maybe it could be, instead of pressing button it could be just touching a"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:11",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:12",
+              "text": "Maybe"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:20",
+              "text": "Yeah, we should probably consult with our legal department uh."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007b",
+          "team": "ES2007",
+          "speaker": "Speaker A",
+          "timestamp": "00:25:51",
+          "turn_index": 211,
+          "text": "Well, see the thing is is we've gotta keep the company image. It's gotta say people have gotta look at this remote control and instantly recognise that it's a Real Reaction i product.",
+          "relevance": -3.979107920458924,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:47",
+              "text": "Can't we have different colours in the remotes, so somebody can choose different col like does it have to be of a certain?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:25:51",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:59",
+              "text": "But if it's a R_R_, it would be Real Reaction, like if it had a symbol on it."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:26:00",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007b",
+          "team": "ES2007",
+          "speaker": "Speaker D",
+          "timestamp": "00:17:26",
+          "turn_index": 136,
+          "text": "Come on. Right. Okay.. Okay. Well, for our marketing report uh we observed remote control users in a usability lab, and also gave so this is research and we also gave participants um questionnaires to fill out. Um total number of people tested were a hundred just so you know, so that hundred people were tested and these were the findings. So seventy five per cent of users find the remote control ugly. Okay, so they don't like the look of the remote control. Um eighty f eighty per cent of them would spend more money if the rem remote control looked really cool and fancy. So I think we all agree with that. Um current remote controls do not match well with the operating behaviour of the user. So, they don't like like the way they operate it doesn't like match how people behave. Um per cent of the users say that they only use ten per cent of the buttons on a remote, so probably if you have like one, two, three, four, five, the whole up to z ten, they probably don't use those, they only use the up and down channel.",
+          "relevance": -3.9199545132907128,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:20",
+              "text": "Yeah, it just takes a second uh."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:17:20",
+              "text": "Yeah, w it it just takes a wee while."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:44",
+              "text": "'Cause we've only got five channels."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:46",
+              "text": "exactly. That's another thing. Um seventy five per cent of users say they zap. Not quite sure what they mean, zap, goes like."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2007c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2007c",
+          "team": "ES2007",
+          "speaker": "Speaker A",
+          "timestamp": "00:12:32",
+          "turn_index": 96,
+          "text": "Well, what do we need a speaker for in a remote control unit?",
+          "relevance": -6.640407757300178,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:28",
+              "text": "G there, the sample sensor, sample speaker thing."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:12:31",
+              "text": "Well"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:35",
+              "text": "Mm, I dunno. Be cool. Channel two."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:12:38",
+              "text": "It'd be it'd be cool, but they are saying they've just developed it, I'm just guessing. But it's gonna be the most expensive option, probably and"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007c",
+          "team": "ES2007",
+          "speaker": "Speaker A",
+          "timestamp": "00:30:49",
+          "turn_index": 308,
+          "text": "Yeah, I mean we that's we we Yeah. This is the remote control tomato.",
+          "relevance": -6.275440054323977,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:41",
+              "text": "Okay. Tha"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:30:43",
+              "text": "The one thing I'm wondering about, I hope that we're not going like too much down a gimmicky road of of having I mean if somebody go goes into the store they're gonna see like three or four normal remotes, and then a big spongy pink t tomato uh remote. I mean what are ninety per cent of people gonna take?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:31:01",
+              "text": "Well I can say in this country, you'll get, you know, lots of people wanting something really funky and cool. Like and kids will be walking in with their parents saying, Mummy I wanna buy that one. And uh parents will see the will see the pro as well, because it's um like kids won't break it, it's not breakable if you throw it around. Especially with younger kids, you know they can pick it up and and"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:31:31",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007c",
+          "team": "ES2007",
+          "speaker": "Speaker D",
+          "timestamp": "00:22:20",
+          "turn_index": 196,
+          "text": "and what the fashions are for next year. Um. So yes, so from looking at this year's trends and fashions and also recent investigation that we've done in the remote control market, we have found that for the remote control market these are like most important aspects like that we really need to which we've already probably discussed. Um the most important aspect is look and feel. So the remote control has to look and feel fancier than the ones that already that we already have. So it has to be",
+          "relevance": -4.619645746356303,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:08",
+              "text": "Right. Well, I'm just basically letting you know what's happening in the markets"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:19",
+              "text": "Mm yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:30",
+              "text": "Mm-hmm. Yeah, why should people buy this when they're already got a remote that came with the T_V_?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:56",
+              "text": "Yep."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007c",
+          "team": "ES2007",
+          "speaker": "Speaker D",
+          "timestamp": "00:32:15",
+          "turn_index": 319,
+          "text": "So like you walk in, you're like, oh I like that remote control, because it's so bright, and then, and then the shop assistant comes up and says, oh what colour would you like? and then they go like, oh I can choose the colour wow. So it puts, I think, even the customer into more control over what they're buying instead of, you've got all colour it's either that or nothing. So they also get to pick. Well, personally I like walking into a shop and choosing a colour.",
+          "relevance": -2.747501160109432,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:32:11",
+              "text": "That's yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:32:11",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:32:37",
+              "text": "Yeah I mean, that that seems to work well with for products like iPod, where, you know, you have a variety of colours, that people feel like they're customising it when they buy it, even, you know, just just by the fact of choosing."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:32:38",
+              "text": "It's um"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2007c",
+          "team": "ES2007",
+          "speaker": "Speaker D",
+          "timestamp": "00:31:43",
+          "turn_index": 313,
+          "text": "Yeah. So so it's rea it's quite it's quite like um user friendly and also for different families, like like family use as well, so for little kids and for old ki like teenagers will like it, I think. Especially maybe younger girls if it's in pink they'll be like pink remote control for their room something.",
+          "relevance": -2.7384552406775415,
+          "matched_queries": [
+            "remote control"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:31:37",
+              "text": "Yeah. The only thing is is that really small kids might chew on it, but"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:31:40",
+              "text": "Well, it's it's gotta be chew proof."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:31:44",
+              "text": "I'm gonna write that down."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:06",
+              "text": "So, what are you saying, maybe we should market it in different colours for different so we could do like the pink range, the blue range, the green range, the"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2007d",
+      "meeting_number": 4,
+      "passages": []
+    }
+  ]
+}

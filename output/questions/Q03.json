@@ -1,0 +1,576 @@
+{
+  "question_id": "Q03",
+  "team": "TS3009",
+  "question": "Team TS3009 planned a titanium back for their remote. Who first proposed replacing the titanium, what did they propose instead, and was the titanium kept in the end?",
+  "queries": [
+    "titanium",
+    "back",
+    "replacement"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "TS3009a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "TS3009a",
+          "team": "TS3009",
+          "speaker": "Speaker A",
+          "timestamp": "00:24:18",
+          "turn_index": 376,
+          "text": "Finish meeting now. Oh alright. Well uh we're going to back uh back into our rooms so",
+          "relevance": -5.845014067485351,
+          "matched_queries": [
+            "back"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:15",
+              "text": "Oh oh right oh well I didn't uh use it."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:16",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:24",
+              "text": "Yes. Next meeting is in"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:26",
+              "text": "Well that's great."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009a",
+          "team": "TS3009",
+          "speaker": "Speaker A",
+          "timestamp": "00:07:29",
+          "turn_index": 52,
+          "text": "We're going back and now uh our Industrial Designer can uh draw its uh most favourite animal. Huh.",
+          "relevance": -4.040676433015865,
+          "matched_queries": [
+            "back"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:07:15",
+              "text": "Our characteristics sum it up. Well it's uh very uh painful those kind of thing. So we can uh just uh"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:07:27",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:07:32",
+              "text": "I am the Industrial Designer."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:07:32",
+              "text": "Alright. Thank you."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009a",
+          "team": "TS3009",
+          "speaker": "Speaker A",
+          "timestamp": "00:20:32",
+          "turn_index": 298,
+          "text": "This is about uh what we are going to uh do uh. You'll get specific instructions when you're back in your room so uh it's uh logical uh. I think.",
+          "relevance": -3.0005864586469895,
+          "matched_queries": [
+            "back"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:23",
+              "text": "Yes. Well thirty minutes we have. So um"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:29",
+              "text": "Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:38",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:39",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009a",
+          "team": "TS3009",
+          "speaker": "Speaker A",
+          "timestamp": "00:01:42",
+          "turn_index": 10,
+          "text": "Oh sorry. And an uh a nice agenda. Uh we'll do the opening and then uh we'll meet each other, what uh we already do, so, that's not uh very much trouble. I'll I'll show you the the tools we have here, so that we can all use them. Then uh we'll look at the project plan from uh Real Reaction. We'll discuss about our first ideas about the project, and then uh we'll close the meeting, and then we can uh individually uh do our things and then uh we'll get back here. So this the opening we'll uh We have to uh design a new television remote control. You have heard that uh already I think, so. Um we want it to be original, so a nice uh a nice new design.",
+          "relevance": -0.9867580597423249,
+          "matched_queries": [
+            "back"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:08",
+              "text": "uh but uh I'll open it on the Smartboard, so we can all see it. So it's in the project documents because that's what we can find here. Well. Very nice. Well this is called the the the kick-off meeting. So uh I'm the Project Manager, so I had to fill it in, and uh hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:01:34",
+              "text": "'Kay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:02:33",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:02:39",
+              "text": "Uh trendy, it's also for young people, and we have to just uh make it uh modern. And uh friendly, so size does matter. And uh Well it has to be a have the the right uh the right buttons on the right place, that kin those kind of things."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3009b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "TS3009b",
+          "team": "TS3009",
+          "speaker": "Speaker C",
+          "timestamp": "00:23:10",
+          "turn_index": 262,
+          "text": "We can put it on the on the back side.",
+          "relevance": -5.1992373804039405,
+          "matched_queries": [
+            "back"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:08",
+              "text": "Yeah, that's a must. We must have that."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:10",
+              "text": "Yeah, we must. Yeah well and and"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:14",
+              "text": "S something like this. It's recognisable."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:15",
+              "text": "Yes. 'Kay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3009c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "TS3009c",
+          "team": "TS3009",
+          "speaker": "Speaker A",
+          "timestamp": "00:11:20",
+          "turn_index": 115,
+          "text": "No titanium.",
+          "relevance": -8.422965761372206,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:54",
+              "text": "I agree."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:55",
+              "text": "And I Then I have some more findings. Um uh about the energy energy source of the of the device, uh I uh suggest uh the basic battery. I uh got some other um uh uh energy sources of course. But solar energy is not very practical inside a house, because you don't have a have a lot of uh sun. And uh kinetic and and and dynamos are are not very practical, I think, for uh for a simple remote, that's a bit, oh, that's a bit uh"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:23",
+              "text": "That's a bit uh much. And I also suggest uh as a shape uh a double curved case. Uh the disadvantage of that that you can use no titanium. That that's the information I received. If you use the curved case, uh a curved case, double curved then you"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:41",
+              "text": "What do you exactly mean with double curved?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009c",
+          "team": "TS3009",
+          "speaker": "Speaker B",
+          "timestamp": "00:25:34",
+          "turn_index": 361,
+          "text": "Well titanium is neutral.",
+          "relevance": -7.759453175959351,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:24",
+              "text": "But then you have the problem, when you have a titanium back, you can't switch it. When you want an other colour on the front, it doesn't match. You know?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:25:33",
+              "text": "Well but"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:25:35",
+              "text": "The titan titanium isn't isn't v very Yeah, i it doesn't uh curves. No uh I nei. Titanium is very No no no, but you know b Titanium is very basic colour, and it doesn't really matter if we have a purple front on it or a orange front. I dunno if if you disagree, but I think it's doesn't matter very much."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:41",
+              "text": "I understand. Yeah, yeah, yeah. Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009c",
+          "team": "TS3009",
+          "speaker": "Speaker A",
+          "timestamp": "00:35:34",
+          "turn_index": 551,
+          "text": "So a bit of titanium between?",
+          "relevance": -7.192842588041933,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:35:22",
+              "text": "of the uh titanium? O on the front? Uh maybe if we make this this this lower part titanium, the front is the the upper part, and the the bit with the with the L_C_D_ screen. So"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:35:25",
+              "text": "Yes we could"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:35:36",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:35:36",
+              "text": "Yeah. No no betwe of between we can do but But then you have two parts of front, two fronts that"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009c",
+          "team": "TS3009",
+          "speaker": "Speaker D",
+          "timestamp": "00:36:33",
+          "turn_index": 584,
+          "text": "So uh a little corner of titanium.",
+          "relevance": -6.939475488753086,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:36:32",
+              "text": "Ah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:36:33",
+              "text": "So round where?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:36:35",
+              "text": "Yeah, that's nice finishing touch you need."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:36:36",
+              "text": "Oh, yeah. Yes, that also sounds uh pretty uh neat."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009c",
+          "team": "TS3009",
+          "speaker": "Speaker C",
+          "timestamp": "00:23:38",
+          "turn_index": 318,
+          "text": "Yeah, I understand. Yeah. So we have titanium.",
+          "relevance": -6.703350688485517,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:33",
+              "text": "Do you know the new uh"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:37",
+              "text": "Just like um most cell phones are."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:38",
+              "text": "No no The front is the most important."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:44",
+              "text": "Yeah but the non-removable elements of the of the remote, so not the front, could be titanium, to give that uh strong look. And then the front is made of plastic. And you can put that on and off, and switch it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3009d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "TS3009d",
+          "team": "TS3009",
+          "speaker": "Speaker B",
+          "timestamp": "00:20:17",
+          "turn_index": 366,
+          "text": "plastic coloured titanium, uh titanium-coloured plastic?",
+          "relevance": -8.786602672838026,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:14",
+              "text": "That is pretty stupid."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:15",
+              "text": "N not very practical. Well"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:21",
+              "text": "Who? You want to dump the titanium?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:29",
+              "text": "Yeah well if we uh we we have to get cheaper."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009d",
+          "team": "TS3009",
+          "speaker": "Speaker C",
+          "timestamp": "00:21:57",
+          "turn_index": 400,
+          "text": "Titanium-coloured plastic.",
+          "relevance": -8.077606775746192,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:53",
+              "text": "Unfortunately. Um."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:56",
+              "text": "I'll put in the report we that we think that fourteen point one is the l m lowest price you can make a remote for that's trendy d these days."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:03",
+              "text": "Yeah, I agree."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:05",
+              "text": "So titanium-coloured plastic for the back."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009d",
+          "team": "TS3009",
+          "speaker": "Speaker C",
+          "timestamp": "00:22:47",
+          "turn_index": 419,
+          "text": "Titanium gone and add plastic.",
+          "relevance": -7.46541215407607,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:45",
+              "text": "So"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:46",
+              "text": "So we have to make it cheaper."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:50",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:50",
+              "text": "Yeah, but then we've got money left."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009d",
+          "team": "TS3009",
+          "speaker": "Speaker D",
+          "timestamp": "00:12:22",
+          "turn_index": 167,
+          "text": "The titanium might be uh f",
+          "relevance": -7.192842588041933,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:04",
+              "text": "Two."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:17",
+              "text": "uh u unacceptable for older people I guess. Uh it's it's not f a device that"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:25",
+              "text": "Yeah, that's that's uh for older people, it's it's more that classical look. So"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:25",
+              "text": "for older people. It you put uh put a black front on it or something."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3009d",
+          "team": "TS3009",
+          "speaker": "Speaker A",
+          "timestamp": "00:20:21",
+          "turn_index": 367,
+          "text": "Who? You want to dump the titanium?",
+          "relevance": -6.939475488753086,
+          "matched_queries": [
+            "titanium"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:15",
+              "text": "N not very practical. Well"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:17",
+              "text": "plastic coloured titanium, uh titanium-coloured plastic?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:29",
+              "text": "Yeah well if we uh we we have to get cheaper."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:32",
+              "text": "And make all plastic, then we ha then we're there."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

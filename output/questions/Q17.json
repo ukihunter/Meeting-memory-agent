@@ -1,0 +1,685 @@
+{
+  "question_id": "Q17",
+  "team": "ES2009",
+  "question": "Team ES2009 provisionally chose a touch screen. In which of their meetings was it dropped, what feature did they keep instead, and what cost per remote was estimated for the touch screen?",
+  "queries": [
+    "touch screen",
+    "voice recognition",
+    "seventeen"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2009a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "ES2009a",
+          "team": "ES2009",
+          "speaker": "Speaker A",
+          "timestamp": "00:18:43",
+          "turn_index": 201,
+          "text": "Okay. Okay. Um all right. So. I li I'm liking that idea, this idea of a touch screen remote with multi-format features. Um.",
+          "relevance": -7.617348969625249,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:39",
+              "text": "Interesting. Okay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:40",
+              "text": "Awesome. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:52",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:52",
+              "text": "Right."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009a",
+          "team": "ES2009",
+          "speaker": "Speaker A",
+          "timestamp": "00:17:50",
+          "turn_index": 186,
+          "text": "I'm also gonna note for future reference this idea of um so you like maybe like an L_ like a touch screen type of remote?",
+          "relevance": -7.456608155766881,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:17:44",
+              "text": "Yeah. It's gonna be too complicated, too crowded with buttons and things."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:45",
+              "text": "Too confusing."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:51",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:59",
+              "text": "Mm-hmm. Possibly."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009a",
+          "team": "ES2009",
+          "speaker": "Speaker C",
+          "timestamp": "00:17:09",
+          "turn_index": 178,
+          "text": "But I'm thinking I'm thinking kind of P_D_A_ uh design so touch screen design rather than button so that you can kind of flip around all sorts of different things.",
+          "relevance": -6.379628101666922,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:17:07",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:09",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:10",
+              "text": "Specific. Okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:17:18",
+              "text": "Oh right. That'd be different."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2009b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2009b",
+          "team": "ES2009",
+          "speaker": "Speaker C",
+          "timestamp": "00:19:11",
+          "turn_index": 129,
+          "text": "So these new lithium batteries they last twenty years even with the touch screen?",
+          "relevance": -9.985056484017937,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:05",
+              "text": "Mm-hmm. But then again that costs as well. Hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:19:08",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:15",
+              "text": "Do they? Okay."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:19:16",
+              "text": "Those new ones."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009b",
+          "team": "ES2009",
+          "speaker": "Speaker C",
+          "timestamp": "00:17:35",
+          "turn_index": 122,
+          "text": "Sure. Well have we confirmed that we're gonna go ahead with a uh touch screen um",
+          "relevance": -9.2047507424362,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:17:27",
+              "text": "Alright well we can we can discuss that one further when we think about um whether th when we do costs and so forth, um. True, if plastic is dead cheap and if we're making the whole thing out of plastic anyway um yeah we'll cross that bridge later um but yeah we will have to evaluate what's most important. Um I think we've had a bit of discussion already on this thing, n s there any other questions comments that came up in these presentations?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:28",
+              "text": "Yeah. Oh yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:00",
+              "text": "Yeah yeah okay. Um"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:01",
+              "text": "Interface?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009b",
+          "team": "ES2009",
+          "speaker": "Speaker B",
+          "timestamp": "00:12:22",
+          "turn_index": 53,
+          "text": "Right. I think it would be possible to uh combine the locator device and the voice recognition technology.",
+          "relevance": -8.655976240506888,
+          "matched_queries": [
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:12:12",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:21",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:31",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:31",
+              "text": "Oh. That could work. I like that."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009b",
+          "team": "ES2009",
+          "speaker": "Speaker C",
+          "timestamp": "00:23:05",
+          "turn_index": 177,
+          "text": "Well all you have to do is touch the screen and it automatically goes on. Yep. Goes into a sleep mode.",
+          "relevance": -8.33615301106325,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:45",
+              "text": "If it comes from above. Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:53",
+              "text": "Yeah. Well fair enough. Um and yeah that would help the battery life too and if it the remote they do have to press a button for the remote to turn on. But then again who wants to turn on a remote control. Kind of if i"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:07",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:08",
+              "text": "Oh to wake up okay or go into like a dormant mode. Okay. Oh yeah I like that I like the idea of um putting the logo in the boot up screen, nice. Um. Um cool so any last things before we break? Alright. Fair enough. Sounds good."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009b",
+          "team": "ES2009",
+          "speaker": "Speaker B",
+          "timestamp": "00:21:12",
+          "turn_index": 149,
+          "text": "What what would be on that touch screen? 'Cause you said earlier that we have to think about company colours and um",
+          "relevance": -8.144027127242458,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:10",
+              "text": "Be interesting."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:11",
+              "text": "Mm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:18",
+              "text": "And oh. Yeah the the fashion do. Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:19",
+              "text": "logo or something or motto, I can't remember exactly what you said."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2009c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2009c",
+          "team": "ES2009",
+          "speaker": "Speaker A",
+          "timestamp": "00:21:34",
+          "turn_index": 193,
+          "text": "Okay. Sorted. We will omit the touch screen in favour of voice recognition.",
+          "relevance": -10.275412466826557,
+          "matched_queries": [
+            "touch screen",
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:21",
+              "text": "Okay. So I'm getting alright so more or less you guys think that o o of the two of 'em, the voice recognition will be better. Okay. Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:28",
+              "text": "I think it's our lower risk option which for right now we can have it on the market sooner which is all in all our best option."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:40",
+              "text": "It's you and me outside a little here."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:42",
+              "text": "So and when are we gonna have basic prototypes coming up next that's you guys's next step right?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009c",
+          "team": "ES2009",
+          "speaker": "Speaker D",
+          "timestamp": "00:18:03",
+          "turn_index": 156,
+          "text": "Yeah 'cause with voice recognition I mean really this is pretty bells and whistles kinda remote.",
+          "relevance": -9.118998657783052,
+          "matched_queries": [
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:00",
+              "text": "So"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:01",
+              "text": "I mean I think that we really have two main selling points, I think that our casing and the voice recognition"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:09",
+              "text": "The voice rec thing, I mean, if if we're looking at bottom line, now we're looking at upping the cost to seventeen to get the touch screen on, I think we might have to drop the voice rec."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:09",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009c",
+          "team": "ES2009",
+          "speaker": "Speaker D",
+          "timestamp": "00:27:25",
+          "turn_index": 268,
+          "text": "Well and do we wanna consider like an iPod screen which isn't a touch screen but you're still scrolling through menu options, in p",
+          "relevance": -9.029445016489108,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:27:20",
+              "text": "And they slide."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:24",
+              "text": "Yes."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:32",
+              "text": "Think then we're hitting our cost issue again."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:27:34",
+              "text": "True, we're still not making it easier then."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009c",
+          "team": "ES2009",
+          "speaker": "Speaker A",
+          "timestamp": "00:22:00",
+          "turn_index": 202,
+          "text": "We'll just run through it yeah, yeah, um. You discussed either a lithium or a solar power. Would the solar power be enough to fuel a voice recognition? Or this kinesthetic one, would that be enough to fuel a voice recognition remote control?",
+          "relevance": -8.331906551777147,
+          "matched_queries": [
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:58",
+              "text": "Yes."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:00",
+              "text": "Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:14",
+              "text": "Um, the solar power definitely would be but I think just to keep people from getting annoyed, 'cause sometimes solar power fails and there's no way round that, we should install a small backup battery."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:26",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009c",
+          "team": "ES2009",
+          "speaker": "Speaker D",
+          "timestamp": "00:23:34",
+          "turn_index": 224,
+          "text": "I if it's got voice recognition it can be technically anywhere in your room and still do its job.",
+          "relevance": -8.23770216123184,
+          "matched_queries": [
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:27",
+              "text": "Why, why moving away from hand-held, why? What's the uh idea?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:27",
+              "text": "Just a thought. Well if you don't need to pick it up it could kind of be a selling point."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:38",
+              "text": "Hmm. Do you think people that are people that buy a remote, are they always gonna wanna use the voice recognition or is it just something that they do sometimes."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:46",
+              "text": "True, and i probabl I think we're banking on selling it to more than just voice recognition people, like we want it to work fundamentally as a basic manual too, right."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2009d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2009d",
+          "team": "ES2009",
+          "speaker": "Speaker C",
+          "timestamp": "00:07:49",
+          "turn_index": 45,
+          "text": "Mm. Did we talk about the voice recognition uh option?",
+          "relevance": -10.862092237835983,
+          "matched_queries": [
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:07:38",
+              "text": "Brilliant."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:07:39",
+              "text": "Mm. Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:07:59",
+              "text": "And Oh no, we haven't talked about that yet have we?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:08:04",
+              "text": "So uh so uh yeah on the back here you all noticed this area here which is actually the voice recognition uh uh console and uh I think it's nicely designed into the into the overall look. Um, but basically the voice recognition uh incorporates um the latest designs that our research team has been able to cufw uh come up with. Basically uh quite similar to the coffee maker um design that we were talking about earlier and um, I think that uh has given a proven um ease of use and what not. And uh allows features like the remote actually talking back to the user um, so."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009d",
+          "team": "ES2009",
+          "speaker": "Speaker C",
+          "timestamp": "00:11:12",
+          "turn_index": 73,
+          "text": "The voice recognition area actually doubles as uh as the solar cell area. Yeah.",
+          "relevance": -9.634356231225318,
+          "matched_queries": [
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:05",
+              "text": "Right uh we didn't really touch on that but it it's in there, yep."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:07",
+              "text": "With a back-up battery? With the ba okay. Um and"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:11:17",
+              "text": "Clever, clever, well done. Um so I guess that would mean we've got a bit of a um It's a s a speaker and a sensor at the same time isn't it?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:28",
+              "text": "Yeah, yeah. It's just making use of the same space and the same materials, but"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009d",
+          "team": "ES2009",
+          "speaker": "Speaker C",
+          "timestamp": "00:14:11",
+          "turn_index": 101,
+          "text": "I mean you might be able to sway me on the idea that we our main selling point could be already this voice recognition thing I mean that's what sets us apart right?",
+          "relevance": -6.1555595456644046,
+          "matched_queries": [
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:13:51",
+              "text": "Although we don't wanna get rid of the whole environmental I mean obviously the solar cell is a big piece of the way we're marketing this as like a natural, new thing, but honestly if we cut that one piece out we're actually coming in under budget if I've done my math correctly."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:11",
+              "text": "Hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:14:12",
+              "text": "I mean Which, it's yeah that's what setting us into this young market, I mean that's where we started from, so I don't know, and I mean you know perhaps when the cell technology comes down in price we can bring that back into the game but it looks like at this point that may be out of our league."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:37",
+              "text": "Right."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009d",
+          "team": "ES2009",
+          "speaker": "Speaker C",
+          "timestamp": "00:08:04",
+          "turn_index": 47,
+          "text": "So uh so uh yeah on the back here you all noticed this area here which is actually the voice recognition uh uh console and uh I think it's nicely designed into the into the overall look. Um, but basically the voice recognition uh incorporates um the latest designs that our research team has been able to cufw uh come up with. Basically uh quite similar to the coffee maker um design that we were talking about earlier and um, I think that uh has given a proven um ease of use and what not. And uh allows features like the remote actually talking back to the user um, so.",
+          "relevance": -4.58137010680627,
+          "matched_queries": [
+            "voice recognition"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:07:49",
+              "text": "Mm. Did we talk about the voice recognition uh option?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:07:59",
+              "text": "And Oh no, we haven't talked about that yet have we?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:11",
+              "text": "Okay. Yeah. Mm 'kay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:40",
+              "text": "Hmm. Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2009d",
+          "team": "ES2009",
+          "speaker": "Speaker B",
+          "timestamp": "00:03:11",
+          "turn_index": 10,
+          "text": "Well. Uh, we have assembled our prototype, um. What's to be said about it? Um, we took into account a lot of the things that we went over in the last meeting, um. Some of the most important things to consider are that we decided not to go for the touch screen which you can see and opted for some very large buttons for the primary functions, um.",
+          "relevance": -3.90933918932965,
+          "matched_queries": [
+            "touch screen"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:01:20",
+              "text": "Huh. Yeah that's not you."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:48",
+              "text": "No. That's how the Wait. This is, this is very high-powered stuff here, double-clicking, there we go. So um basically the moral of the story from our last minute uh last meeting was that um we that we had meetings from uh we had presentations done by the Industrial Designer, uh or from Nathan, and Ron and from Sarah about what we can do here um and what sort of limitations we're operating with um uh excuse me what limitations we're operating under, what kind of risk we'd be looking at with some of the various approaches we were discussing and we essentially came to the conclusion that we should develop a remote with uh voice recognition, I_E_ that had a vaguely non-remote like shape um because you didn't really need to use it as a remote since you could just use your voice. That would include some mostly just the simple design features for a television operation but with a slide or a fold-out bay for more advanced functions for users. Um, and uh the uh uh the U_I_D_ and the I_D_ were asked to go ahead and start developing a prototype for us to look at. So. That's sorted, back to the main meet here, um, go ahead and take it away guys."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:33",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:03:42",
+              "text": "This is going to be the on off button and we have these buttons to go through the channels um and then two volume buttons down here, d uh we decided those were the most important uh buttons. And then, for the more advanced uh functions there is a slide out panel here um and you can see that there are lots of other things going on. But this actually can slide back in and provides a very nice aesthetic when it's all put away, um. As far as the uh whole visible light thing, we decided to go with the multiple colours coming out, why not?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

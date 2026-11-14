@@ -1,0 +1,435 @@
+{
+  "question_id": "Q02",
+  "team": "ES2003",
+  "question": "Team ES2003 leaned towards one material for the case and then switched to another. What did they lean towards first, what did they end with, and why did they switch?",
+  "queries": [
+    "case material",
+    "plastic",
+    "wood",
+    "material"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2003a",
+      "meeting_number": 1,
+      "passages": []
+    },
+    {
+      "meeting_id": "ES2003b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2003b",
+          "team": "ES2003",
+          "speaker": "Speaker B",
+          "timestamp": "00:34:18",
+          "turn_index": 195,
+          "text": "Oh, sorry. My apologies. No it could well be, I've probably missed that. Um, I think that's l almost the last minute thing we can just incorporate into the actual plastic on top. So I'm not too concerned a that we haven't gone into depth about that. But it might be something you could consider when you're thinking about shapes?",
+          "relevance": -2.063164465621436,
+          "matched_queries": [
+            "plastic"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:34:13",
+              "text": "Real reaction, and such. So um"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:34:17",
+              "text": "The slogan is yeah, the slogan's we put the fashion in electronics, isn't it?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:34:25",
+              "text": "'S also look cool."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:34:30",
+              "text": "Mm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2003c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2003c",
+          "team": "ES2003",
+          "speaker": "Speaker D",
+          "timestamp": "00:06:18",
+          "turn_index": 39,
+          "text": "uh a nice material. Uh",
+          "relevance": -7.406914970574592,
+          "matched_queries": [
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:00",
+              "text": "Yeah like that. Whereas this is two curves. Um so I guess that's what they mean by uh double curve. Um which obviously it looks better than the single curve, but uh you can't have it in titanium, which is"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:07",
+              "text": "Alright."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:22",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:24",
+              "text": "and for the buttons, um it can have the scroll wheel which they use in mouses for com P_C_s. Uh but um it requires a more expensive chip to use, and if you wanna use L_C_D_ it's even more expensive. So you have to decide, there's trade-offs there. Um if you want the buttons to be oh yeah, if you have a double curve uh control and it's rubber, then you have these rubber buttons as well. But you're gonna ha I reckon you're gonna have to have uh key a number keypad anyway for the amount of channels these days. You wouldn't want to just have to scroll through all the channels to get to the one you want. You wanna enter just the number of it, if you know it. So um I reckon we're gonna have to have a number keypad anyway. Do you think?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2003c",
+          "team": "ES2003",
+          "speaker": "Speaker D",
+          "timestamp": "00:20:17",
+          "turn_index": 97,
+          "text": "Oh yeah, I forgot to mention that. The uh rubber material is the type of stress ball material, not just normal rubber. Forgot to say that.",
+          "relevance": -6.123269168181636,
+          "matched_queries": [
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:45",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:49",
+              "text": "Uh we found, in order of importance, people want the remote control to look cool more than they want it to to be cool. As in they want it to do a lot of good s they want it to look like it does a lot, and if it does do a lot that's a bonus, but they don't care so much, you know. They want it to be that's sounds a bit like a contradiction. Technology technical technologically innovative. People want it to be that, but s still they care more about the way it looks than what it does. So like the interface is really important. And easy to use, it it just so happens that uh from the second point to the third point is twice as important I mean the second point is twice as important as the third point. People want it I is it has to be cooler than easy to use, you know, if it has the newest features, even if it's difficult to use, prefer it to have the newest features. And if it's easy to use that's a bonus. The fashion, now this is seems a bit odd to me, but fruit and veg is the new is the new black for furniture, for clothes, for shoes. How that relates to a remote control I don't know. But I I see I come on to that in the next in the next slide. Spongy. I've als I've been saying everything's the new black. Well spongy's the new black as well. So we have the choice between rubber and plastic. If it's the type of rubber that you can squeeze, you know, it's spongy, then can I skip the rest?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:22",
+              "text": "Okay. Okay, so kinda spongy material. So um so my personal opinion?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:29",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2003c",
+          "team": "ES2003",
+          "speaker": "Speaker C",
+          "timestamp": "00:20:22",
+          "turn_index": 98,
+          "text": "Okay. Okay, so kinda spongy material. So um so my personal opinion?",
+          "relevance": -5.854056836468271,
+          "matched_queries": [
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:18:49",
+              "text": "Uh we found, in order of importance, people want the remote control to look cool more than they want it to to be cool. As in they want it to do a lot of good s they want it to look like it does a lot, and if it does do a lot that's a bonus, but they don't care so much, you know. They want it to be that's sounds a bit like a contradiction. Technology technical technologically innovative. People want it to be that, but s still they care more about the way it looks than what it does. So like the interface is really important. And easy to use, it it just so happens that uh from the second point to the third point is twice as important I mean the second point is twice as important as the third point. People want it I is it has to be cooler than easy to use, you know, if it has the newest features, even if it's difficult to use, prefer it to have the newest features. And if it's easy to use that's a bonus. The fashion, now this is seems a bit odd to me, but fruit and veg is the new is the new black for furniture, for clothes, for shoes. How that relates to a remote control I don't know. But I I see I come on to that in the next in the next slide. Spongy. I've als I've been saying everything's the new black. Well spongy's the new black as well. So we have the choice between rubber and plastic. If it's the type of rubber that you can squeeze, you know, it's spongy, then can I skip the rest?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:20:17",
+              "text": "Oh yeah, I forgot to mention that. The uh rubber material is the type of stress ball material, not just normal rubber. Forgot to say that."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:29",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:34",
+              "text": "Um we want something fancy and techni technologically innovative, obviously. But what we what we need is something that looks like it's from the future that looks cool, that's that's different, you know, that's everyone has a white remote control, black remote control, you need something cool. Like, titanium is cool but it's expensive. And maybe it's a bit of overkill for a remote control. Um now the fruit and veg options, either we we go in that direction or we stay totally away from it. Um I mean the research did come up with fruit and veg, so maybe it is important for it's the up to the interface guy. So if we stay away from it, s you know stay away from it, but if we're gonna go along with it then it doesn't necessarily have to be like an apple or something like that, or a kiwi fruit. It could be something like, I say potato peeler but I'm sure you guys have a have a much cooler idea than I do. So I think cool is the key. Few questions about a spongy remote control. I've never seen one before. I've seen plastic remote controls. I think maybe they were I don't know, back in the day when they first came up with remote controls, they had a reason for it being"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2003c",
+          "team": "ES2003",
+          "speaker": "Speaker D",
+          "timestamp": "00:02:20",
+          "turn_index": 13,
+          "text": "Alright. So Uh. The case uh le that's what I wrote first of all, could be plastic our plastic. Uh but later on we found out that um it can be rubber as well, or titanium or even wood. So uh we decide what it's gonna be. Probably plastic. Uh we need the infra-red transmitter. Get that off the shelf. Uh joystick we'll probably if we're gonna use it, um could be plastic w or rubber even as well. Um if you go on to the next slide. Uh If you go on to f uh findings, it's like two or three slides down.",
+          "relevance": -3.94437489784438,
+          "matched_queries": [
+            "plastic",
+            "wood"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:02:10",
+              "text": "."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:02:19",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:03:08",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:03:08",
+              "text": "Right. So, this is what I found we can use. Uh three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2003c",
+          "team": "ES2003",
+          "speaker": "Speaker C",
+          "timestamp": "00:21:48",
+          "turn_index": 102,
+          "text": "sturdy, you know. For being strong and sturdy. So um if we want something strong and sturdy, I say stay with plastic or titanium, but if we go with spongy, we can stress that you can drop this as many times as you want, it doesn't matter, it's spongy material, it's not gonna break, you know. I just don't know how the L_E_D_ and the lights are gonna fit into a spongy material because it's not gonna be completely squeezable. So how do things fit it? And if we are gonna use spongy, we can say it's long lasting, you know it's damage resistant and stuff like that, so. So just to summarise, people want stuff that's cool, that's that looks like it's cool, and if it is cool then that's a bonus doesn't have to be um people like fruit and veg. We can either go down that alley or stay totally away from it. People like spongy material. If we're gonna use spongy material we have to think of how practical it is, and how we can further promote that idea. And also, this was this year. So, things change all the time, every year you know they they always talk about this year, this is the new black. Well next year something else is gonna be the new black and we're stuck with last year's fruit and veg type stuff. 'Kay.",
+          "relevance": -2.4299889890725614,
+          "matched_queries": [
+            "plastic",
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:34",
+              "text": "Um we want something fancy and techni technologically innovative, obviously. But what we what we need is something that looks like it's from the future that looks cool, that's that's different, you know, that's everyone has a white remote control, black remote control, you need something cool. Like, titanium is cool but it's expensive. And maybe it's a bit of overkill for a remote control. Um now the fruit and veg options, either we we go in that direction or we stay totally away from it. Um I mean the research did come up with fruit and veg, so maybe it is important for it's the up to the interface guy. So if we stay away from it, s you know stay away from it, but if we're gonna go along with it then it doesn't necessarily have to be like an apple or something like that, or a kiwi fruit. It could be something like, I say potato peeler but I'm sure you guys have a have a much cooler idea than I do. So I think cool is the key. Few questions about a spongy remote control. I've never seen one before. I've seen plastic remote controls. I think maybe they were I don't know, back in the day when they first came up with remote controls, they had a reason for it being"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:47",
+              "text": "Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:57",
+              "text": "Mm-hmm. Okay."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:03",
+              "text": "That's me."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2003d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2003d",
+          "team": "ES2003",
+          "speaker": "Speaker B",
+          "timestamp": "00:14:31",
+          "turn_index": 73,
+          "text": "as you can see I mean that's taken up well over half of the price. So um I'm very much open to suggestions of where we go, but because we need to shed what was four Euros off of the um the price of for what we really desired, this one comes in under price as you can see, but this was the one that sacrificed the material for the case and for the actual case design.",
+          "relevance": -4.976712577045541,
+          "matched_queries": [
+            "case material",
+            "material"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:26",
+              "text": "."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:29",
+              "text": "Mm. yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:34",
+              "text": "Yeah. We don't even have uh speakers here. The like uh we uh what about speakers and transmitters and stuff like that? Have we factored that in?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:07",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2003d",
+          "team": "ES2003",
+          "speaker": "Speaker D",
+          "timestamp": "00:04:18",
+          "turn_index": 12,
+          "text": "Uh because of costs. And it's plastic as well, so it won't be as comfortable on the hand.",
+          "relevance": -4.3063296902762165,
+          "matched_queries": [
+            "plastic"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:04:05",
+              "text": "Um obviously it's gonna be bulkier than how it looks, because it's gonna be flat on one side, so the L_C_D_ will be s sticking down like this, won't it? 'Cause it you can't get it curved."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:14",
+              "text": "Mm-hmm. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:18",
+              "text": "Yeah, I mean the uh Yeah. Yeah. I mean with the with the rubber design it could i you know it could pretty much mould very much to the to the user's hand. One nice wee feature if we could if we could still do the rubber, I though of was to have the uh rubber extend beyond the end of the uh of the rigid substructure. So it has a wee sort of tail that you just drape over your wrist so it stays in position nicely."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:24",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2003d",
+          "team": "ES2003",
+          "speaker": "Speaker B",
+          "timestamp": "00:12:53",
+          "turn_index": 66,
+          "text": "Um b b b da is you mean on the plastic, or? Let's have a look. You now have as much information as I do. Um.",
+          "relevance": -3.6833720349928867,
+          "matched_queries": [
+            "plastic"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:44",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:45",
+              "text": "Do you have any data on how much um different prints cost? I mean can you get the entire thing printed with a design um?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:56",
+              "text": ". Yeah, yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:13:05",
+              "text": "So as you can see here, for example, the battery really not very little choice in that one. We've gone for one of the cheaper options as well. Unfortunately we require the advanced chip if we're gonna do what we're needing to. I've said single curved. We really do need it to be that way for the ergonomics of it. Um plastic for some reason incurs no cost, which I've had to very much make advantage of, despite the fact that rubber's only got a value of two Euros per unit. Problem comes here as you can see in the interface. Um if I've read this thing correctly, then we can save point five of a Euro here in that it's not per push button. That might make sense, because then a numeric keypad would come in at um what, four point five Euros, which is an awful lot, so that could well be wrong. Even if we save point five there, it would just mean that we're most likely placing it in actually just gaining a colour for the unit, which has had to be put to one side. As you can see, the use of an L_C_ display um advanced chip and what would determine the scroll wheel here as well because it's an integrated scroll scroll wheel push button that wasn't quite what I think they had in mind with a joystick."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2003d",
+          "team": "ES2003",
+          "speaker": "Speaker B",
+          "timestamp": "00:17:54",
+          "turn_index": 111,
+          "text": "are people maybe not happy with, but are willing to go ahead with this in going for a plastic solid case, to keep the L_C_D_?",
+          "relevance": -3.6833720349928867,
+          "matched_queries": [
+            "plastic"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:17:40",
+              "text": "So, I would say that it would seem like the general opinion is we're gonna keep the L_C_ display 'cause it's about what really separates us, despite the cost it's gonna incur. Um"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:48",
+              "text": "I think so."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:04",
+              "text": "Mm-hmm. Um yeah I mean one thing, I mean ho uh how much extra would it be to to keep I mean keep the um the articulation?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:14",
+              "text": "It's hard to tell. Um I would say that you're at least gonna take double curved, and even then I'm not quite sure if that's incorporating the idea of articulation."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2003d",
+          "team": "ES2003",
+          "speaker": "Speaker B",
+          "timestamp": "00:24:54",
+          "turn_index": 215,
+          "text": "Yeah, w It is, yeah. Don't blame them. Um because of the way that we've minimalised the number of buttons and such. Plastic, it sucks. But it's no worse than any of the other pl remote controls we have.",
+          "relevance": -2.8117607658031956,
+          "matched_queries": [
+            "plastic"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:49",
+              "text": "We'll get panned on the next one, anyway."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:24:51",
+              "text": "Materials that people find pleasing. Sponginess is what they really would have wanted, apparently."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:25:05",
+              "text": "Yeah. That's true. It's not a step backwards."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:14",
+              "text": "five? Six?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

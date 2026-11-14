@@ -1,0 +1,468 @@
+{
+  "question_id": "Q05",
+  "team": "TS3007",
+  "question": "Team TS3007's energy source changed between meetings. What did they first settle on, what did they end with, and who proposed the change?",
+  "queries": [
+    "energy source",
+    "battery",
+    "power"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "TS3007a",
+      "meeting_number": 1,
+      "passages": []
+    },
+    {
+      "meeting_id": "TS3007b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "TS3007b",
+          "team": "TS3007",
+          "speaker": "Speaker C",
+          "timestamp": "00:12:46",
+          "turn_index": 45,
+          "text": "Yeah. Yeah, I actually I figured that would be that would be rather nice, but then you'd still have the uh the infrared function. So in in theory you'd actually just move the problem, but uh what I did uh think about was when you mentioned about the uh the cup-holder, is why not uh introduce a speech function like where is the remote. If somebody says, where is the remote, then it goes uh beep uh beep beep beep or something, I dunno, maybe uh maybe something to look into, I dunno uh what the cost that something like that would be. But it may be uh may be something to explore. Uh I'll I'll just explain a bit of the components. Uh first you have the energy source. The energy source would be a battery, simple uh battery uh that you can find anywhere. I figured that would be best, 'cause when the battery uh stops functioning uh we could just uh use you could just go out and buy a new one.",
+          "relevance": -3.8679234832637084,
+          "matched_queries": [
+            "energy source",
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:43",
+              "text": "Yeah, actually I have t"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:44",
+              "text": "So it's in the wrong product."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:53",
+              "text": "Yeah. Yeah. Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:13:35",
+              "text": "So we didn't and we don't have to do all uh to be too complicated about that. Uh the energy source is connected to the infrared button, but uh the infrared button uh works only via the chip and the subcomponent to uh the switch there is a switch uh between these. When the switch is pressed in a w on this this case it switches a button, when a button is prush pushed in, uh a electric current goes through here, and in uh immediately, a l a bulb lights up uh displaying to the user that something has happened. That's uh that's so the h user won't be um thinking, well uh did the button be pressed, w what happened uh. Or I press button but nothing's happening on the T_V_, so is is something wrong or something. So that's just to uh to to explain the of to to uh make it clearer to the user. Uh w well the signal goes via chip that's translated into uh electric sig uh electronic signals and then it's processed and then it's sent to the infrared bulb where it will be uh uh received on the receiving end. And those uh interpreted by the device, well in this case the television. Uh well my personal preferences here, well we have to keep it simple. Not too many uh gadgets and functions, just like you said uh well the most users n uh you have a lot of buttons and you u u use you don't use them, so why why should we invent uh w spend more time on those. Uh I I think we should stick by with infrared transmitting and uh no receiving. So uh no input from the television. So I think we shouldn't be uh spending time on um teletext and st things like that, because when you uh want teletext on uh infrared you'd have to build in a receiver too, and so in order to receive the signals from uh what's on T_V_ and such. So I figure that would be uh spending too much money and time and"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007b",
+          "team": "TS3007",
+          "speaker": "Speaker C",
+          "timestamp": "00:13:35",
+          "turn_index": 47,
+          "text": "So we didn't and we don't have to do all uh to be too complicated about that. Uh the energy source is connected to the infrared button, but uh the infrared button uh works only via the chip and the subcomponent to uh the switch there is a switch uh between these. When the switch is pressed in a w on this this case it switches a button, when a button is prush pushed in, uh a electric current goes through here, and in uh immediately, a l a bulb lights up uh displaying to the user that something has happened. That's uh that's so the h user won't be um thinking, well uh did the button be pressed, w what happened uh. Or I press button but nothing's happening on the T_V_, so is is something wrong or something. So that's just to uh to to explain the of to to uh make it clearer to the user. Uh w well the signal goes via chip that's translated into uh electric sig uh electronic signals and then it's processed and then it's sent to the infrared bulb where it will be uh uh received on the receiving end. And those uh interpreted by the device, well in this case the television. Uh well my personal preferences here, well we have to keep it simple. Not too many uh gadgets and functions, just like you said uh well the most users n uh you have a lot of buttons and you u u use you don't use them, so why why should we invent uh w spend more time on those. Uh I I think we should stick by with infrared transmitting and uh no receiving. So uh no input from the television. So I think we shouldn't be uh spending time on um teletext and st things like that, because when you uh want teletext on uh infrared you'd have to build in a receiver too, and so in order to receive the signals from uh what's on T_V_ and such. So I figure that would be uh spending too much money and time and",
+          "relevance": -1.0709457551091313,
+          "matched_queries": [
+            "energy source"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:46",
+              "text": "Yeah. Yeah, I actually I figured that would be that would be rather nice, but then you'd still have the uh the infrared function. So in in theory you'd actually just move the problem, but uh what I did uh think about was when you mentioned about the uh the cup-holder, is why not uh introduce a speech function like where is the remote. If somebody says, where is the remote, then it goes uh beep uh beep beep beep or something, I dunno, maybe uh maybe something to look into, I dunno uh what the cost that something like that would be. But it may be uh may be something to explore. Uh I'll I'll just explain a bit of the components. Uh first you have the energy source. The energy source would be a battery, simple uh battery uh that you can find anywhere. I figured that would be best, 'cause when the battery uh stops functioning uh we could just uh use you could just go out and buy a new one."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:53",
+              "text": "Yeah. Yeah. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:34",
+              "text": "Um, yeah, maybe another problem uh, I think current T_V_s can even send infrared."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:15:43",
+              "text": "Yes, but what should we uh s I I I f I agree with you, but should we spend money or and time on building a receiver into the uh remote control? 'Cause that would be I mean extra components, extra designs, um larger g uh remote control. These all uh all stuff that we have to take in account. So I I my personal opinion is no no no receiver at all. Um, well we should uh look into the design and the functionability. Like I said, uh use one button for instance for m multiple functions, or well uh just hide the few buttons o of switching it open or something, the usual uh stuff. And uh don't overbuild, we shouldn't make a big uh remote control for simple functions, but we we should stick to the basics. So that was my uh my personal opinion. And that was my uh my presentation uh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3007c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "TS3007c",
+          "team": "TS3007",
+          "speaker": "Speaker B",
+          "timestamp": "00:10:57",
+          "turn_index": 108,
+          "text": "Buy a fifty cents battery and uh",
+          "relevance": -6.282000744640449,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:52",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:53",
+              "text": "Who cares, right. That's the Project Manager's problem."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:57",
+              "text": "Of course. Fifty cent."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:00",
+              "text": "Yeah, well Fifty cent uh Uh, why doesn't And then we have single-curved versus double-curved. That"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007c",
+          "team": "TS3007",
+          "speaker": "Speaker D",
+          "timestamp": "00:37:18",
+          "turn_index": 372,
+          "text": "R_ th R_ to the third power. R_ three. Real Reaction remote.",
+          "relevance": -5.493103357850385,
+          "matched_queries": [
+            "power"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:37:14",
+              "text": "How I know a marketing name for our product."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:37:17",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:37:23",
+              "text": "I had a I had another idea to put uh uh the whole the whole idea of uh Real Reaction and uh uh uh a single brand and uh uh that kind of thing. When you uh put on remote, you see a kind of a just like when you telephone, you see a little uh animation. Real Reaction remote. And uh with the with the with the motto, we put fashion in electronics. And then you go uh"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:37:24",
+              "text": "Oh."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007c",
+          "team": "TS3007",
+          "speaker": "Speaker D",
+          "timestamp": "00:04:42",
+          "turn_index": 33,
+          "text": "Yeah but when the power gets low, you have to shake it or something?",
+          "relevance": -5.182662209276119,
+          "matched_queries": [
+            "power"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:04:32",
+              "text": "I figured, well that's ki kinda high-tech, when when you have a remote control that well, when you pick it up, it has power. That would be actually very nice, uh I figured. Well, we could also use a battery, that's a bit"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:40",
+              "text": "Oh."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:04:46",
+              "text": "Yeah. Yeah yeah, you c just you have to shake it around a little bit. And then then it d then it has some more uh energy. Well, y you could just go for a battery. Or you can go for both?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:04:48",
+              "text": "Uh, and uh uh Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007c",
+          "team": "TS3007",
+          "speaker": "Speaker D",
+          "timestamp": "00:06:30",
+          "turn_index": 51,
+          "text": "And when the battery doesn't work, I usually shake it too. So Like slamming on it. It's exactly the same.",
+          "relevance": -4.110252678790753,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:22",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:29",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:06:34",
+              "text": "Exactly."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:34",
+              "text": "Thank you, Tim."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007c",
+          "team": "TS3007",
+          "speaker": "Speaker C",
+          "timestamp": "00:10:22",
+          "turn_index": 90,
+          "text": "Yeah, you you you should we should A combination. Uh, you use the battery and w charge it up with kinetic. When you pick it up, it charges up.",
+          "relevance": -3.539259808862941,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:04",
+              "text": "So That that shouldn't be a real issue, I think."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:19",
+              "text": "Um, I think you should use kinetic as a back-up."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:24",
+              "text": "Yeah, a combination."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:25",
+              "text": "A combination, yeah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3007d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "TS3007d",
+          "team": "TS3007",
+          "speaker": "Speaker A",
+          "timestamp": "00:19:55",
+          "turn_index": 293,
+          "text": "Battery, one? Okay.",
+          "relevance": -7.312300744111155,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:54",
+              "text": "Battery, yes. One. One, yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:19:54",
+              "text": "Yes. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:19:58",
+              "text": "Kinetic, one. Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:59",
+              "text": "Kinetic, one? Okay, solar cells, zero. Okay, uh simple chip on print? No?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007d",
+          "team": "TS3007",
+          "speaker": "Speaker B",
+          "timestamp": "00:19:54",
+          "turn_index": 291,
+          "text": "Battery, yes. One. One, yeah.",
+          "relevance": -6.758107984812625,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:51",
+              "text": "That's zero."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:19:51",
+              "text": "Me, too."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:19:54",
+              "text": "Yes. Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:19:55",
+              "text": "Battery, one? Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007d",
+          "team": "TS3007",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:23",
+          "turn_index": 374,
+          "text": "Yeah, we just put a good battery it it. Mobile phones nowadays.",
+          "relevance": -5.3412720960416395,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:14",
+              "text": "Yeah. Just cut off the kine yeah. Or yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:19",
+              "text": "Yeah. Okay, sure."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:24",
+              "text": "Yeah. Daniel. Daniel, what do you think about Here. What do you think about uh putting a battery in it, but also selling like uh the covers, a docking station just apart from the from the thing, so that you can uh put uh"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:26",
+              "text": "Yeah. Yo. Sorry, yeah, yes. Yeah. Mm-hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007d",
+          "team": "TS3007",
+          "speaker": "Speaker C",
+          "timestamp": "00:25:23",
+          "turn_index": 440,
+          "text": "No, well, y I mean uh, y you can go into your neighbour and tell him, ha, my k uh remote control is kinetic. You have standard old battery control uh remote con",
+          "relevance": -3.2789675600696557,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:19",
+              "text": "Yeah. Do you think? Well, now you can shake your remote control."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:25:21",
+              "text": "Yeah, I think so."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:25:27",
+              "text": "Kinetic."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:25:28",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3007d",
+          "team": "TS3007",
+          "speaker": "Speaker D",
+          "timestamp": "00:22:24",
+          "turn_index": 375,
+          "text": "Yeah. Daniel. Daniel, what do you think about Here. What do you think about uh putting a battery in it, but also selling like uh the covers, a docking station just apart from the from the thing, so that you can uh put uh",
+          "relevance": -2.727366611306784,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:19",
+              "text": "Yeah. Okay, sure."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:23",
+              "text": "Yeah, we just put a good battery it it. Mobile phones nowadays."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:26",
+              "text": "Yeah. Yo. Sorry, yeah, yes. Yeah. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:45",
+              "text": "rechargeable batteries in it and just"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

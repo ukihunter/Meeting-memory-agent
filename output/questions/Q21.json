@@ -1,0 +1,614 @@
+{
+  "question_id": "Q21",
+  "team": "IS1007",
+  "question": "In Team IS1007, one member said they would check the prices of components. Who was it, what total did they report for a version with all the functions, and what did the team then decide about the LCD?",
+  "queries": [
+    "cost",
+    "price",
+    "display",
+    "component"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "IS1007a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "IS1007a",
+          "team": "IS1007",
+          "speaker": "Speaker B",
+          "timestamp": "00:11:09",
+          "turn_index": 132,
+          "text": "Yeah. Yeah, so you don't have to display here, just display on the T_V_ screen, right? Good idea.",
+          "relevance": -6.545205811079422,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:01",
+              "text": "Yeah. Ah, yes. So."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:07",
+              "text": "Well channel programme or contents or in an easy way, so"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:14",
+              "text": "Yeah in the dis display on the T_V_ screen and just uh with the with your remote control would just navigate through the f"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:17",
+              "text": "Okay. I think I think that will be revol revolutionary. Because all the T_V_ uh the the remote control have all numbers, lots of buttons and then you dunno what to choose in the end. Yeah. Alright."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007a",
+          "team": "IS1007",
+          "speaker": "Speaker C",
+          "timestamp": "00:11:14",
+          "turn_index": 133,
+          "text": "Yeah in the dis display on the T_V_ screen and just uh with the with your remote control would just navigate through the f",
+          "relevance": -4.080583242377674,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:07",
+              "text": "Well channel programme or contents or in an easy way, so"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:09",
+              "text": "Yeah. Yeah, so you don't have to display here, just display on the T_V_ screen, right? Good idea."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:11:17",
+              "text": "Okay. I think I think that will be revol revolutionary. Because all the T_V_ uh the the remote control have all numbers, lots of buttons and then you dunno what to choose in the end. Yeah. Alright."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:11:34",
+              "text": "Yeah, yeah. So I think for for the technical points we have to to to check how to gather the data from programme or contents and all this stuff"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1007b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "IS1007b",
+          "team": "IS1007",
+          "speaker": "Speaker A",
+          "timestamp": "00:18:39",
+          "turn_index": 207,
+          "text": "Expensive. Price.",
+          "relevance": -8.093296531711722,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:11",
+              "text": "So we have I think we have s still we have couple of minutes. Mm-mm. So any things to to discuss? Or any suggestions?"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:31",
+              "text": "I think as I discussed th that four points would be good for um marketing. The speech interface and uh less uh reasonable uh cost."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:42",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:18:44",
+              "text": "And the lighting adaptation and the teletext. And regarding the teletext uh these are the subtitl these are the text information which you got on the televisions. If you are watching an foreign movie, you get subtitles sometimes. And uh if you are a French guy watching an English movie you would like to have it in French. And if I am a German then I would like to have the my options in German. So, the remote it should have some it should give me some flexibility of choosing the ch languages. That should be a good uh point."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007b",
+          "team": "IS1007",
+          "speaker": "Speaker D",
+          "timestamp": "00:15:50",
+          "turn_index": 166,
+          "text": "I mean we have to look for a trade-off. The features and the cost.",
+          "relevance": -4.6579303578916775,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:44",
+              "text": "But"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:45",
+              "text": "But do you think what they sug suggested s possibility."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:50",
+              "text": "Mm. Yeah. I no I I think that uh i if we go for quality people may tolerate for high quality and of course comes with uh reasonable cost. Maybe not less, but they may be willing to pay"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:53",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007b",
+          "team": "IS1007",
+          "speaker": "Speaker D",
+          "timestamp": "00:18:31",
+          "turn_index": 206,
+          "text": "I think as I discussed th that four points would be good for um marketing. The speech interface and uh less uh reasonable uh cost.",
+          "relevance": -3.6538283573808203,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:17:54",
+              "text": "Yeah, then we can conclude that. Yeah. Yeah, but it's quite possible but maybe not in this project."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:11",
+              "text": "So we have I think we have s still we have couple of minutes. Mm-mm. So any things to to discuss? Or any suggestions?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:18:39",
+              "text": "Expensive. Price."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:18:42",
+              "text": "Mm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007b",
+          "team": "IS1007",
+          "speaker": "Speaker B",
+          "timestamp": "00:15:50",
+          "turn_index": 167,
+          "text": "Mm. Yeah. I no I I think that uh i if we go for quality people may tolerate for high quality and of course comes with uh reasonable cost. Maybe not less, but they may be willing to pay",
+          "relevance": -2.806760454133673,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:45",
+              "text": "But do you think what they sug suggested s possibility."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:50",
+              "text": "I mean we have to look for a trade-off. The features and the cost."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:53",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:16:06",
+              "text": "Little bit more if it's with extra features."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1007c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "IS1007c",
+          "team": "IS1007",
+          "speaker": "Speaker C",
+          "timestamp": "00:21:47",
+          "turn_index": 141,
+          "text": "So price of uh L_C_D_ display. And",
+          "relevance": -6.229034915876615,
+          "matched_queries": [
+            "price",
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:39",
+              "text": "I mean that should be found out by the Industrial Designers."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:43",
+              "text": "Uh maybe you can find out the price and tell us next time. Is i if i"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:49",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:50",
+              "text": "And it's always good to have an voice recognition for the remote controls."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007c",
+          "team": "IS1007",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:04",
+          "turn_index": 151,
+          "text": "Yeah. And also the scroller button, how much will it cost.",
+          "relevance": -5.2331785080518545,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:04",
+              "text": "Yeah okay. And"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:04",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:09",
+              "text": "Well uh compared to the to s the simpl simpler simplest button."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:14",
+              "text": "Yeah. Push push."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007c",
+          "team": "IS1007",
+          "speaker": "Speaker B",
+          "timestamp": "00:15:53",
+          "turn_index": 66,
+          "text": "A help button. So you are display on the screen. So on the T_V_ screen.",
+          "relevance": -5.062830257536123,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:31",
+              "text": "Or maybe we can include the user manual in the in the remote control and we should have just a button like help and you say uh and you ik you press the button help and maybe you see the the user m might in the in the T_V_."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:15:49",
+              "text": "Yeah. That's a good idea. To have a help button."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:53",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:15:54",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007c",
+          "team": "IS1007",
+          "speaker": "Speaker B",
+          "timestamp": "00:21:43",
+          "turn_index": 140,
+          "text": "Uh maybe you can find out the price and tell us next time. Is i if i",
+          "relevance": -4.930947995112857,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:32",
+              "text": "Yeah. So i is so the thing is you can find out how much an L_C_D_ will cost and then we'll decide again."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:39",
+              "text": "I mean that should be found out by the Industrial Designers."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:47",
+              "text": "So price of uh L_C_D_ display. And"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:49",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007c",
+          "team": "IS1007",
+          "speaker": "Speaker B",
+          "timestamp": "00:21:53",
+          "turn_index": 144,
+          "text": "Yeah. And also the cost for the speech recognition. Ask our R_ and D_ department.",
+          "relevance": -4.6579303578916775,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:49",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:50",
+              "text": "And it's always good to have an voice recognition for the remote controls."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:57",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:57",
+              "text": "Mm. It's for it's just for small vocabulary. We it's not yeah."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "IS1007d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "IS1007d",
+          "team": "IS1007",
+          "speaker": "Speaker A",
+          "timestamp": "00:08:55",
+          "turn_index": 105,
+          "text": "And the price of",
+          "relevance": -7.455753383798689,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:51",
+              "text": "The price of selling is twenty five Euros."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:52",
+              "text": "Yeah. Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:08:56",
+              "text": "Alright please uh go on Norman with the special features."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:57",
+              "text": "production"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007d",
+          "team": "IS1007",
+          "speaker": "Speaker A",
+          "timestamp": "00:08:51",
+          "turn_index": 103,
+          "text": "The price of selling is twenty five Euros.",
+          "relevance": -6.440986039236714,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:46",
+              "text": "We have we have just"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:50",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:52",
+              "text": "Yeah. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:55",
+              "text": "And the price of"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007d",
+          "team": "IS1007",
+          "speaker": "Speaker B",
+          "timestamp": "00:09:46",
+          "turn_index": 115,
+          "text": "It's pretty flexible in the yeah price.",
+          "relevance": -6.440986039236714,
+          "matched_queries": [
+            "price"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:25",
+              "text": "Yeah. Okay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:40",
+              "text": "Mm hmm hmm hmm. Hmm okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:47",
+              "text": "You also have the the the two other modules for the parental control"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:48",
+              "text": "But"
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007d",
+          "team": "IS1007",
+          "speaker": "Speaker D",
+          "timestamp": "00:04:35",
+          "turn_index": 37,
+          "text": "The cost would be le reduced.",
+          "relevance": -6.1885210701768765,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:19",
+              "text": "For the Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:22",
+              "text": "Fifteen dollars? Ah it's above it's above the budget."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:04:36",
+              "text": "Yeah the and the the production costs we we can achieve uh about ten dollars."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:37",
+              "text": "Mm. Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "IS1007d",
+          "team": "IS1007",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:20",
+          "turn_index": 246,
+          "text": "But you cannot display all on a L_C_D_.",
+          "relevance": -6.030588588246792,
+          "matched_queries": [
+            "display"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:13",
+              "text": "L_C_D_? Then uh there is no meaning in having it on the T_V_. Or then again you have a channels, volume and all the stuff and what a"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:17",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:24",
+              "text": "I mean that depends upon your design, so"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:22:29",
+              "text": "Anyway for for the users who who who opt for L_C_D_"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

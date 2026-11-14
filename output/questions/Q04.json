@@ -1,0 +1,649 @@
+{
+  "question_id": "Q04",
+  "team": "TS3011",
+  "question": "Team TS3011 chose a combined energy source for their remote. What was the combination, and what happened to it when the costs were added up?",
+  "queries": [
+    "energy source",
+    "battery",
+    "cost"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "TS3011a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "TS3011a",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:22:46",
+          "turn_index": 136,
+          "text": "Yes, but there's a cost limitation too. Well, that's more",
+          "relevance": -5.076444972165025,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:27",
+              "text": "I I don't know. Mm-hmm. Okay. Mm-hmm. Okay. Okay."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:41",
+              "text": "Okay. Yeah, yeah, okay, because because we wa we want to develop a trendy product. So"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:49",
+              "text": "Yeah, twelve Euro fifty, yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:49",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011a",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:15:08",
+          "turn_index": 72,
+          "text": "Mm-hmm. But it's cost-effective. Yes. Mm-hmm. Well, not all, not all. So that's the point. So",
+          "relevance": -3.998618467493803,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:41",
+              "text": "I think it could come in handy. We should discuss that. Um and we should think about the way how these things uh should communicate with each other. We're not uh living in the uh nineteen eighties anymore, so infrared is not uh is not really uh hot uh technical stuff anymore. But you should uh think about the things like uh Bluetooth."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:02",
+              "text": "But Yeah, but the infrared, it's uh, well, a little bit old-fashioned, if you would call it like that. But all the T_V_s are uh equipped with infrared, so"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:15",
+              "text": "y you you can Most of them. Or you shou sh use a you should equip infrared and Bluetooth together in one remote."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:15:22",
+              "text": "Maybe, but that's uh something we should discuss and uh about every everybody should think about it. So that's just my role, I'll just uh give you uh everybody some technical input, and I think now the time is to have a little discussion about what uh the product should be and how it should look, but take these things into account when you start the discussion."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011a",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:22:50",
+          "turn_index": 139,
+          "text": "So that's a big problem, I think. I think the the financial part of this project uh implicates that it's not going to be a high high-end product. The cost price is very low. Um",
+          "relevance": -2.8540210530127963,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:49",
+              "text": "Yeah, twelve Euro fifty, yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:49",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:02",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:04",
+              "text": "Just remind something. The digits of uh the the painting on the buttons should not fade. You have a m uh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3011b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "TS3011b",
+          "team": "TS3011",
+          "speaker": "Speaker B",
+          "timestamp": "00:10:44",
+          "turn_index": 76,
+          "text": "Combined with the low-cost circuit board so it's uh",
+          "relevance": -5.2331785080518545,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:35",
+              "text": "Okay. For the same costs, it's can be uh in our"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:39",
+              "text": "Uh no, they're uh they're a little bit more expensive, but by uh um um making"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:46",
+              "text": "We can we can make its I think."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:10:47",
+              "text": "Well you could only lit uh the buttons the buttons that are used most. So, the channel switching."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011b",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:10:02",
+          "turn_index": 70,
+          "text": "Um for cost-effectiveness, we should really use a very low-cost uh circuit board, um because most of the production cost are are in this uh part of the equipment. And um the money we save on using this we can use uh for elaborate fancy lighting uh techniques, blinking LEDs and all that kind of fancy stuff. I think our uh users will really uh will really like that.",
+          "relevance": -4.058356016421018,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:23",
+              "text": "Okay, so uh personally I think we should infra use infrared, because uh otherwise our device cannot uh communicate with uh almost every T_V_ set. So I think that uh should be clear. Uh another important point is uh we really should use uh energy uh sparse, friendly components. Uh there are specially uh designed um energy-friendly components which consume uh far less power than uh conventional components. And um if we want to use uh a rechargeable design or uh a energy-save design, we should really implement them."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:36",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:10:13",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:10:26",
+              "text": "And what's the um if we use the LEDs, i does it use much more energy or"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011b",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:30:06",
+          "turn_index": 335,
+          "text": "It's Yes, but they're they're mass production. They're very cheap. So it will cost us p practically nothing.",
+          "relevance": -3.9064610771352255,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:29:59",
+              "text": "It's Oh, it's very cheap. That's no problem. It's just a a case with two uh metal contacts."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:06",
+              "text": "I know, b uh but there should be an adapter as well."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:09",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:11",
+              "text": "Okay. Okay. We we have uh about ten minutes left this meeting. Um I would like to hear um maybe maybe you all have th uh things not um spoken about, yeah, but that are important. Uh Ruud, you you came up with the voice recognition uh data. Uh are there other things about the market we should know?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011b",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:07:39",
+          "turn_index": 61,
+          "text": "Um, there's a energy source here. And um basically there it's connected to three things. The user interface connected to a chip, which is connected to the sender, which generates messages using uh infrared light, which are sent to the receiver. That's basically the idea. And there's a little picture, just for your imagination, how a device like this should look or can look. Okay. Um what have I found. Usually these kind of things consist of a battery, infrared diode, buttons, chips, and circuit board. That's all. It's cased together, nothing more than that. It's almost every piece of equipment um every piece of uh every T_V_ set is controlled infrared. There are some exceptions, but most of all have uh infrared controls. And uh the more luxury uh remote controls have lithium buttons. And I think that's what we w yes. In the and it's a little more a little bit more fancy also. So maybe we should consider that. Okay. I have a basic scheme of the things uh which are implemented. Um basically this is all there is. There's just one chip. There are a few buttons connected. Uh the buttons are lit. And the whole thing is transmitted by a infrared li diode, and there is not a power source here.",
+          "relevance": -2.477304204543006,
+          "matched_queries": [
+            "energy source",
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:07:36",
+              "text": "Can you see it? No? Well"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:07:37",
+              "text": "No, it's not visible."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:25",
+              "text": "Yeah. The glow in the dark uh concept uh we discussed."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:44",
+              "text": "Yeah. Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011b",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:32:14",
+          "turn_index": 354,
+          "text": "Um it makes it also more uh attractable, I think, to our uh audience. Um there are some advantages and some disadvantages, and the main advantage is that we can implement uh fancy techniques, which uh I think our customers will like. The disadvantage is that there are some concerns about uh the the costs and um the things like uh battery lifetime, energy saving. Uh another advantage is that the circuit board will become much more easier if we do not do not implement these buttons.",
+          "relevance": -1.6453680028018236,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:31:49",
+              "text": "so uh basically we've decided to implement a seemingly uh easy design. So on the outside it looks easy, but uh we can make it easy on the inside or elaborate on the inside. So that's one the those are the choices we have to make. But I think there's a big advantage in making it more elaborate by uh implementing uh speech techniques, uh voice recognition, that these kinds of things."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:12",
+              "text": "Mm-hmm. Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:42",
+              "text": "Yep."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:32:49",
+              "text": "If we just add uh uh a chip which does the voice recognition, uh our circuit board will become even more cheap. So that's another well, it wa it w it was an issue, but we also thought that we already thought we should do it as cheaply as possible. And this even uh makes it more cheapy. So"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3011c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "TS3011c",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:30:11",
+          "turn_index": 285,
+          "text": "Okay, single-curved case. Okay. What about the energy source?",
+          "relevance": -13.421838362480836,
+          "matched_queries": [
+            "energy source"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:09",
+              "text": "The casing is curved, single-curved."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:10",
+              "text": "Single-curved."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:17",
+              "text": "Traditional batteries uh and solar."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:19",
+              "text": "But can there be uh wor can they work together? Or do we have to choose between them? 'Cause if we have to choose yeah?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011c",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:30:40",
+          "turn_index": 296,
+          "text": "So uh uh just uh the energy source is um the batteries and the solar. Okay.",
+          "relevance": -11.267969681394261,
+          "matched_queries": [
+            "energy source"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:35",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:38",
+              "text": "Yeah. Okay, um th"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:43",
+              "text": "Battery and solar, yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:30:48",
+              "text": "What about uh the finishing of the case? We have decided we wanted to use the rubber?"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011c",
+          "team": "TS3011",
+          "speaker": "Speaker A",
+          "timestamp": "00:30:43",
+          "turn_index": 297,
+          "text": "Battery and solar, yeah.",
+          "relevance": -7.024290338424126,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:38",
+              "text": "Yeah. Okay, um th"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:30:40",
+              "text": "So uh uh just uh the energy source is um the batteries and the solar. Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:30:48",
+              "text": "What about uh the finishing of the case? We have decided we wanted to use the rubber?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:30:54",
+              "text": "Yeah, with colourful rubber. Uh if it's possible with uh different um covers, but I'm not sure if our suppliers can uh can help us with uh with such uh uh a wish."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011c",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:13:14",
+          "turn_index": 122,
+          "text": "it's quite daring to to use I think. Um for these casings we have uh different types of finishing. We can use plastic, which is uh very slippery and maybe not so nice, but you can give it any colour, uh which is the same for rubber, but it's not slippery. We can use wood and titanium. Well, um we cannot use the titanium on the double curve cases. And these latex cases, there's there's just the plastic ones uh won't allow the use of solar cells as an energy source source. Which brings me to the different energy sources. Um well, we even seem to have uh hand dyn dynamos for uh powering our uh remote controls. You really have to imagine like winding up your uh I d",
+          "relevance": -4.874949849025648,
+          "matched_queries": [
+            "energy source"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:51",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:13:05",
+              "text": "Yeah. Right."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:03",
+              "text": "Great."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:06",
+              "text": "Well, it would be very new to the market, but"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011c",
+          "team": "TS3011",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:36",
+          "turn_index": 189,
+          "text": "Yeah. Well, I don't have um I haven't looked for uh for information about it, but I don't think information uh y I don't think you need it on a display. Especially when when we have to look at a cost, I don't think uh 'cause uh uh all any T_V_ can uh can uh view a digit on uh on screen, yeah.",
+          "relevance": -1.875200210145493,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:28",
+              "text": "Okay. Um no, but I think that's something for uh Roo here"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:32",
+              "text": "To"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:37",
+              "text": "to think about."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:47",
+              "text": "No."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "TS3011d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "TS3011d",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:15:30",
+          "turn_index": 136,
+          "text": "No. It could have been a little bit more innovative u by using the kinetic uh energy source, but it's it's way too yes, but",
+          "relevance": -8.706486162572903,
+          "matched_queries": [
+            "energy source"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:20",
+              "text": "This prototype. Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:23",
+              "text": "And the scroll uh wheel. The solar not many remotes have the solar, I think."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:15:36",
+              "text": "Yeah, and uh"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:37",
+              "text": "That would have been a thrill."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011d",
+          "team": "TS3011",
+          "speaker": "Speaker C",
+          "timestamp": "00:05:20",
+          "turn_index": 14,
+          "text": "grey or black or something like that. Whatever cost uh cost uh the least.",
+          "relevance": -6.538989949466716,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:16",
+              "text": "Uh yellow with uh"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:18",
+              "text": "with with grey or black."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:25",
+              "text": "Okay, we'll we'll come to that later. Um okay. Anything else to add or"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:05:34",
+              "text": "No. Uh maybe we should uh think about these buttons. But"
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011d",
+          "team": "TS3011",
+          "speaker": "Speaker B",
+          "timestamp": "00:24:37",
+          "turn_index": 263,
+          "text": "Think. Production cost was were t uh was twenty two?",
+          "relevance": -5.399898565136021,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:27",
+              "text": "And costs were twelve fifty. But even now, if only our production costs w uh were exceeded the double,"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:29",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:40",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:41",
+              "text": "So uh selling price uh would be uh yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "TS3011d",
+          "team": "TS3011",
+          "speaker": "Speaker A",
+          "timestamp": "00:09:18",
+          "turn_index": 61,
+          "text": "Yeah, I believe Uh, push-button, well It makes it the thirteen yeah. Push-buttons are buttons are are not the most expensive, but do add extra cost. So um yeah, th this design is not um",
+          "relevance": -2.9029004700282286,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:49",
+              "text": "to make it just between the twelve Euro fifty, um then I did the following changes. Twelve Euro forty cents I came up with by leaving out the solar cells, um by not using the voice recognition feature, because it's uh it's a four Euro uh addition to the price. Um"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:04",
+              "text": "Mm-hmm. Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:34",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:40",
+              "text": "within our price model."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

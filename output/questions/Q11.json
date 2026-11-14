@@ -1,0 +1,578 @@
+{
+  "question_id": "Q11",
+  "team": "ES2011",
+  "question": "Team ES2011's project manager said they would check what one of the new project requirements meant. What was the question, and what was the answer when it came up again?",
+  "queries": [
+    "requirement",
+    "question",
+    "project",
+    "manager"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2011a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "ES2011a",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:01:22",
+          "turn_index": 4,
+          "text": "Okay. I forgot to s say I'm the Project Manager but I figured you all knew that already, um so.",
+          "relevance": -5.3032709081088525,
+          "matched_queries": [
+            "project",
+            "manager"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:16",
+              "text": "I think we'll get around to that, yeah. So this is just introductions yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:01:18",
+              "text": "We'll get round to that later. My name is Chiara and I'm the Marketing Expert."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:01:28",
+              "text": "I'm Stephanie and I am the User Interface Designer."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:01:33",
+              "text": "I'm Krista and I'm the Industrial Designer."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011a",
+          "team": "ES2011",
+          "speaker": "Speaker C",
+          "timestamp": "00:12:29",
+          "turn_index": 71,
+          "text": "Yeah so we the project is now couches and remote controls.",
+          "relevance": -5.243443506015041,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:19",
+              "text": "Yeah, in in the couch. I dunno, it seems like though that that would be hard, 'cause you not you're not gonna be lazy anyway and"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:12:25",
+              "text": "Yeah. Maybe we should design couches that have the remote control in the side arm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:12:31",
+              "text": "But even just a thing to attach it to the w you know if you had a thing, a pretty object attached to the wall. But that would really make it more expensive. But it's only a plastic thing, r really, the thing on the wall. Something like that. And the other thing is"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:38",
+              "text": "Yeah. Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011a",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:01:35",
+          "turn_index": 7,
+          "text": "Okay. Um so f here's our agenda for today. Um we're gonna do some tool training, project plan and discuss then close. Um so. So our aim is to produce a remote control that is original, trendy and user friendly. And to do this, we have to um there's certain things we have to consider about functional aspects and conceptual design of the thing. So. We'll get to that. Oh there it is. Right. Functional design, conceptual design and detailed design. So throughout our next couple of meetings we'll we'll be covering these things. Um so we're gonna try out our white board. If we'll all draw our favourite animal, to sum up the characteristics of that animal.",
+          "relevance": -1.1522566569257238,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:01:28",
+              "text": "I'm Stephanie and I am the User Interface Designer."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:01:33",
+              "text": "I'm Krista and I'm the Industrial Designer."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:46",
+              "text": "So you want us to draw it and then talk about it? Or just draw it?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:02:46",
+              "text": "Okay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2011b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2011b",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:24:33",
+          "turn_index": 229,
+          "text": "You know actually our our new project requirements, I'm not sure if they meant o onl use only for television as in not for D_V_D_ or just not internet type things. So I'll I'll check that and update you on the next But we'll hold off on that 'cause",
+          "relevance": -2.2232250647749208,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:24:32",
+              "text": "Yeah. So how do you switch"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:33",
+              "text": "Menu."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:36",
+              "text": "and menu maybe. Oh yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:24:44",
+              "text": "Okay. So like if we had that Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011b",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:12:48",
+          "turn_index": 47,
+          "text": "Okay. Well thank you everybody. Um we have we'll discuss that and then I just wanna mention some new project requirements that came in. Um, teletext is apparently outdated, so due to internet popularity, so that's off the list. Um, also our remote should be used only for television, um, no extra internet kinda fancy things, just the remote and the television. Um and also we need to incorporate our corporate image onto this, so um the phrase is, we put fashion in electronics, so let's be fashionable I guess. Um if we have something I mean silver and and gold or yellow are our colours, so if we had a like a kind of silver one like you saw, and yellow writing, something like that. Okay. Um. So we need to make some decisions on the remote control functions. Um, yeah. Do Let's I guess we should yeah make some kind of brainstorming, see what we can",
+          "relevance": -0.9260640495572996,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:12:37",
+              "text": "Mm? Yeah, uh I d I was an engineer before I came here."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:12:41",
+              "text": "Okay. Cool."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:15",
+              "text": "Like in terms of"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:14:16",
+              "text": "How it looks or"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2011c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:22:48",
+          "turn_index": 230,
+          "text": "Yeah. I mean that's another question, where are we gonna we we should have the logo somewhere on it.",
+          "relevance": -4.776931226938128,
+          "matched_queries": [
+            "question"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:46",
+              "text": "We could promote the banana one. Like mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:47",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:56",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:57",
+              "text": "Mm-hmm. Should also fit the batteries, which we haven't"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:23:43",
+          "turn_index": 247,
+          "text": "I don't know what the rest of my notes mean because they were made for me. But if someone components concept. Question mark. Energy. Question mark. Was that you? Okay. Oh right right. Yeah. Um, so what d but what do we know about",
+          "relevance": -4.773236564373739,
+          "matched_queries": [
+            "question"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:38",
+              "text": "No but it does it automatically. Does it automatically? I don't know."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:42",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:49",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:54",
+              "text": "That was me. Yes."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker D",
+          "timestamp": "00:21:26",
+          "turn_index": 202,
+          "text": "Well just a li I can't des like condom thingy, like a a cover. But well the question is, which one's easiest to change and we can just contact our relevant department for that, and just see what the cost is for covering that or covering that, and for now we can do two prototypes maybe and then hi try and ask users what the best is, and",
+          "relevance": -2.1634162522576275,
+          "matched_queries": [
+            "question"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:10",
+              "text": "What if, yeah, what if the squishy, oh so so you're saying the squishy part's like detachable, and you can so so maybe one you know you can have like the broccoli squishy thing, and then you could have like the banana squishy thing and you could get you could have your choice, you know?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:10",
+              "text": "Yeah, I know what you meant, yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:37",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:40",
+              "text": "Yeah. Yeah, yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker D",
+          "timestamp": "00:04:43",
+          "turn_index": 18,
+          "text": "which is quite shocking. Ha. Mm. Right, um, I have been searching the current trends, um, both on the web and via fashion-watchers, and the findings are that the first thing to aim for is a fashion uh, fancy look and feel. Um. Next comes technologic technology and the innovations to do with that. And th last thing is the easy to use um factor. Um, fancy look and feel goes far beyond the functionality of the thing, but I suppose that is included in in the ease of use. Um, our fashion-watchers in Milan and Paris have decided, well noticed, that f the fruit and vegetable theme is the is the current trend and and therefore um we need to go for that if we want, you know, wh whatever our motto is. Um. For fashion, we go for fashion. The fashion in electronics. So we want to put the fashion electronics, we need to go fruit and vegetables. And also go for a spongy feel, so the the question of our technology whate is Industrial Designer. As to the material should be limited to I don't know how spongy it can be, should discuss this together, I don't know how spongy can be achieved but apparently that's the way to go.",
+          "relevance": -0.8259045696618627,
+          "matched_queries": [
+            "question"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:41",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:04:42",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:06:11",
+              "text": "Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:06:41",
+              "text": "Um. I I have been thinking about this fruit and vegetable thing and I prefer fruits to vegetables, but that's just a personal opinion. I think I think people like to have a fruit instead of a vegetables in their sitting room. Uh those are just suggestions and also we need to decide whether this should be printed, so that still has to do with the material discuss should we print the fruit stuff, or should the actual remote look like a fruit? Um, and finally again with the spongy. It has to be technologically innovative so maybe again our Industrial Designer should look into that or find come up with a solution that's better than mine. Um, yeah, to summarise these are the points that need to be um, touched in order to get a good decision, and hopefully our User Interface has more to say about the matter. Thank you for your attention."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011c",
+          "team": "ES2011",
+          "speaker": "Speaker B",
+          "timestamp": "00:02:41",
+          "turn_index": 11,
+          "text": "So I've been looking at the components design. Um. Mostly by consulting remote control diagrams from the internet and also by incorporating design ideas from the last project meeting. Um, so we need some custom design parts, and other parts we'll just use standard. Um, I assume we'll be custom designing our case, probably a hard plastic or some other material case, to protect the remote and the locator. And we'll need to custom desi design a circuit board, because the circuit board has to take the button input and send it to the output so you have to design that each time. But once we come up with a design we'll send it to the circuit people and they'll just print it out. Um, standard parts include the buttons and the wheels, um the iPod-style wheel. The infrared L_E_D_ is actually gonna be included in the circuit board that comes with it. Um, we need a radio sender and receiver, those are standard. And al we also need a beeper or buzzer or other sort of noise thing for locating the remote. So we have some material options. Um, we can use rubber, plastic, wood or titanium. Um, I'd recommend against titanium because it can only be used in the flat cases and it's really heavy. Um, and the rubber case requires rubber buttons, so if we definitely want plastic buttons, we shouldn't have a rubber case.",
+          "relevance": -0.625780575971955,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:02:20",
+              "text": "Sure."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:02:21",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:04:03",
+              "text": "And why not wood? And why not wood?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:03",
+              "text": "And, hmm? Uh, well we can use wood. I don't know why we'd want to. Um and also we should note that if we want an iPod-style wheel button, it's gonna require a m qu slightly more expensive chip. We can't use the minimal chip, we need the next higher grade, which is called regular. I don't think it's much more expensive, but it is more expensive. So that's what I've got on design."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2011d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker D",
+          "timestamp": "00:08:56",
+          "turn_index": 37,
+          "text": "Yeah it's in the um it's in the project documents.",
+          "relevance": -5.0864025337539,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:27",
+              "text": "Um so the que the questions I've given you c could you write that down? True is one and and false is seven. And we'll just go through each point together, hopefully. Um. I think if each of us gives an opinion then they can be mixed somehow. I dunno how it works exactly, I haven't been told."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:08:52",
+              "text": "Yeah. Is it possible that we can bring this up on our own"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:09:01",
+              "text": "Is it meeting three minutes? No it's not minutes."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:03",
+              "text": "It's called evaluation criteria."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:24:00",
+          "turn_index": 269,
+          "text": "Mm. Not really Well we've done finance evaluation criteria, production evaluation. Um so project evaluation.",
+          "relevance": -4.542242445745064,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:49",
+              "text": "Yeah. Which is why printing might be like just printing the fruit on fruit."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:57",
+              "text": "Hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:27",
+              "text": "Do you want this and we can all No."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:33",
+              "text": "I guess we're supposed to discuss um the prod the process of the project and how satisfied oh, oh it's alright. Uh. Yeah. Um"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:24:33",
+          "turn_index": 271,
+          "text": "I guess we're supposed to discuss um the prod the process of the project and how satisfied oh, oh it's alright. Uh. Yeah. Um",
+          "relevance": -3.5837413315352373,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:00",
+              "text": "Mm. Not really Well we've done finance evaluation criteria, production evaluation. Um so project evaluation."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:27",
+              "text": "Do you want this and we can all No."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:24:44",
+              "text": "It's alright yeah?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:24:47",
+              "text": "Did you feel there was a lot of room for creativity in the sort of"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker C",
+          "timestamp": "00:23:08",
+          "turn_index": 261,
+          "text": "We were a bit off task. Um so uh I can't think of any So we'll have to like Mm. Yeah I dunno. You could make the touch pad in th in different shapes, but then that kind of re-designs the whole project like, but you could do like",
+          "relevance": -2.3141061744409503,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:03",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:06",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:23:34",
+              "text": "It might also sort of annoy people if we get used to having the buttons in one shape."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:23:37",
+              "text": "Yeah that's true. Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2011d",
+          "team": "ES2011",
+          "speaker": "Speaker A",
+          "timestamp": "00:04:08",
+          "turn_index": 24,
+          "text": "Oh. Um if you wanna look in your project documents folder, there's an Excel spreadsheet. Um the only one that's in there, production costs. And if you open it up. Um I've just stuck the numbers in, it was a real challenge there. But if I missed anything that we've gone over, or if you see something that has changed I mean, we decided on batteries, and the regular chip would be necessary for the more advanced iPod-like button. Um I said uncurved or flat. I think that's what you have there, is that right? For the for the plastic part would be",
+          "relevance": -1.3024868204536624,
+          "matched_queries": [
+            "project"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:01",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:04:03",
+              "text": "You could have a broccoli, or you could have a mango. So. Tada."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:04:58",
+              "text": "My impression was that flat meant like like one of those square remotes. But it's really not very clear, because you got single curve and double curve and d I dunno what that means. One side is curved and then the other side is curved."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:05:03",
+              "text": "Oh. Okay. Right. Well yeah. If we're talking about the area just oh I d I dunno. I guess we'd have to contact the company that makes them and see. Um so what else? There's plastic for that area around the button. Um and then rubber would be the squishy like thing right? Um and lots of special colours actually. Uh scroll wheel. Do you see anything that I've missed?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "question_id": "Q23",
+  "team": "ES2006",
+  "question": "Team ES2006's final design had to fit the budget. Which of their headline technical features did they keep, and what did they swap out or simplify to get under budget?",
+  "queries": [
+    "technical features",
+    "budget",
+    "cost"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2006a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "ES2006a",
+          "team": "ES2006",
+          "speaker": "Speaker C",
+          "timestamp": "00:15:05",
+          "turn_index": 111,
+          "text": "So, let's see what's next in the PowerPoint presentation. So, I've just thought yeah I've just thought about this that we could even put it much more professionally as there we go. Okay, so this is the um overall budget for our",
+          "relevance": -3.0518986398710735,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:55",
+              "text": "Okay."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:57",
+              "text": "Thank you."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:15:12",
+              "text": "If you right click on it you can"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:15:18",
+              "text": "Mm-hmm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2006b",
+      "meeting_number": 2,
+      "passages": []
+    },
+    {
+      "meeting_id": "ES2006c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2006c",
+          "team": "ES2006",
+          "speaker": "Speaker C",
+          "timestamp": "00:32:04",
+          "turn_index": 351,
+          "text": "Mm-hmm. Yeah. I think if we can if we can include them at not too much extra cost, then I'd put them in, but if it's",
+          "relevance": -3.3637787663360332,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:31:52",
+              "text": "It's just a gimmick."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:31:57",
+              "text": "Okay. Uh okay, so r we understand this better now that uh the the speaker is for the feedback, right? It it says uh the things that you type in or something like that, so"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:32:12",
+              "text": "Ye yeah, we we don't have too much information about it, um"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:32:16",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2006c",
+          "team": "ES2006",
+          "speaker": "Speaker A",
+          "timestamp": "00:02:24",
+          "turn_index": 9,
+          "text": "Okay, so if you flip the circuit board, this is what it looks like. So you see for example a particular button attaches to a particular place on the P_C_B_ and uh on pressing this button I a circuit completes, the information goes to the chip, which is somewhere here and the chip that tra then translates the code into an infra infrared radiation, which goes goes out through there. So uh the important point that I read over the website was uh that the configurations of these printed circuit circuit boards uh are quite cheap to make, you can ge get them printed as you want to, so w we can have a configuration um irrespective of the cost, the way we want to have. Right? So that's the important point here, so these are the different options that we have.",
+          "relevance": -1.01868203630295,
+          "matched_queries": [
+            "cost"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:01:52",
+              "text": "Okay, so w what you see here is so this is the outside of the remote, right? If you open it, you have a circuit board here, right, and this is the chip that I was talking about last time. This basically sends information to a tr uh transistor here, which then uh sends the information to an L_E_D_ device here. If you flip the printed circuit board, and this is th the most important point here, uh everything else is kind of"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:01:59",
+              "text": "Mm-hmm. Mm-hmm."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:02:34",
+              "text": "Yeah. Mm-hmm. Mm-hmm."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:03:18",
+              "text": "Okay. So the batteries, I'll start with the battery, right?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2006d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2006d",
+          "team": "ES2006",
+          "speaker": "Speaker A",
+          "timestamp": "00:06:27",
+          "turn_index": 94,
+          "text": "Yeah, see the budget.",
+          "relevance": -8.100528481292594,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:06:20",
+              "text": "Very good. Okay, so maybe if we go on to evaluation cri criteria and then we'll there I suspect we're gonna have a couple of minor finance issues, but um we'll se I'm sure we can get around them somehow."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:21",
+              "text": "Mm-hmm. Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:06:42",
+              "text": "We'll just send all of our manufacturing to some nice poor country and cut some of the prices that way."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:06:55",
+              "text": "Wales."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2006d",
+          "team": "ES2006",
+          "speaker": "Speaker C",
+          "timestamp": "00:21:12",
+          "turn_index": 349,
+          "text": "Our budget's twelve point five.",
+          "relevance": -7.509011901303757,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:10",
+              "text": "Wh wh what's our criteria?"
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:11",
+              "text": "This sample sensor."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:15",
+              "text": "Uh okay."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:15",
+              "text": "Yeah, the sample sensor will have to go, 'cause that's the most expensive thing on there."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2006d",
+          "team": "ES2006",
+          "speaker": "Speaker C",
+          "timestamp": "00:30:17",
+          "turn_index": 530,
+          "text": "Nothing that you really want. True. Yeah. Okay. So, costs are within budget, well within budget, including a little what have we got? One Euro left over for bits that we didn't foresee.",
+          "relevance": -5.725457125448472,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:05",
+              "text": "Mm-hmm."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:10",
+              "text": "That vibrates Yeah, but that would just come up with like other things really wouldn't it."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:30:28",
+              "text": "Yes."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:30:28",
+              "text": "Yes."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2006d",
+          "team": "ES2006",
+          "speaker": "Speaker C",
+          "timestamp": "00:23:59",
+          "turn_index": 408,
+          "text": "There we go. Oh look, we're way under budget and we'll make huge profits and we'll all get bonuses.",
+          "relevance": -4.7400117713988665,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:23:55",
+              "text": "."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:23:58",
+              "text": "Okay."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:24:04",
+              "text": "Yeah, well we could admit to the single curve, couldn't we?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:24:07",
+              "text": "Or or that we have to have some sort of special colour."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2006d",
+          "team": "ES2006",
+          "speaker": "Speaker B",
+          "timestamp": "00:20:30",
+          "turn_index": 337,
+          "text": "That means you can only have twenty five push buttons in total doesn't it? Not counting anything, we'd still be in budget.",
+          "relevance": -4.531150147652951,
+          "matched_queries": [
+            "budget"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:20:28",
+              "text": "'Cause then you have"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:29",
+              "text": "I don't know if that's one"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:20:34",
+              "text": "Yeah. That seems unlikely. Push what uh whether whether pushbutton means that p count by button or do we I don't think that makes sense."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:20:39",
+              "text": "Huh? Wh wh what is the limit? Uh."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

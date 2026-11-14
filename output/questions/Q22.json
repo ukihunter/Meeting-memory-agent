@@ -1,0 +1,579 @@
+{
+  "question_id": "Q22",
+  "team": "ES2010",
+  "question": "Team ES2010 discussed several battery options. Who suggested a lithium battery, what did another member prefer instead and why, and what was the final choice?",
+  "queries": [
+    "lithium battery",
+    "battery",
+    "alkaline"
+  ],
+  "meetings": [
+    {
+      "meeting_id": "ES2010a",
+      "meeting_number": 1,
+      "passages": [
+        {
+          "meeting_id": "ES2010a",
+          "team": "ES2010",
+          "speaker": "Speaker B",
+          "timestamp": "00:09:18",
+          "turn_index": 91,
+          "text": "Can you with a small lithium battery?",
+          "relevance": -16.710565538324566,
+          "matched_queries": [
+            "lithium battery",
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:15",
+              "text": "Yeah, if we want it to be more thin, then we'd probably wanna go with a triple A_."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:15",
+              "text": "Here we can Triple A. But it's okay, we don't have to decide about it now, just as long as we remember battery type and size is important. Hey. Anything else?"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:34",
+              "text": "Alright. Moving along. Oh, we're closing the meeting. Next meeting is gonna start in thirty minutes. Here's what we're going to do. Um the I_D_, which is who? Okay, you're going to think about the working design. What do you think that means? Okay. And U_I_D_, the technical fun functions design, making sure it does everything that we need the remote to do, the functionality of it, operating all those different things. Okay. And the marketing person, that's Courtney, is going to do the user requirements specification."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:10:00",
+              "text": "Mm-hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010a",
+          "team": "ES2010",
+          "speaker": "Speaker B",
+          "timestamp": "00:08:49",
+          "turn_index": 78,
+          "text": "What kinda battery would we want to use? Because battery changing is usually Okay.",
+          "relevance": -6.880114872689673,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:45",
+              "text": "Yeah. That's true."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:08:47",
+              "text": "Um."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:08:51",
+              "text": "D Double A_."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:53",
+              "text": "Double A_."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010a",
+          "team": "ES2010",
+          "speaker": "Speaker A",
+          "timestamp": "00:09:15",
+          "turn_index": 90,
+          "text": "Here we can Triple A. But it's okay, we don't have to decide about it now, just as long as we remember battery type and size is important. Hey. Anything else?",
+          "relevance": -3.2789675600696557,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:09:11",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:09:15",
+              "text": "Yeah, if we want it to be more thin, then we'd probably wanna go with a triple A_."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:09:18",
+              "text": "Can you with a small lithium battery?"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:09:34",
+              "text": "Alright. Moving along. Oh, we're closing the meeting. Next meeting is gonna start in thirty minutes. Here's what we're going to do. Um the I_D_, which is who? Okay, you're going to think about the working design. What do you think that means? Okay. And U_I_D_, the technical fun functions design, making sure it does everything that we need the remote to do, the functionality of it, operating all those different things. Okay. And the marketing person, that's Courtney, is going to do the user requirements specification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2010b",
+      "meeting_number": 2,
+      "passages": [
+        {
+          "meeting_id": "ES2010b",
+          "team": "ES2010",
+          "speaker": "Speaker D",
+          "timestamp": "00:14:32",
+          "turn_index": 105,
+          "text": "Like that we know the battery's working.",
+          "relevance": -6.068247389143623,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:14:25",
+              "text": "Yeah, that's gonna be what's communicating with the T_V_, but the other bulb, I think, is good to just to indicate, I'm doing something, it's sort of like a reassurance."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:32",
+              "text": "The l the light up kind of Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:14:33",
+              "text": "Yeah, so you don't have to stare at that infra-red, 'cause you know when the battery starts dying in your remote currently, you have to actually stare at that bulb and go, okay, when I push this button, is it working? We can skip that whole thing. Yep."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:41",
+              "text": "Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010b",
+          "team": "ES2010",
+          "speaker": "Speaker C",
+          "timestamp": "00:21:35",
+          "turn_index": 201,
+          "text": "Well, if you have the base, you could start putting in a charger and then you have a different kind of battery.",
+          "relevance": -4.110252678790753,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:30",
+              "text": "Yeah. I would think so, because you'd have to develop a base."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:21:35",
+              "text": "Right."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:40",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:21:42",
+              "text": "Hmm."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010b",
+          "team": "ES2010",
+          "speaker": "Speaker B",
+          "timestamp": "00:14:33",
+          "turn_index": 106,
+          "text": "Yeah, so you don't have to stare at that infra-red, 'cause you know when the battery starts dying in your remote currently, you have to actually stare at that bulb and go, okay, when I push this button, is it working? We can skip that whole thing. Yep.",
+          "relevance": -2.498140875643843,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:32",
+              "text": "The l the light up kind of Yeah."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:14:32",
+              "text": "Like that we know the battery's working."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:14:41",
+              "text": "Hmm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:14:43",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010b",
+          "team": "ES2010",
+          "speaker": "Speaker A",
+          "timestamp": "00:21:47",
+          "turn_index": 206,
+          "text": "Okay. I I think we can make a decision about that later. Uh we'll still put that as a point that we need to discuss. So that would include battery source Power source rather. Is it going to have a charger, or is it going to be run strictly off batteries? And we also need to deal with the issue you mentioned of speech recognition, if we want that.",
+          "relevance": -1.951436032958344,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:21:43",
+              "text": "Rechargeable batteries are cheaper usually."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:21:46",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:09",
+              "text": "Right. Do w"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:11",
+              "text": "Well, then we could If we have the speech recognition then we can start aiming at a like another kind of more handicapped disabled uh demo demographic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2010c",
+      "meeting_number": 3,
+      "passages": [
+        {
+          "meeting_id": "ES2010c",
+          "team": "ES2010",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:15",
+          "turn_index": 231,
+          "text": "I think, well, we could d r do two or we could do one small lithium, 'cause you know the lithium batteries are doing quite well in most other electronic products, right? So they're more widely available now. And they also have a longer battery life than most batteries. But if you only have to replace it every five years.",
+          "relevance": -8.155104228036686,
+          "matched_queries": [
+            "lithium battery",
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:12",
+              "text": "I mean more more come in a package. Yeah."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:14",
+              "text": "Well, that depends on what the energy is needed."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:34",
+              "text": "They're more expensive though, too. Mm."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:40",
+              "text": "That's a good point."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010c",
+          "team": "ES2010",
+          "speaker": "Speaker A",
+          "timestamp": "00:16:33",
+          "turn_index": 117,
+          "text": "What size battery and",
+          "relevance": -7.024290338424126,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:30",
+              "text": "Right."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:16:30",
+              "text": "We need to decide, well so we can figure how big it's gonna be, like exactly what buttons we want and exactly"
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:16:36",
+              "text": "Well, the other thing is like even if it's got a few buttons, so we want it to be bigger than this, 'cause it still fits in your hand, so you still wanted something that's comfortable and substantial, but not necessarily full of buttons."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:16:40",
+              "text": "It could be like this. Yes. I'd, well uh This one is really comfortable, like I like the sides whatever, because"
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010c",
+          "team": "ES2010",
+          "speaker": "Speaker A",
+          "timestamp": "00:17:41",
+          "turn_index": 136,
+          "text": "A battery like this guy. Alright, so what direction do you want to go in? You wanna vote?",
+          "relevance": -4.527653580440229,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:38",
+              "text": "So we sh"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:17:39",
+              "text": "Smaller, without Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:17:42",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:17:42",
+              "text": "Mm yeah."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010c",
+          "team": "ES2010",
+          "speaker": "Speaker B",
+          "timestamp": "00:22:43",
+          "turn_index": 236,
+          "text": "Well, how about a initial, you get one battery when you buy it, 'cause I'm pretty sure we can get them pretty cheap on bulk. Yeah.",
+          "relevance": -3.6855434126703646,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:22:41",
+              "text": "Thoughts anybody?"
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:42",
+              "text": "As long as we sell it with it."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:22:48",
+              "text": "Right, that's what I meant."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:22:50",
+              "text": "We could think about it and come back to it next meeting. We still have one more meeting."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010c",
+          "team": "ES2010",
+          "speaker": "Speaker A",
+          "timestamp": "00:27:01",
+          "turn_index": 299,
+          "text": "On the back? It d visible Visibility though 'Cause if it was only on the back really the only time you're gonna see it is when you drop it or when you're changing the battery.",
+          "relevance": -3.054338491437487,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:27:01",
+              "text": "But we want it to be seen. We need it to be seen."
+            },
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:01",
+              "text": "But you don't But uh, yeah, you don't see it."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker C",
+              "timestamp": "00:27:07",
+              "text": "Well, hang on. The other option is, I don't know if you can see it but it's like if"
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:27:15",
+              "text": "I can find it again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meeting_id": "ES2010d",
+      "meeting_number": 4,
+      "passages": [
+        {
+          "meeting_id": "ES2010d",
+          "team": "ES2010",
+          "speaker": "Speaker A",
+          "timestamp": "00:08:46",
+          "turn_index": 143,
+          "text": "Yeah. But if it's a do you wanna go for this is where we need to make a final call on if it's a lithium or do we wanna go triple A_s, 'cause triple A_s we're gonna have t do more than one battery. Oh, let's just go for a lithium. What do you say? I think uh I think the people who purchase this are gonna be technologically right. Okay, down to the electronics um section. We're gonna need this kind, correct, if we do the voice sensor, so one of those.",
+          "relevance": -5.764750994322281,
+          "matched_queries": [
+            "lithium battery",
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:39",
+              "text": "Number of components you plan to use. Do I just put quantity being one battery, or"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:46",
+              "text": "Yeah."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:47",
+              "text": "Mm 'kay."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:57",
+              "text": "Yeah, let's let's do a lithium."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010d",
+          "team": "ES2010",
+          "speaker": "Speaker A",
+          "timestamp": "00:08:39",
+          "turn_index": 141,
+          "text": "Number of components you plan to use. Do I just put quantity being one battery, or",
+          "relevance": -4.769845223203072,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:36",
+              "text": "Yep."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:38",
+              "text": "Two."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:46",
+              "text": "Yeah."
+            },
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:08:46",
+              "text": "Yeah. But if it's a do you wanna go for this is where we need to make a final call on if it's a lithium or do we wanna go triple A_s, 'cause triple A_s we're gonna have t do more than one battery. Oh, let's just go for a lithium. What do you say? I think uh I think the people who purchase this are gonna be technologically right. Okay, down to the electronics um section. We're gonna need this kind, correct, if we do the voice sensor, so one of those."
+            }
+          ]
+        },
+        {
+          "meeting_id": "ES2010d",
+          "team": "ES2010",
+          "speaker": "Speaker A",
+          "timestamp": "00:07:55",
+          "turn_index": 138,
+          "text": "No, that's it. Hmm. Oops. Okay, so now uh we're moving on to finance, okay. I'm gonna show you an Excel spreadsheet and we're going to fill it in together based on what components we're including in our remote and see if it's under twelve fifty Euro. If so, we can proceed, if not, we need to go back to the drawing board a little bit. 'Kay? So let me bring that up. Here we go. Alright. Um it's not hand dynamo, it's powered by battery, so we give it a",
+          "relevance": -1.4813628740914402,
+          "matched_queries": [
+            "battery"
+          ],
+          "context_before": [
+            {
+              "speaker": "Speaker A",
+              "timestamp": "00:07:46",
+              "text": "It does. Very good. Alright, let's go back to this"
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:07:46",
+              "text": "It it does. Thanks."
+            }
+          ],
+          "context_after": [
+            {
+              "speaker": "Speaker B",
+              "timestamp": "00:08:36",
+              "text": "Yep."
+            },
+            {
+              "speaker": "Speaker D",
+              "timestamp": "00:08:38",
+              "text": "Two."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
