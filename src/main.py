@@ -1,6 +1,8 @@
 
 import json
 
+import sqlite3
+
 import typer
 
 from src.config import (
@@ -12,7 +14,8 @@ from src.ingestion.database import (
     initialize_database,
 )
 from src.ingestion.indexer import ingest_directory
-
+from src.retrieval.search import search_transcripts
+from src.memory.timeline import build_team_timeline
 
 app = typer.Typer(
     name="meeting-memory",
@@ -95,10 +98,12 @@ def stats():
 
 
 @app.command()
+
+@app.command()
 def search(
-    query: str = typer.Argument(
+    queries: list[str] = typer.Argument(
         ...,
-        help="Search terms",
+        help="One or more search queries",
     ),
     team: str | None = typer.Option(
         None,
@@ -107,69 +112,148 @@ def search(
         help="Restrict search to a team",
     ),
     limit: int = typer.Option(
-        10,
+        20,
         "--limit",
         "-l",
         min=1,
         max=100,
     ),
+    per_meeting: int = typer.Option(
+        3,
+        "--per-meeting",
+        min=1,
+        max=20,
+        help="Maximum results from each meeting",
+    ),
 ):
-    """Search transcript passages."""
+    """Search transcript passages across meeting history."""
 
-    initialize_database(DATABASE_PATH)
+    try:
+        results = search_transcripts(
+            database_path=DATABASE_PATH,
+            queries=queries,
+            team=team,
+            limit=limit,
+            per_meeting_limit=per_meeting,
+        )
 
-    with get_connection(DATABASE_PATH) as connection:
-        sql = """
-            SELECT
-                meeting_id,
-                team,
-                speaker,
-                timestamp,
-                text,
-                bm25(turns_fts) AS relevance
-            FROM turns_fts
-            WHERE turns_fts MATCH ?
-        """
-
-        params: list = [query]
-
-        if team:
-            sql += " AND team = ?"
-            params.append(team)
-
-        sql += """
-            ORDER BY relevance
-            LIMIT ?
-        """
-
-        params.append(limit)
-
-        try:
-            results = connection.execute(
-                sql,
-                params,
-            ).fetchall()
-
-        except Exception as error:
-            typer.echo(
-                f"Search failed: {error}",
-                err=True,
-            )
-            raise typer.Exit(code=1)
+    except (ValueError, sqlite3.Error) as error:
+        typer.echo(f"Search failed: {error}", err=True)
+        raise typer.Exit(code=1)
 
     if not results:
         typer.echo("No matching passages found.")
         return
 
+    typer.echo(f"\nFound {len(results)} passages.")
+
+    meetings = {result.meeting_id for result in results}
+    typer.echo(f"Meetings represented: {len(meetings)}")
+
+   
     for result in results:
         typer.echo("\n" + "=" * 70)
         typer.echo(
-            f"{result['meeting_id']} | "
-            f"{result['speaker']} | "
-            f"{result['timestamp']}"
+            f"{result.meeting_id} | "
+            f"{result.speaker} | "
+            f"{result.timestamp}"
         )
-        typer.echo(f"Team: {result['team']}")
-        typer.echo(f"\n{result['text']}")
+        typer.echo(f"Team: {result.team}")
+        typer.echo(f"Relevance: {result.relevance:.6f}")
+        typer.echo(
+            f"Matched queries: {', '.join(result.matched_queries)}"
+        )
+
+        typer.echo("\n--- Previous turns ---")
+
+        for turn in result.context_before:
+            typer.echo(
+                f"{turn.speaker} | {turn.timestamp}\n{turn.text}\n"
+            )
+
+        typer.echo("--- Matching turn (citation source) ---")
+        typer.echo(
+            f"{result.speaker} | {result.timestamp}\n{result.text}"
+        )
+
+        typer.echo("\n--- Following turns ---")
+
+        for turn in result.context_after:
+            typer.echo(
+                f"{turn.speaker} | {turn.timestamp}\n{turn.text}\n"
+            )
+
+
+@app.command()
+def timeline(
+    queries: list[str] = typer.Argument(
+        ...,
+        help="Search concepts to trace across meetings",
+    ),
+    team: str = typer.Option(
+        ...,
+        "--team",
+        "-t",
+        help="Team whose meeting history should be examined",
+    ),
+    limit_per_meeting: int = typer.Option(
+        5,
+        "--limit-per-meeting",
+        min=1,
+        max=20,
+    ),
+):
+    """Retrieve evidence chronologically across a team's meetings."""
+
+    try:
+        meetings = build_team_timeline(
+            database_path=DATABASE_PATH,
+            team=team,
+            queries=queries,
+            limit_per_meeting=limit_per_meeting,
+        )
+
+    except (ValueError, sqlite3.Error) as error:
+        typer.echo(f"Timeline failed: {error}", err=True)
+        raise typer.Exit(code=1)
+
+    typer.echo(f"\n=== Decision Timeline: {team} ===")
+
+    for meeting in meetings:
+        typer.echo("\n" + "#" * 75)
+        typer.echo(
+            f"{meeting.meeting_id} "
+            f"(Meeting {meeting.meeting_number})"
+        )
+
+        if not meeting.passages:
+            typer.echo("No matching passages.")
+            continue
+
+        for result in meeting.passages:
+            typer.echo("\n" + "-" * 65)
+            typer.echo(
+                f"{result.speaker} | {result.timestamp} "
+                f"| Relevance: {result.relevance:.6f}"
+            )
+
+            for turn in result.context_before:
+                typer.echo(
+                    f"\n[{turn.speaker} | {turn.timestamp}]\n"
+                    f"{turn.text}"
+                )
+
+            typer.echo(
+                f"\n>>> MATCH: {result.speaker} | {result.timestamp}"
+            )
+            typer.echo(result.text)
+
+            for turn in result.context_after:
+                typer.echo(
+                    f"\n[{turn.speaker} | {turn.timestamp}]\n"
+                    f"{turn.text}"
+                )
+
 
 
 if __name__ == "__main__":
