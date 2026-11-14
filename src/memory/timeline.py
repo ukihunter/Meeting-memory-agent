@@ -27,6 +27,9 @@ def build_team_timeline(
     if not team.strip():
         raise ValueError("Team ID cannot be empty.")
 
+    if not queries or not any(query.strip() for query in queries):
+        raise ValueError("At least one non-empty query is required.")
+
     if limit_per_meeting < 1:
         raise ValueError("limit_per_meeting must be greater than zero.")
 

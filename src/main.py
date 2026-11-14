@@ -16,6 +16,9 @@ from src.ingestion.database import (
 from src.ingestion.indexer import ingest_directory
 from src.retrieval.search import search_transcripts
 from src.memory.timeline import build_team_timeline
+from src.memory.decisions import extract_decision_evidence
+from src.answering.evidence import discover_evidence
+from src.config import DATABASE_PATH, TRANSCRIPTS_DIR, QUESTIONS_FILE, OUTPUT_DIR
 
 app = typer.Typer(
     name="meeting-memory",
@@ -97,7 +100,6 @@ def stats():
         )
 
 
-@app.command()
 
 @app.command()
 def search(
@@ -255,6 +257,106 @@ def timeline(
                 )
 
 
+@app.command()
+def decisions(
+    queries: list[str] = typer.Argument(
+        ...,
+        help="Topics or features to investigate",
+    ),
+    team: str = typer.Option(
+        ...,
+        "--team",
+        "-t",
+        help="Team whose decision history should be examined",
+    ),
+    limit_per_meeting: int = typer.Option(
+        8,
+        "--limit-per-meeting",
+        min=1,
+        max=30,
+    ),
+):
+    """Extract decision-related evidence across a team's meetings."""
+
+    try:
+        timeline = extract_decision_evidence(
+            database_path=DATABASE_PATH,
+            team=team,
+            queries=queries,
+            limit_per_meeting=limit_per_meeting,
+        )
+
+    except (ValueError, sqlite3.Error) as error:
+        typer.echo(f"Decision extraction failed: {error}", err=True)
+        raise typer.Exit(code=1)
+
+    typer.echo(f"\n=== Decision Evidence: {team} ===")
+    typer.echo(f"Queries: {', '.join(timeline.queries)}")
+    typer.echo(
+        f"Meetings represented: "
+        f"{len(timeline.meetings_represented)}"
+    )
+    typer.echo(f"Evidence passages: {len(timeline.evidence)}")
+    for item in timeline.evidence:
+        typer.echo(
+            "\n" + "=" * 75 + "\n"
+            f"{item.meeting_id} | "
+            f"Meeting {item.meeting_number} | "
+            f"{item.timestamp}"
+        )
+
+        typer.echo(f"Signals: {', '.join(item.signals)}")
+        typer.echo(
+            f"Matched queries: {', '.join(item.matched_queries)}"
+        )
+
+        typer.echo("\n--- Previous context ---")
+
+        for turn in item.context_before:
+            typer.echo(
+                f"{turn['speaker']} | {turn['timestamp']}\n"
+                f"{turn['text']}\n"
+            )
+
+        typer.echo("--- Evidence (original speaker turn) ---")
+        typer.echo(item.text)
+
+        typer.echo("\n--- Following context ---")
+
+        for turn in item.context_after:
+            typer.echo(
+                f"{turn['speaker']} | {turn['timestamp']}\n"
+                f"{turn['text']}\n"
+            )
+
+
+@app.command("discover-evidence")
+def discover_evidence_command(
+    limit_per_meeting: int = typer.Option(
+        5,
+        "--limit-per-meeting",
+        min=1,
+        help="Maximum evidence passages to retrieve per meeting.",
+    ),
+) -> None:
+    """Retrieve evidence for all assignment questions and the TS3012 brief."""
+
+    output_path = OUTPUT_DIR / "evidence.json"
+
+    try:
+        result = discover_evidence(
+            questions_path=QUESTIONS_FILE,
+            database_path=DATABASE_PATH,
+            output_path=output_path,
+            limit_per_meeting=limit_per_meeting,
+        )
+
+        print(f"Evidence discovery completed.")
+        print(f"Questions processed: {result['question_count']}")
+        print(f"Output: {output_path}")
+
+    except (ValueError, OSError, json.JSONDecodeError) as error:
+        raise typer.BadParameter(str(error)) from error
 
 if __name__ == "__main__":
     app()
