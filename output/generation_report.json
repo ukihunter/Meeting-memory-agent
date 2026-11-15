@@ -1,0 +1,648 @@
+{
+  "status": "draft",
+  "total_questions": 25,
+  "verified_answers": 2,
+  "questions_requiring_review": 23,
+  "brief_completed": false,
+  "validation_passed": false,
+  "validation_issue_count": 24,
+  "validation_issues": [
+    {
+      "question_id": "",
+      "code": "invalid_brief",
+      "message": "'brief' must be a non-empty string."
+    },
+    {
+      "question_id": "Q03",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q04",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q05",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q06",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q07",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q08",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q09",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q10",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q11",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q12",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q13",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q14",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q15",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q16",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q17",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q18",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q19",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q20",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q21",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q22",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q23",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q24",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    },
+    {
+      "question_id": "Q25",
+      "code": "missing_answer",
+      "message": "No answer was provided for this question."
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "Q01",
+      "team": "TS3006",
+      "iterations": 0,
+      "meetings_found": [],
+      "evidence_count": 0,
+      "retrieval_coverage_met": true,
+      "answer_status": "preserved_existing"
+    },
+    {
+      "question_id": "Q02",
+      "team": "ES2003",
+      "iterations": 0,
+      "meetings_found": [],
+      "evidence_count": 0,
+      "retrieval_coverage_met": true,
+      "answer_status": "preserved_existing"
+    },
+    {
+      "question_id": "Q03",
+      "team": "TS3009",
+      "iterations": 1,
+      "meetings_found": [
+        "TS3009a",
+        "TS3009b",
+        "TS3009c",
+        "TS3009d"
+      ],
+      "evidence_count": 22,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "citation_does_not_support_reason",
+        "citation_does_not_support_numerical_information",
+        "answer_must_contain_one_to_three_sentences",
+        "selected_evidence_quote_too_short"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q04",
+      "team": "TS3011",
+      "iterations": 1,
+      "meetings_found": [
+        "TS3011a",
+        "TS3011b",
+        "TS3011c",
+        "TS3011d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "missing_support_for_numerical_information",
+        "supporting_evidence_must_cover_two_meetings",
+        "citation_does_not_support_numerical_information",
+        "selected_evidence_quote_too_short"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q05",
+      "team": "TS3007",
+      "iterations": 1,
+      "meetings_found": [
+        "TS3007b",
+        "TS3007c",
+        "TS3007d"
+      ],
+      "evidence_count": 17,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "missing_support_for_later_change",
+        "citation_does_not_support_later_change",
+        "answer_must_contain_one_to_three_sentences",
+        "unsupported_number",
+        "selected_evidence_quote_too_short"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q06",
+      "team": "ES2008",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2008a",
+        "ES2008b",
+        "ES2008c",
+        "ES2008d"
+      ],
+      "evidence_count": 9,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q07",
+      "team": "IS1008",
+      "iterations": 1,
+      "meetings_found": [
+        "IS1008a",
+        "IS1008b",
+        "IS1008c",
+        "IS1008d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "answer_must_contain_one_to_three_sentences",
+        "unsupported_number"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q08",
+      "team": "ES2007",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2007a",
+        "ES2007b",
+        "ES2007c"
+      ],
+      "evidence_count": 21,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "unsupported_number"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q09",
+      "team": "IS1002",
+      "iterations": 1,
+      "meetings_found": [
+        "IS1002b",
+        "IS1002c",
+        "IS1002d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "answer_must_contain_one_to_three_sentences"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q10",
+      "team": "TS3003",
+      "iterations": 1,
+      "meetings_found": [
+        "TS3003a",
+        "TS3003b",
+        "TS3003c",
+        "TS3003d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "llm_error:LLMGenerationError:Ollama returned malformed JSON: Unterminated string starting at: line 20 column 5 (char 4261)"
+      ],
+      "draft_generated": false,
+      "draft_status": "generation_failed"
+    },
+    {
+      "question_id": "Q11",
+      "team": "ES2011",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2011a",
+        "ES2011b",
+        "ES2011c",
+        "ES2011d"
+      ],
+      "evidence_count": 16,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "citation_does_not_support_final_decision",
+        "citation_does_not_support_reason",
+        "unsupported_number"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q12",
+      "team": "ES2004",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2004a",
+        "ES2004b",
+        "ES2004c",
+        "ES2004d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "selected_evidence_quote_too_short"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q13",
+      "team": "TS3004",
+      "iterations": 1,
+      "meetings_found": [
+        "TS3004b",
+        "TS3004c",
+        "TS3004d"
+      ],
+      "evidence_count": 19,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "llm_error:LLMGenerationError:Ollama returned malformed JSON: Unterminated string starting at: line 26 column 15 (char 4135)"
+      ],
+      "draft_generated": false,
+      "draft_status": "generation_failed"
+    },
+    {
+      "question_id": "Q14",
+      "team": "IS1009",
+      "iterations": 1,
+      "meetings_found": [
+        "IS1009a",
+        "IS1009b",
+        "IS1009c",
+        "IS1009d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "citation_does_not_support_reason",
+        "citation_does_not_support_speaker_attribution",
+        "answer_must_contain_one_to_three_sentences",
+        "unsupported_number",
+        "selected_evidence_quote_too_short"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q15",
+      "team": "ES2016",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2016a",
+        "ES2016b",
+        "ES2016c",
+        "ES2016d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "citation_does_not_support_speaker_attribution",
+        "citation_does_not_support_numerical_information"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q16",
+      "team": "TS3010",
+      "iterations": 1,
+      "meetings_found": [
+        "TS3010a",
+        "TS3010b",
+        "TS3010c",
+        "TS3010d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "llm_error:LLMGenerationError:Ollama request timed out."
+      ],
+      "draft_generated": false,
+      "draft_status": "generation_failed"
+    },
+    {
+      "question_id": "Q17",
+      "team": "ES2009",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2009a",
+        "ES2009b",
+        "ES2009c",
+        "ES2009d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "invalid_evidence_ids_for_initial_proposal",
+        "invalid_evidence_ids_for_later_change",
+        "invalid_evidence_ids_for_final_decision",
+        "invalid_evidence_ids_for_reason",
+        "invalid_evidence_ids_for_speaker_attribution",
+        "invalid_evidence_ids_for_numerical_information",
+        "supporting_evidence_must_cover_two_meetings",
+        "citation_count_must_be_between_one_and_three",
+        "citation_does_not_support_initial_proposal",
+        "citation_does_not_support_later_change",
+        "citation_does_not_support_final_decision",
+        "citation_does_not_support_reason",
+        "citation_does_not_support_speaker_attribution",
+        "citation_does_not_support_numerical_information",
+        "answer_must_contain_one_to_three_sentences",
+        "unsupported_number",
+        "no_supporting_evidence"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q18",
+      "team": "ES2014",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2014b",
+        "ES2014c",
+        "ES2014d"
+      ],
+      "evidence_count": 19,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "answer_must_contain_one_to_three_sentences",
+        "unsupported_number"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q19",
+      "team": "IS1003",
+      "iterations": 1,
+      "meetings_found": [
+        "IS1003c",
+        "IS1003d"
+      ],
+      "evidence_count": 16,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "citation_does_not_support_reason",
+        "selected_evidence_quote_too_short"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q20",
+      "team": "ES2008",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2008a",
+        "ES2008b",
+        "ES2008c",
+        "ES2008d"
+      ],
+      "evidence_count": 13,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "answer_must_contain_one_to_three_sentences"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q21",
+      "team": "IS1007",
+      "iterations": 1,
+      "meetings_found": [
+        "IS1007a",
+        "IS1007b",
+        "IS1007c",
+        "IS1007d"
+      ],
+      "evidence_count": 24,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "citation_does_not_support_numerical_information"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q22",
+      "team": "ES2010",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2010a",
+        "ES2010b",
+        "ES2010c",
+        "ES2010d"
+      ],
+      "evidence_count": 16,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "answer_must_contain_one_to_three_sentences"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q23",
+      "team": "ES2006",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2006a",
+        "ES2006b",
+        "ES2006c",
+        "ES2006d"
+      ],
+      "evidence_count": 15,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "citation_does_not_support_reason",
+        "citation_does_not_support_speaker_attribution",
+        "citation_does_not_support_numerical_information",
+        "selected_evidence_quote_too_short"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q24",
+      "team": "ES2002",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2002b",
+        "ES2002c",
+        "ES2002d"
+      ],
+      "evidence_count": 12,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "answer_must_contain_one_to_three_sentences"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    },
+    {
+      "question_id": "Q25",
+      "team": "ES2011",
+      "iterations": 1,
+      "meetings_found": [
+        "ES2011b",
+        "ES2011c",
+        "ES2011d"
+      ],
+      "evidence_count": 17,
+      "retrieval_coverage_met": true,
+      "answer_status": "requires_review",
+      "draft_model": "qwen3:4b",
+      "draft_issues": [
+        "supporting_evidence_must_cover_two_meetings",
+        "answer_must_contain_one_to_three_sentences"
+      ],
+      "draft_generated": true,
+      "draft_status": "generated"
+    }
+  ]
+}

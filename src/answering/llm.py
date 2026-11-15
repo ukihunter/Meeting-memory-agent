@@ -1,3 +1,4 @@
+
 import json
 import os
 import re
@@ -25,6 +26,59 @@ class LLMGenerationError(LLMError):
     pass
 
 
+# Structured output schema for the meeting-answer claims.
+claim_schema = {
+    "type": "object",
+    "properties": {
+        "text": {"type": "string"},
+        "evidence_ids": {
+            "type": "array",
+            "items": {"type": "string"},
+        },
+    },
+    "required": ["text", "evidence_ids"],
+    "additionalProperties": False,
+}
+
+
+response_schema = {
+    "type": "object",
+    "properties": {
+        "answer": {"type": "string"},
+        "claims": {
+            "type": "object",
+            "properties": {
+                name: claim_schema
+                for name in (
+                    "initial_proposal",
+                    "later_change",
+                    "final_decision",
+                    "reason",
+                    "speaker_attribution",
+                    "numerical_information",
+                )
+            },
+            "required": [
+                "initial_proposal",
+                "later_change",
+                "final_decision",
+                "reason",
+                "speaker_attribution",
+                "numerical_information",
+            ],
+            "additionalProperties": False,
+        },
+        "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+        },
+    },
+    "required": ["answer", "claims", "confidence"],
+    "additionalProperties": False,
+}
+
+
 class OllamaClient:
     def __init__(
         self,
@@ -45,39 +99,58 @@ class OllamaClient:
         try:
             with urlopen(request, timeout=3) as response:
                 if response.status != 200:
-                    self.last_error = f"Ollama returned HTTP {response.status}."
+                    self.last_error = (
+                        f"Ollama returned HTTP {response.status}."
+                    )
                     return False
+
                 payload = json.loads(response.read().decode("utf-8"))
                 installed = {
                     item.get("name")
                     for item in payload.get("models", [])
                     if isinstance(item, dict)
                 }
+
                 if self.model not in installed:
                     self.last_error = (
                         f"Configured model {self.model!r} is not installed. "
-                        f"Installed models: {sorted(item for item in installed if item)}"
+                        f"Installed models: "
+                        f"{sorted(item for item in installed if item)}"
                     )
                     return False
+
                 self.last_error = None
                 return True
+
         except HTTPError as error:
-            self.last_error = f"Ollama availability HTTP error {error.code}: {error.reason}"
+            self.last_error = (
+                f"Ollama availability HTTP error "
+                f"{error.code}: {error.reason}"
+            )
             return False
+
         except (OSError, URLError, ValueError, json.JSONDecodeError) as error:
             self.last_error = f"Ollama availability error: {error}"
             return False
 
     def generate_json(self, prompt: str) -> LLMResponse:
         if not self.available():
-            raise LLMUnavailableError(self.last_error or "Ollama model unavailable.")
+            raise LLMUnavailableError(
+                self.last_error or "Ollama model unavailable."
+            )
 
         payload = json.dumps({
             "model": self.model,
             "prompt": prompt,
             "stream": False,
-            "format": "json",
-            "options": {"temperature": 0},
+            "think": False,
+            "format": response_schema,
+            "options": {
+                "temperature": 0.2,
+                "repeat_penalty": 1.1,
+                "repeat_last_n": 128,
+                "num_predict": 1024,
+            },
         }).encode("utf-8")
 
         request = Request(
@@ -90,33 +163,49 @@ class OllamaClient:
         try:
             with urlopen(request, timeout=self.timeout) as response:
                 body = json.loads(response.read().decode("utf-8"))
+
         except HTTPError as error:
             detail = error.read().decode("utf-8", errors="replace")
+
             if "context" in detail.lower():
                 raise LLMGenerationError(
                     f"Ollama context-length error: {detail}"
                 ) from error
+
             raise LLMGenerationError(
                 f"Ollama HTTP error {error.code}: {detail or error.reason}"
             ) from error
+
         except TimeoutError as error:
-            raise LLMGenerationError("Ollama request timed out.") from error
+            raise LLMGenerationError(
+                "Ollama request timed out."
+            ) from error
+
         except (OSError, URLError, ValueError, json.JSONDecodeError) as error:
-            raise LLMGenerationError(f"Ollama response error: {error}") from error
+            raise LLMGenerationError(
+                f"Ollama response error: {error}"
+            ) from error
 
         if not isinstance(body, dict):
-            raise LLMGenerationError("Ollama response body must be an object.")
+            raise LLMGenerationError(
+                "Ollama response body must be an object."
+            )
+
         if body.get("error"):
             message = str(body["error"])
+
             if "context" in message.lower():
                 message = f"context-length error: {message}"
+
             raise LLMGenerationError(message)
+
         if not isinstance(body.get("response"), str):
             raise LLMGenerationError(
                 "Ollama response is missing its string 'response' field."
             )
 
-        raw_text = body.get("response", "")
+        raw_text = body["response"]
+
         try:
             data = parse_json_object(raw_text)
         except (ValueError, json.JSONDecodeError) as error:
@@ -135,6 +224,7 @@ def parse_json_object(text: str) -> dict:
     candidate = text.strip()
     candidate = re.sub(r"^```(?:json)?\s*", "", candidate)
     candidate = re.sub(r"\s*```$", "", candidate)
+
     data = json.loads(candidate)
 
     if not isinstance(data, dict):

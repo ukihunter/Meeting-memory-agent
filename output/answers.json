@@ -1,0 +1,41 @@
+{
+  "answers": [
+    {
+      "question_id": "Q01",
+      "answer": "They dropped speech recognition and kept the LCD screen. Speaker A described the screen as essential, while Speaker D said it was more popular than speech recognition.",
+      "citations": [
+        {
+          "meeting_id": "TS3006b",
+          "quote": "Yeah but that depends on where you put the screen. But it's essential that there is a screen."
+        },
+        {
+          "meeting_id": "TS3006d",
+          "quote": "I guess the the screen was more popular than um than the speech recognition."
+        },
+        {
+          "meeting_id": "TS3006d",
+          "quote": "Well yeah but we dropped the speech recognition. But it has at least one innovation."
+        }
+      ]
+    },
+    {
+      "question_id": "Q02",
+      "answer": "They initially favoured spongy rubber for the case but ultimately switched to plastic. They changed direction because of cost pressures, allowing them to retain the LCD display.",
+      "citations": [
+        {
+          "meeting_id": "ES2003c",
+          "quote": "So we have the choice between rubber and plastic. If it's the type of rubber that you can squeeze, you know, it's spongy"
+        },
+        {
+          "meeting_id": "ES2003d",
+          "quote": "Uh because of costs. And it's plastic as well, so it won't be as comfortable on the hand."
+        },
+        {
+          "meeting_id": "ES2003d",
+          "quote": "we're gonna keep the L_C_ display 'cause it's about what really separates us, despite the cost it's gonna incur."
+        }
+      ]
+    }
+  ],
+  "brief": ""
+}

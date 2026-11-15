@@ -1,8 +1,10 @@
 from pathlib import Path
 
+import src.answering.rag as rag
 from src.answering.llm import LLMResponse
 from src.answering.rag import (
     build_prompt,
+    claim_evidence_ids,
     citations_from_evidence,
     expand_queries,
     generate_draft,
@@ -135,6 +137,62 @@ def test_citations_are_limited_and_come_from_claim_evidence():
         {"meeting_id": "TEAMa", "quote": EVIDENCE[0]["text"]},
         {"meeting_id": "TEAMc", "quote": EVIDENCE[1]["text"]},
     ]
+
+
+def test_citations_keep_multiple_records_from_one_meeting():
+    evidence = [
+        *EVIDENCE,
+        {
+            **EVIDENCE[0],
+            "evidence_id": "E003",
+            "text": "Speaker C supported the battery proposal for the remote.",
+        },
+    ]
+
+    citations = citations_from_evidence(evidence, ["E001", "E003", "E002"])
+
+    assert citations == [
+        {"meeting_id": "TEAMa", "quote": EVIDENCE[0]["text"]},
+        {"meeting_id": "TEAMc", "quote": EVIDENCE[1]["text"]},
+        {"meeting_id": "TEAMa", "quote": evidence[2]["text"]},
+    ]
+
+
+def test_citations_skip_records_shorter_than_six_words():
+    evidence = [
+        {**EVIDENCE[0], "text": "Too short"},
+        EVIDENCE[1],
+    ]
+
+    citations = citations_from_evidence(evidence, ["E001", "E002"])
+
+    assert citations == [
+        {"meeting_id": "TEAMc", "quote": EVIDENCE[1]["text"]},
+    ]
+
+
+def test_claim_evidence_ids_prioritize_each_populated_claim_stage():
+    draft = make_draft()
+    draft["claims"]["initial_proposal"]["evidence_ids"] = ["E001", "E002"]
+    draft["claims"]["later_change"]["evidence_ids"] = ["E002", "E003"]
+    draft["claims"]["final_decision"]["evidence_ids"] = ["E004"]
+
+    assert claim_evidence_ids(draft)[:3] == ["E001", "E002", "E004"]
+
+
+def test_claim_requires_the_exact_cited_record(monkeypatch):
+    draft = make_draft()
+    monkeypatch.setattr(
+        rag,
+        "citations_from_evidence",
+        lambda evidence, evidence_ids, team=None: [
+            {"meeting_id": "TEAMc", "quote": EVIDENCE[1]["text"]}
+        ],
+    )
+
+    issues = validate_draft(draft, EVIDENCE, "TEAM")
+
+    assert "citation_does_not_support_initial_proposal" in issues
 
 
 def test_q03_evidence_is_chronological():

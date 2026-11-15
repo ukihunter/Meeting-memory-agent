@@ -286,6 +286,13 @@ def main():
             team=team,
             evidence=rag_evidence,
         )
+        question_report.update({
+            "answer_status": "requires_review",
+            "draft_model": model,
+            "draft_issues": draft_issues,
+            "draft_generated": draft is not None,
+            "draft_status": "generated" if draft is not None else "generation_failed",
+        })
 
         review_questions.append({
             "question_id": question_id,
@@ -312,7 +319,8 @@ def main():
 
         print(
             f"     Review required: {len(rag_evidence)} passages, "
-            f"{len(meetings_found)} meetings"
+            f"{len(meetings_found)} meetings; "
+            f"reason: {', '.join(draft_issues) or 'draft requires manual review'}"
         )
 
     brief_review = build_brief_review(DATABASE_FILE, evidence_data)
