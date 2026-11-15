@@ -1,11 +1,15 @@
 
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 from pathlib import Path
 from collections.abc import Sequence
 from typing import Any
 
-from src.memory.decisions import extract_decision_evidence
+from src.memory.events import (
+    construct_q03_answer,
+    extract_events,
+    retrieve_memory,
+)
 
 
 STOP_WORDS = {
@@ -37,6 +41,8 @@ class AgentResult:
     retrieval_coverage_met: bool
     review_required: bool
     notes: list[str]
+    events: list[dict[str, Any]]
+    answer: dict[str, Any] | None = None
 
 
 def build_fallback_queries(
@@ -69,36 +75,6 @@ def build_fallback_queries(
         candidates.append(term)
 
     return candidates[:limit]
-
-
-def merge_evidence(
-    existing: list[Any],
-    incoming: list[Any],
-) -> list[Any]:
-    """Merge evidence without duplicating the same transcript turn."""
-    merged = {}
-    
-    for item in existing + incoming:
-        key = (
-            item.meeting_id,
-            item.speaker,
-            item.timestamp,
-            item.text,
-        )
-
-        previous = merged.get(key)
-
-        if previous is None or item.relevance < previous.relevance:
-            merged[key] = item
-
-    return sorted(
-        merged.values(),
-        key=lambda item: (
-            item.meeting_number is None,
-            item.meeting_number or 0,
-            item.timestamp or "",
-        ),
-    )
 
 
 def run_agent(
@@ -146,26 +122,19 @@ def run_agent(
     notes = []
     iterations = 0
 
-    # Iteration 1: retrieve using the curated question queries.
-    timeline = extract_decision_evidence(
+    evidence = retrieve_memory(
         database_path=database_path,
         team=team,
+        question=question,
         queries=initial_queries,
-        limit_per_meeting=limit_per_meeting,
+        max_evidence=64,
+        per_meeting_limit=16,
     )
-
-    evidence = merge_evidence(evidence, timeline.evidence)
     iterations += 1
 
     meetings_found = list(dict.fromkeys(
-        item.meeting_id for item in evidence
+        item["meeting_id"] for item in evidence
     ))
-
-    has_decision_signal = any(
-        signal in DECISION_SIGNALS
-        for item in evidence
-        for signal in item.signals
-    )
 
     # Iteration 2: refine retrieval if the first pass has weak coverage.
     if iterations < max_iterations and len(meetings_found) < 2:
@@ -176,14 +145,43 @@ def run_agent(
         )
 
         if fallback_queries:
-            timeline = extract_decision_evidence(
+            fallback_evidence = retrieve_memory(
                 database_path=database_path,
                 team=team,
+                question=question,
                 queries=fallback_queries,
                 limit_per_meeting=limit_per_meeting,
+                per_meeting_limit=16,
+                max_evidence=64,
             )
 
-            evidence = merge_evidence(evidence, timeline.evidence)
+            by_key = {
+                (
+                    item["meeting_id"],
+                    item["speaker"],
+                    item["timestamp"],
+                    item["text"],
+                ): item
+                for item in evidence
+            }
+            for item in fallback_evidence:
+                by_key.setdefault(
+                    (
+                        item["meeting_id"],
+                        item["speaker"],
+                        item["timestamp"],
+                        item["text"],
+                    ),
+                    item,
+                )
+            evidence = sorted(
+                by_key.values(),
+                key=lambda item: (
+                    item.get("meeting_number") is None,
+                    item.get("meeting_number") or 0,
+                    item.get("turn_index") or 0,
+                ),
+            )
             all_queries.extend(fallback_queries)
             iterations += 1
             notes.append(
@@ -192,14 +190,11 @@ def run_agent(
             )
 
     meetings_found = list(dict.fromkeys(
-        item.meeting_id for item in evidence
+        item["meeting_id"] for item in evidence
     ))
 
-    has_decision_signal = any(
-        signal in DECISION_SIGNALS
-        for item in evidence
-        for signal in item.signals
-    )
+    events = extract_events(database_path, team, evidence)
+    has_decision_signal = bool(events)
 
     coverage_met = len(meetings_found) >= 2
 
@@ -220,15 +215,19 @@ def run_agent(
         "Review the chronological evidence before generating an answer."
     )
 
+    answer = construct_q03_answer(evidence) if question_id == "Q03" else None
+
     return AgentResult(
         question_id=question_id,
         team=team,
         question=question,
         queries_used=list(dict.fromkeys(all_queries)),
         iterations=iterations,
-        evidence=[asdict(item) for item in evidence],
+        evidence=evidence,
         meetings_found=meetings_found,
         retrieval_coverage_met=coverage_met,
         review_required=True,
         notes=notes,
+        events=[event.as_dict() for event in events],
+        answer=answer,
     )

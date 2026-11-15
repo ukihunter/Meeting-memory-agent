@@ -20,7 +20,7 @@ def resolve_path(value: str) -> Path:
 TRANSCRIPTS_DIR = resolve_path(
     os.getenv(
         "TRANSCRIPTS_DIR",
-        "../Catalist_AI_Intern_Build_Test_Data/transcripts",
+        "data/Catalist_AI_Intern_Build_Test_Data/transcripts",
     )
 )
 
@@ -29,7 +29,10 @@ DATABASE_PATH = resolve_path(
 )
 
 QUESTIONS_FILE = resolve_path(
-    os.getenv("QUESTIONS_FILE", "data/questions.json")
+    os.getenv(
+        "QUESTIONS_FILE",
+        "data/Catalist_AI_Intern_Build_Test_Data/questions.json",
+    )
 )
 
 OUTPUT_DIR = resolve_path(

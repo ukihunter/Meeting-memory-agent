@@ -1,22 +1,12 @@
 {
   "status": "draft",
   "total_questions": 25,
-  "verified_answers": 2,
-  "questions_requiring_review": 23,
-  "brief_completed": false,
+  "verified_answers": 3,
+  "questions_requiring_review": 22,
+  "brief_completed": true,
   "validation_passed": false,
-  "validation_issue_count": 24,
+  "validation_issue_count": 22,
   "validation_issues": [
-    {
-      "question_id": "",
-      "code": "invalid_brief",
-      "message": "'brief' must be a non-empty string."
-    },
-    {
-      "question_id": "Q03",
-      "code": "missing_answer",
-      "message": "No answer was provided for this question."
-    },
     {
       "question_id": "Q04",
       "code": "missing_answer",
@@ -136,7 +126,7 @@
       "meetings_found": [],
       "evidence_count": 0,
       "retrieval_coverage_met": true,
-      "answer_status": "preserved_existing"
+      "answer_status": "verified_manual"
     },
     {
       "question_id": "Q02",
@@ -145,7 +135,7 @@
       "meetings_found": [],
       "evidence_count": 0,
       "retrieval_coverage_met": true,
-      "answer_status": "preserved_existing"
+      "answer_status": "verified_manual"
     },
     {
       "question_id": "Q03",
@@ -157,18 +147,13 @@
         "TS3009c",
         "TS3009d"
       ],
-      "evidence_count": 22,
+      "evidence_count": 58,
       "retrieval_coverage_met": true,
-      "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
-      "draft_issues": [
-        "citation_does_not_support_reason",
-        "citation_does_not_support_numerical_information",
-        "answer_must_contain_one_to_three_sentences",
-        "selected_evidence_quote_too_short"
-      ],
+      "answer_status": "verified_deterministic",
+      "draft_issues": [],
       "draft_generated": true,
-      "draft_status": "generated"
+      "draft_status": "deterministic",
+      "event_count": 6
     },
     {
       "question_id": "Q04",
@@ -180,18 +165,15 @@
         "TS3011c",
         "TS3011d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 26,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "missing_support_for_numerical_information",
-        "supporting_evidence_must_cover_two_meetings",
-        "citation_does_not_support_numerical_information",
-        "selected_evidence_quote_too_short"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 5
     },
     {
       "question_id": "Q05",
@@ -202,19 +184,15 @@
         "TS3007c",
         "TS3007d"
       ],
-      "evidence_count": 17,
+      "evidence_count": 21,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "missing_support_for_later_change",
-        "citation_does_not_support_later_change",
-        "answer_must_contain_one_to_three_sentences",
-        "unsupported_number",
-        "selected_evidence_quote_too_short"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 5
     },
     {
       "question_id": "Q06",
@@ -229,10 +207,12 @@
       "evidence_count": 9,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
-      "draft_issues": [],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_issues": [
+        "deterministic_answer_not_established"
+      ],
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 3
     },
     {
       "question_id": "Q07",
@@ -244,17 +224,15 @@
         "IS1008c",
         "IS1008d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 57,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "answer_must_contain_one_to_three_sentences",
-        "unsupported_number"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 7
     },
     {
       "question_id": "Q08",
@@ -265,16 +243,15 @@
         "ES2007b",
         "ES2007c"
       ],
-      "evidence_count": 21,
+      "evidence_count": 23,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "unsupported_number"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 4
     },
     {
       "question_id": "Q09",
@@ -282,19 +259,17 @@
       "iterations": 1,
       "meetings_found": [
         "IS1002b",
-        "IS1002c",
-        "IS1002d"
+        "IS1002c"
       ],
-      "evidence_count": 24,
+      "evidence_count": 64,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "answer_must_contain_one_to_three_sentences"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 9
     },
     {
       "question_id": "Q10",
@@ -306,15 +281,15 @@
         "TS3003c",
         "TS3003d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 64,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "llm_error:LLMGenerationError:Ollama returned malformed JSON: Unterminated string starting at: line 20 column 5 (char 4261)"
+        "deterministic_answer_not_established"
       ],
       "draft_generated": false,
-      "draft_status": "generation_failed"
+      "draft_status": "review_required",
+      "event_count": 15
     },
     {
       "question_id": "Q11",
@@ -329,14 +304,12 @@
       "evidence_count": 16,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "citation_does_not_support_final_decision",
-        "citation_does_not_support_reason",
-        "unsupported_number"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 4
     },
     {
       "question_id": "Q12",
@@ -348,16 +321,15 @@
         "ES2004c",
         "ES2004d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 37,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "selected_evidence_quote_too_short"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 5
     },
     {
       "question_id": "Q13",
@@ -368,15 +340,15 @@
         "TS3004c",
         "TS3004d"
       ],
-      "evidence_count": 19,
+      "evidence_count": 23,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "llm_error:LLMGenerationError:Ollama returned malformed JSON: Unterminated string starting at: line 26 column 15 (char 4135)"
+        "deterministic_answer_not_established"
       ],
       "draft_generated": false,
-      "draft_status": "generation_failed"
+      "draft_status": "review_required",
+      "event_count": 1
     },
     {
       "question_id": "Q14",
@@ -388,19 +360,15 @@
         "IS1009c",
         "IS1009d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 15,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "citation_does_not_support_reason",
-        "citation_does_not_support_speaker_attribution",
-        "answer_must_contain_one_to_three_sentences",
-        "unsupported_number",
-        "selected_evidence_quote_too_short"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 1
     },
     {
       "question_id": "Q15",
@@ -412,16 +380,15 @@
         "ES2016c",
         "ES2016d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 30,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "citation_does_not_support_speaker_attribution",
-        "citation_does_not_support_numerical_information"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 10
     },
     {
       "question_id": "Q16",
@@ -433,15 +400,15 @@
         "TS3010c",
         "TS3010d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 38,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "llm_error:LLMGenerationError:Ollama request timed out."
+        "deterministic_answer_not_established"
       ],
       "draft_generated": false,
-      "draft_status": "generation_failed"
+      "draft_status": "review_required",
+      "event_count": 2
     },
     {
       "question_id": "Q17",
@@ -453,31 +420,15 @@
         "ES2009c",
         "ES2009d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 61,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "invalid_evidence_ids_for_initial_proposal",
-        "invalid_evidence_ids_for_later_change",
-        "invalid_evidence_ids_for_final_decision",
-        "invalid_evidence_ids_for_reason",
-        "invalid_evidence_ids_for_speaker_attribution",
-        "invalid_evidence_ids_for_numerical_information",
-        "supporting_evidence_must_cover_two_meetings",
-        "citation_count_must_be_between_one_and_three",
-        "citation_does_not_support_initial_proposal",
-        "citation_does_not_support_later_change",
-        "citation_does_not_support_final_decision",
-        "citation_does_not_support_reason",
-        "citation_does_not_support_speaker_attribution",
-        "citation_does_not_support_numerical_information",
-        "answer_must_contain_one_to_three_sentences",
-        "unsupported_number",
-        "no_supporting_evidence"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 8
     },
     {
       "question_id": "Q18",
@@ -491,14 +442,12 @@
       "evidence_count": 19,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "answer_must_contain_one_to_three_sentences",
-        "unsupported_number"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 3
     },
     {
       "question_id": "Q19",
@@ -508,16 +457,15 @@
         "IS1003c",
         "IS1003d"
       ],
-      "evidence_count": 16,
+      "evidence_count": 19,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "citation_does_not_support_reason",
-        "selected_evidence_quote_too_short"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 3
     },
     {
       "question_id": "Q20",
@@ -532,12 +480,12 @@
       "evidence_count": 13,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "answer_must_contain_one_to_three_sentences"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 4
     },
     {
       "question_id": "Q21",
@@ -549,16 +497,15 @@
         "IS1007c",
         "IS1007d"
       ],
-      "evidence_count": 24,
+      "evidence_count": 60,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "citation_does_not_support_numerical_information"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 7
     },
     {
       "question_id": "Q22",
@@ -570,16 +517,15 @@
         "ES2010c",
         "ES2010d"
       ],
-      "evidence_count": 16,
+      "evidence_count": 28,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "answer_must_contain_one_to_three_sentences"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 6
     },
     {
       "question_id": "Q23",
@@ -587,22 +533,18 @@
       "iterations": 1,
       "meetings_found": [
         "ES2006a",
-        "ES2006b",
         "ES2006c",
         "ES2006d"
       ],
-      "evidence_count": 15,
+      "evidence_count": 12,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "citation_does_not_support_reason",
-        "citation_does_not_support_speaker_attribution",
-        "citation_does_not_support_numerical_information",
-        "selected_evidence_quote_too_short"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 1
     },
     {
       "question_id": "Q24",
@@ -613,16 +555,15 @@
         "ES2002c",
         "ES2002d"
       ],
-      "evidence_count": 12,
+      "evidence_count": 31,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "answer_must_contain_one_to_three_sentences"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 5
     },
     {
       "question_id": "Q25",
@@ -633,16 +574,15 @@
         "ES2011c",
         "ES2011d"
       ],
-      "evidence_count": 17,
+      "evidence_count": 28,
       "retrieval_coverage_met": true,
       "answer_status": "requires_review",
-      "draft_model": "qwen3:4b",
       "draft_issues": [
-        "supporting_evidence_must_cover_two_meetings",
-        "answer_must_contain_one_to_three_sentences"
+        "deterministic_answer_not_established"
       ],
-      "draft_generated": true,
-      "draft_status": "generated"
+      "draft_generated": false,
+      "draft_status": "review_required",
+      "event_count": 3
     }
   ]
 }

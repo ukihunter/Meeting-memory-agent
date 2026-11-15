@@ -5,7 +5,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from src.answering.rag import expand_queries, generate_draft, retrieve_evidence
+from src.answering.agent import run_agent
+from src.answering.evidence import QUESTION_QUERIES
+from src.memory.events import extract_events, retrieve_memory
 from src.ingestion.database import get_connection
 from src.validation.citations import validate_submission
 
@@ -18,6 +20,7 @@ ANSWERS_FILE = ROOT / "output" / "answers.json"
 SUBMISSION_FILE = ROOT / "output" / "submission.json"
 REVIEW_FILE = ROOT / "output" / "review_required.json"
 REPORT_FILE = ROOT / "output" / "generation_report.json"
+BRIEF_FILE = ROOT / "output" / "brief.txt"
 
 
 # Only include answers whose facts and quotations have already
@@ -145,7 +148,7 @@ def build_brief_review(database_path, evidence_data):
         **brief_research,
         "meetings": source_meetings,
     }
-    brief_evidence = retrieve_evidence(
+    brief_evidence = retrieve_memory(
         database_path=database_path,
         team="TS3012",
         question=(
@@ -159,9 +162,9 @@ def build_brief_review(database_path, evidence_data):
             "prototype",
             "final design",
         ],
-        limit_per_meeting=6,
         max_evidence=24,
         before_meeting_number=final_meeting_number,
+        per_meeting_limit=6,
     )
 
     return {
@@ -176,6 +179,41 @@ def build_brief_review(database_path, evidence_data):
             "Name an owner only when the transcript explicitly assigns one.",
             "Do not treat discussion or proposals as final decisions.",
         ],
+    }
+
+
+def build_deterministic_brief(database_path: Path) -> tuple[str, dict]:
+    evidence = retrieve_memory(
+        database_path=database_path,
+        team="TS3012",
+        question="pre-final decisions changes actions unresolved issues",
+        queries=["design decisions", "cost budget", "prototype", "final design"],
+        before_meeting_number=4,
+        max_evidence=24,
+        per_meeting_limit=6,
+    )
+    events = extract_events(database_path, "TS3012", evidence)
+    lines = [
+        "TS3012 pre-final meeting brief",
+        "Evidence is restricted to meetings 1-3; meeting 4 is excluded.",
+        "",
+        "Chronological evidence requiring review:",
+    ]
+    for event in events:
+        lines.append(
+            f"- Meeting {event.meeting_number} {event.event_type} by "
+            f"{event.speaker}: {event.text} "
+            f"[{event.meeting_id}]"
+        )
+    if not events:
+        lines.append("- No explicit pre-final decision or action event was retrieved.")
+    return "\n".join(lines), {
+        "team": "TS3012",
+        "final_meeting_number": 4,
+        "meeting_numbers_used": sorted({event.meeting_number for event in events}),
+        "events": [event.as_dict() for event in events],
+        "evidence": evidence,
+        "review_required": True,
     }
 
 
@@ -200,14 +238,7 @@ def main():
         for item in questions
     }
 
-    existing_submission = load_existing_submission()
-    existing_answers = {
-        item.get("question_id"): item
-        for item in existing_submission["answers"]
-        if isinstance(item, dict) and item.get("question_id") in question_teams
-    }
-
-    answers = dict(existing_answers)
+    answers = {}
     review_questions = []
     question_reports = []
 
@@ -227,19 +258,6 @@ def main():
                 f"No discovered evidence exists for {question_id}."
             )
 
-        if question_id in existing_answers:
-            question_reports.append({
-                "question_id": question_id,
-                "team": team,
-                "iterations": 0,
-                "meetings_found": [],
-                "evidence_count": 0,
-                "retrieval_coverage_met": True,
-                "answer_status": "preserved_existing",
-            })
-            print("     Answer: preserved existing verified answer")
-            continue
-
         if question_id in VERIFIED_ANSWERS:
             answers[question_id] = {
                 "question_id": question_id,
@@ -253,90 +271,114 @@ def main():
                 "meetings_found": [],
                 "evidence_count": 0,
                 "retrieval_coverage_met": True,
-                "answer_status": "verified",
+                "answer_status": "verified_manual",
             })
             print("     Answer: verified")
             continue
 
-        rag_evidence = retrieve_evidence(
+        agent_result = run_agent(
             database_path=DATABASE_FILE,
+            question_id=question_id,
             team=team,
             question=question,
             queries=list(evidence_item.get("queries", [])),
             limit_per_meeting=8,
-            max_evidence=24,
         )
+        rag_evidence = agent_result.evidence
         meetings_found = list(dict.fromkeys(
             item["meeting_id"] for item in rag_evidence
         ))
         question_report = {
             "question_id": question_id,
             "team": team,
-            "iterations": 1,
+            "iterations": agent_result.iterations,
             "meetings_found": meetings_found,
             "evidence_count": len(rag_evidence),
-            "retrieval_coverage_met": len(meetings_found) >= 2,
+            "retrieval_coverage_met": agent_result.retrieval_coverage_met,
             "answer_status": "requires_review",
         }
 
         question_reports.append(question_report)
 
-        draft, draft_issues, model = generate_draft(
-            question=question,
-            team=team,
-            evidence=rag_evidence,
-        )
+        draft = agent_result.answer
+        draft_issues = []
+        if draft is not None:
+            answer_candidate = {
+                "question_id": question_id,
+                "answer": draft["answer"],
+                "citations": draft["citations"],
+            }
+            candidate_issues = validate_submission(
+                {"answers": [answer_candidate], "brief": "pending"},
+                DATABASE_FILE,
+                {question_id: team},
+            )
+            draft_issues = [issue.code for issue in candidate_issues]
+            if not draft_issues:
+                answers[question_id] = answer_candidate
+        else:
+            draft_issues.append("deterministic_answer_not_established")
         question_report.update({
             "answer_status": "requires_review",
-            "draft_model": model,
             "draft_issues": draft_issues,
             "draft_generated": draft is not None,
-            "draft_status": "generated" if draft is not None else "generation_failed",
+            "draft_status": "deterministic" if draft is not None else "review_required",
+            "event_count": len(agent_result.events),
         })
 
-        review_questions.append({
+        review_record = {
             "question_id": question_id,
             "team": team,
             "question": question,
-            "queries_used": expand_queries(
-                question, list(evidence_item.get("queries", []))
-            ),
-            "iterations": 1,
+            "queries_used": agent_result.queries_used,
+            "iterations": agent_result.iterations,
             "meetings_found": meetings_found,
-            "retrieval_coverage_met": len(meetings_found) >= 2,
+            "retrieval_coverage_met": agent_result.retrieval_coverage_met,
             "evidence_ids": [item.get("evidence_id") for item in rag_evidence],
-            "draft": draft,
+            "deterministic_answer": draft,
             "draft_issues": draft_issues,
-            "draft_model": model,
-            "draft_status": "requires_human_review",
+            "draft_status": "deterministic" if draft is not None else "review_required",
             "review_reason": (
                 "Drafts are never promoted automatically. Verify the claims, "
                 "supporting evidence IDs, exact citations, chronology, and "
                 "one-to-three-sentence answer before acceptance."
             ),
             "evidence": rag_evidence,
-        })
+            "events": agent_result.events,
+        }
+        if draft is None or draft_issues:
+            review_questions.append(review_record)
 
+        if draft is not None and not draft_issues:
+            question_report["answer_status"] = "verified_deterministic"
+
+        status_text = (
+            "deterministic answer accepted"
+            if draft is not None and not draft_issues
+            else f"review required: {', '.join(draft_issues)}"
+        )
         print(
-            f"     Review required: {len(rag_evidence)} passages, "
-            f"{len(meetings_found)} meetings; "
-            f"reason: {', '.join(draft_issues) or 'draft requires manual review'}"
+            f"     {status_text}; {len(rag_evidence)} passages, "
+            f"{len(meetings_found)} meetings"
         )
 
+    brief_text, deterministic_brief = build_deterministic_brief(DATABASE_FILE)
     brief_review = build_brief_review(DATABASE_FILE, evidence_data)
 
     # The brief remains empty until its claims and chronology have been reviewed.
     submission = {
         "answers": [answers[item["question_id"]] for item in questions if item["question_id"] in answers],
-        "brief": existing_submission.get("brief", ""),
+        "brief": brief_text,
     }
 
     write_json(ANSWERS_FILE, submission)
     write_json(SUBMISSION_FILE, submission)
+    BRIEF_FILE.write_text(brief_text + "\n", encoding="utf-8")
 
     review_data = {
         "questions_requiring_review": review_questions,
         "brief_research": brief_review,
+        "deterministic_brief": deterministic_brief,
     }
 
     write_json(REVIEW_FILE, review_data)

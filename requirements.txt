@@ -1,4 +1,3 @@
 python-dotenv
-pydantic
 typer
 pytest
