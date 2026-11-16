@@ -1,0 +1,59 @@
+{
+  "answers": [
+    {
+      "question_id": "Q01",
+      "answer": "They dropped speech recognition and kept the LCD screen. Speaker A described the screen as essential, while Speaker D said it was more popular than speech recognition.",
+      "citations": [
+        {
+          "meeting_id": "TS3006b",
+          "quote": "Yeah but that depends on where you put the screen. But it's essential that there is a screen."
+        },
+        {
+          "meeting_id": "TS3006d",
+          "quote": "I guess the the screen was more popular than um than the speech recognition."
+        },
+        {
+          "meeting_id": "TS3006d",
+          "quote": "Well yeah but we dropped the speech recognition. But it has at least one innovation."
+        }
+      ]
+    },
+    {
+      "question_id": "Q02",
+      "answer": "They initially favoured spongy rubber for the case but ultimately switched to plastic. They changed direction because of cost pressures, allowing them to retain the LCD display.",
+      "citations": [
+        {
+          "meeting_id": "ES2003c",
+          "quote": "So we have the choice between rubber and plastic. If it's the type of rubber that you can squeeze, you know, it's spongy"
+        },
+        {
+          "meeting_id": "ES2003d",
+          "quote": "Uh because of costs. And it's plastic as well, so it won't be as comfortable on the hand."
+        },
+        {
+          "meeting_id": "ES2003d",
+          "quote": "we're gonna keep the L_C_ display 'cause it's about what really separates us, despite the cost it's gonna incur."
+        }
+      ]
+    },
+    {
+      "question_id": "Q03",
+      "answer": "Speaker B first proposed replacing the titanium back with titanium-coloured plastic, but the team ultimately kept the titanium back.",
+      "citations": [
+        {
+          "meeting_id": "TS3009c",
+          "quote": "So, we're going for a titanium back and a plastic front?"
+        },
+        {
+          "meeting_id": "TS3009d",
+          "quote": "plastic coloured titanium, uh titanium-coloured plastic?"
+        },
+        {
+          "meeting_id": "TS3009d",
+          "quote": "No no no no. W Titanium stays there."
+        }
+      ]
+    }
+  ],
+  "brief": "TS3012 pre-final meeting brief\nEvidence is restricted to meetings 1-3; meeting 4 is excluded.\n\nChronological evidence requiring review:\n- Meeting 3 decision by Speaker A: I think so because it looks leaner and we should just go with that. Anyway, you have all the time in the world to make to make the final design in a minute with him. So So we decided on what what did you guys wanna know again because this is um anyway, I'll fire up my thing. So so we come to a decision. [TS3012c]\n- Meeting 3 unresolved by Speaker A: Well I think we took all the components separately what we want. Um let's see um supplements. I'm not sure what they mean by that. Anyway, um apparently you guys, you should work together on the final design, both on internal and external design. So Yeah, you should you should probably find out how the product will fall into the market, how uh what's gonna happen with the final design as we have it now. So Yeah, of course you've got your specific instruction as usual. So Wanna spend some more um I think we're in a pretty much in agreement actually, which is good. So [TS3012c]"
+}

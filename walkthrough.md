@@ -1,4 +1,4 @@
-# 3-5 Minute Walkthrough
+# Walkthrough
 
 1. Run `python -m src.main ingest` and show the 138-meeting database statistics.
 2. Run `python -m src.main search titanium --team TS3009` to show exact speaker-turn retrieval.
